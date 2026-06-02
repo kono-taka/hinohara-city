@@ -245,18 +245,40 @@ const SITEMAP: Section[] = [
     ],
   },
   {
+    title: "お知らせ・情報", href: "/news", color: "#2e4057",
+    subsections: [
+      {
+        title: "新着情報一覧", href: "/news",
+        pages: [
+          { href: "/news",                    label: "お知らせ一覧" },
+          { href: "/news/renewal2026",        label: "公式HPリニューアルのお知らせ" },
+          { href: "/news/r8-nozei",           label: "令和8年度 市民税・固定資産税 納税通知書発送" },
+          { href: "/news/bousai-map",         label: "ハザードマップ（改訂版）全戸配布" },
+          { href: "/news/yamabiko2026",       label: "第19回 日野原やまびこ祭り 開催のお知らせ" },
+          { href: "/news/doro-r8-031",        label: "市道 中央幹線 路面補修工事" },
+          { href: "/news/kaigo-futanwariai",  label: "介護保険負担割合証の送付" },
+          { href: "/news/concert0614",        label: "初夏の声楽コンサート 参加者募集" },
+          { href: "/news/seisosakugyou",      label: "白峰地区 農業用水路 清掃作業" },
+          { href: "/news/mynumber-r8",        label: "マイナンバー利用拡大に伴う手続き変更" },
+          { href: "/news/kosodate-ichiji",    label: "令和8年度 一時預かり保育について" },
+          { href: "/news/r8-018",             label: "南部小学校 給食棟改修工事 入札" },
+        ],
+      },
+    ],
+  },
+  {
     title: "サイト情報", href: "/accessibility", color: "#424949",
     subsections: [
       {
         title: "サイトについて", href: "/accessibility",
         pages: [
+          { href: "/faq",           label: "よくある質問（FAQ）" },
+          { href: "/inquiry",       label: "お問い合わせ" },
           { href: "/accessibility", label: "アクセシビリティ方針" },
           { href: "/privacy",       label: "個人情報保護方針" },
           { href: "/copyright",     label: "著作権・リンクについて" },
           { href: "/disclaimer",    label: "免責事項" },
-          { href: "/inquiry",       label: "お問い合わせ" },
           { href: "/links",         label: "リンク集" },
-          { href: "/faq",           label: "よくある質問（FAQ）" },
         ],
       },
     ],
@@ -264,9 +286,9 @@ const SITEMAP: Section[] = [
 ];
 
 export default function SitemapPage() {
-  const total = SITEMAP.reduce(
-    (sum, s) => sum + s.subsections.reduce((s2, ss) => s2 + ss.pages.length, 0), 0
-  );
+  const total = new Set(
+    SITEMAP.flatMap(s => s.subsections.flatMap(ss => ss.pages.map(p => p.href)))
+  ).size;
 
   return (
     <>
