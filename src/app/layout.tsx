@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
-const BASE_URL = "https://city-hinohara.vercel.app";
+const BASE_URL = "https://hinohara-city.vercel.app";
 
 export const viewport: Viewport = {
   width: "device-width",
