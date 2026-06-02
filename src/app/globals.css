@@ -74,13 +74,13 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
   margin: 0 auto;
 }
 
-.city-logo { display: flex; align-items: center; gap: 14px; text-decoration: none; }
+.city-logo { display: flex; align-items: center; gap: 16px; text-decoration: none; }
 .city-logo:hover { text-decoration: none; }
-.city-emblem { width: 52px; height: 52px; flex-shrink: 0; }
+.city-emblem { width: 58px; height: 58px; flex-shrink: 0; }
 .city-name-block { display: flex; flex-direction: column; }
-.city-name-ja { font-size: 22px; font-weight: bold; color: var(--city-primary); letter-spacing: 0.06em; line-height: 1.2; }
-.city-name-en { font-size: 11px; color: var(--text-muted); letter-spacing: 0.14em; margin-top: 2px; font-weight: 500; }
-.city-catchcopy { font-size: 10px; color: var(--city-primary); letter-spacing: 0.18em; margin-top: 3px; font-style: italic; opacity: 0.75; }
+.city-name-ja { font-size: 28px; font-weight: bold; color: var(--city-primary); letter-spacing: 0.08em; line-height: 1.15; }
+.city-name-en { font-size: 11.5px; color: var(--text-muted); letter-spacing: 0.16em; margin-top: 3px; font-weight: 500; }
+.city-catchcopy { font-size: 10.5px; color: var(--city-primary); letter-spacing: 0.18em; margin-top: 3px; font-style: italic; opacity: 0.75; }
 .header-catchcopy { font-size: 11px; color: rgba(255,255,255,0.6); letter-spacing: 0.12em; font-style: italic; margin-left: 8px; }
 
 .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 7px; }
