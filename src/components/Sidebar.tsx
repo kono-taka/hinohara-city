@@ -1,6 +1,11 @@
+import SectionSidebarNav from "./SectionSidebarNav";
+
 export default function Sidebar() {
   return (
     <aside className="sidebar">
+      {/* セクション内ナビ（自動表示） */}
+      <SectionSidebarNav />
+
       {/* 人口統計 */}
       <div className="sidebar-box">
         <div className="sidebar-title">人口・世帯数</div>
