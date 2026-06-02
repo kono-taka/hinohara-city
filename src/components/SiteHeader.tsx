@@ -2,6 +2,7 @@
 import Link from "next/link";
 import CityEmblem from "./CityEmblem";
 import { useState, useEffect, useCallback } from "react";
+import { usePathname } from "next/navigation";
 
 const navItems = [
   { label: "市政情報", ruby: "しせいじょうほう", href: "/shisei" },
@@ -37,6 +38,7 @@ const ALERT_LABELS: Record<AlertLevel, string> = {
 };
 
 export default function SiteHeader({ current }: { current?: string }) {
+  const pathname = usePathname();
   const [fontSize, setFontSize] = useState<FontSize>("normal");
   const [furigana, setFurigana] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -59,8 +61,23 @@ export default function SiteHeader({ current }: { current?: string }) {
     if (fg) setFurigana(true);
   }, []);
 
+  // アラートdismiss状態管理：TOPページでリセット、それ以外はsessionStorage維持
+  useEffect(() => {
+    if (pathname === "/") {
+      sessionStorage.removeItem("hc-dismissed-alerts");
+      setDismissedAlerts([]);
+    } else {
+      const da: string[] = JSON.parse(sessionStorage.getItem("hc-dismissed-alerts") ?? "[]");
+      setDismissedAlerts(da);
+    }
+  }, [pathname]);
+
   const dismissAlert = useCallback((id: string) => {
-    setDismissedAlerts(prev => [...prev, id]);
+    setDismissedAlerts(prev => {
+      const next = [...prev, id];
+      sessionStorage.setItem("hc-dismissed-alerts", JSON.stringify(next));
+      return next;
+    });
   }, []);
 
   // フォントサイズ変更
