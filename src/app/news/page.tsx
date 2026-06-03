@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "お知らせ・新着情報" };
 
 const allNews = [
+  { date: "2026.06.03", tag: "info", label: "お知らせ", text: "令和8年度 市内びわ直売所が開設されました", dept: "農林振興課", href: "/news/r8-biwa-chokubai" },
   { date: "2026.05.30", tag: "important", label: "重要", text: "令和8年度 市民税・固定資産税 納税通知書を発送しました", dept: "税務課", href: "/news/r8-nozei" },
   { date: "2026.05.28", tag: "info", label: "お知らせ", text: "日野原市ハザードマップ（改訂版）の全戸配布について", dept: "総務課", href: "/news/bousai-map" },
   { date: "2026.05.27", tag: "event", label: "イベント", text: "第19回 日野原やまびこ祭り 開催のお知らせ（6月14日・15日）", dept: "観光振興課", href: "/news/yamabiko2026" },

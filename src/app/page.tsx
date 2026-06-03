@@ -14,6 +14,7 @@ import {
 } from "@/components/InlineIcons";
 
 const newsItems = [
+  { date: "2026.06.03", tag: "info", label: "お知らせ", text: "令和8年度 市内びわ直売所が開設されました", href: "/news/r8-biwa-chokubai" },
   { date: "2026.06.01", tag: "info", label: "お知らせ", text: "日野原市公式ホームページをリニューアルしました（令和8年6月1日）", href: "/news/renewal2026" },
   { date: "2026.05.30", tag: "important", label: "重要", text: "令和8年度 市民税・固定資産税 納税通知書を発送しました", href: "/news/r8-nozei" },
   { date: "2026.05.28", tag: "info", label: "お知らせ", text: "日野原市ハザードマップ（改訂版）の全戸配布について", href: "/news/bousai-map" },
