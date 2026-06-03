@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "ふるさと納税" };
+export const metadata: Metadata = { title: "ふるさと納税", description: "日野原市へのふるさと納税をご案内します。びわ・落花生・里芋など地元特産品を返礼品として多数ご用意しています。" };
 
 const gifts = [
   {

@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "移住・定住支援" };
+export const metadata: Metadata = { title: "移住・定住支援", description: "日野原市への移住・定住を応援します。移住支援金、空き家バンク、移住体験ツアー、各種補助制度のご案内です。" };
 
 export default function IjuPage() {
   return (

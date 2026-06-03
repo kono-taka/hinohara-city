@@ -5,7 +5,7 @@ import PageInfo from "@/components/PageInfo";
 import Image from "next/image";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "市議会" };
+export const metadata: Metadata = { title: "市議会", description: "日野原市議会の議員一覧、会派構成、会議録（概要版）、傍聴のご案内など、市議会に関する情報を掲載しています。" };
 
 const members = [
   { name: "田中 義男",   kana: "たなか よしお",     party: "自民ひのはら",     ward: "中央区", post: "議長",  photo: "/images/gikai/image.png" },

@@ -10,7 +10,7 @@ import {
 } from "@/components/ServiceIcons";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "くらし・手続き" };
+export const metadata: Metadata = { title: "くらし・手続き", description: "転入・転出届、住民票、市税、ごみの分別・収集、道路・住宅など、日野原市での生活に必要な手続きや行政サービスをご案内します。" };
 
 const categories = [
   {

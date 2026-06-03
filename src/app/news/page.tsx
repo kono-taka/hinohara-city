@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "お知らせ・新着情報" };
+export const metadata: Metadata = { title: "お知らせ・新着情報", description: "日野原市からの最新のお知らせ、行政情報、イベント情報、緊急・重要情報を掲載しています。" };
 
 const allNews = [
   { date: "2026.06.03", tag: "info", label: "お知らせ", text: "令和8年度 市内びわ直売所が開設されました", dept: "農林振興課", href: "/news/r8-biwa-chokubai" },

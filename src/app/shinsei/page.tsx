@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "申請書類ダウンロード" };
+export const metadata: Metadata = { title: "申請書類ダウンロード", description: "市民課・税務課・福祉課・子育て支援課など各担当課の申請書類（様式）をPDF・Word形式でダウンロードできます。" };
 
 type Form = {
   no: string;

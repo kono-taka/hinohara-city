@@ -5,7 +5,7 @@ import PageInfo from "@/components/PageInfo";
 import { CatIconNogyo, CatIconShoko, CatIconKankyo, CatIconNochi } from "@/components/InlineIcons";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "産業・環境" };
+export const metadata: Metadata = { title: "産業・環境", description: "農林業・商工業振興、観光・移住促進、環境保全・ゼロカーボン、企業誘致など、日野原市の産業と環境に関する情報を掲載しています。" };
 
 export default function SangyoPage() {
   return (

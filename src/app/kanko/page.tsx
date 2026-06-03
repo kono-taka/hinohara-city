@@ -5,7 +5,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "観光・移住" };
+export const metadata: Metadata = { title: "観光・移住", description: "白峰高原・やまびこ祭りなど観光情報、移住・定住支援制度、空き家バンク、特産品（びわ・落花生）など日野原市の魅力をご案内します。" };
 
 const spots = [
   {

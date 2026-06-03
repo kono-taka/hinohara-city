@@ -5,7 +5,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "施設案内" };
+export const metadata: Metadata = { title: "施設案内", description: "市役所・市民文化センター・図書館・体育館・農業公園など、日野原市の主要公共施設の場所・開館時間・利用方法をご案内します。" };
 
 const facilities = [
   {

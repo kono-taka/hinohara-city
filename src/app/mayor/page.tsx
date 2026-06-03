@@ -5,7 +5,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "市長室" };
+export const metadata: Metadata = { title: "市長室", description: "日野原市長 宮本誠二郎のプロフィール、市長メッセージ、略歴をご紹介します。" };
 
 export default function MayorPage() {
   return (

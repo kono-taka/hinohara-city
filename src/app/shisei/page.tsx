@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "市政情報" };
+export const metadata: Metadata = { title: "市政情報", description: "日野原市の市政情報をご案内します。市長室・市議会・財政状況・総合計画・情報公開など、市政運営に関する各種情報を掲載しています。" };
 
 export default function ShiseiPage() {
   return (

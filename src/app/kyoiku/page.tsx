@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "教育・文化" };
+export const metadata: Metadata = { title: "教育・文化", description: "市立小中学校・保育所・認定こども園・生涯学習・図書館・スポーツなど、日野原市の教育・文化に関する情報をご案内します。" };
 
 const schools = [
   { name: "日野原市立中央小学校", href: "/kyoiku/gakko/chuo-sho",    address: "中央二丁目12番地",   tel: "0439-88-2100", pupils: 412, classes: 12 },

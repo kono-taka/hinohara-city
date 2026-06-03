@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "イベント情報" };
+export const metadata: Metadata = { title: "イベント情報", description: "日野原市のイベント情報をご案内します。やまびこ祭り・農業体験・自然観察ウォークなど、季節ごとの行事情報を掲載しています。" };
 
 const events = [
   { month: 6, day: 7, weekday: "土", title: "ひのはら市民農業まつり", place: "農業公園（下原地区）", time: "9:00〜15:00", fee: "入場無料", desc: "地元農家による新鮮野菜・加工品の直売、農業体験コーナー、ステージイベントなど。" },

@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "選挙情報" };
+export const metadata: Metadata = { title: "選挙情報", description: "日野原市の選挙に関する情報です。選挙日程、投票所一覧、期日前投票、選挙人名簿登録などをご案内します。" };
 
 const pastElections = [
   { name: "日野原市議会議員選挙", date: "令和5年4月23日", eligible: "39,821人", turnout: "54.32%", seats: 16 },

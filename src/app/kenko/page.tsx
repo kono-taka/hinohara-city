@@ -8,7 +8,7 @@ import {
 } from "@/components/InlineIcons";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "健康・福祉" };
+export const metadata: Metadata = { title: "健康・福祉", description: "国民健康保険・介護保険・子育て支援・障がい福祉・予防接種・健診など、日野原市の健康・福祉に関するサービスと手続きを掲載しています。" };
 
 export default function KenkoPage() {
   return (

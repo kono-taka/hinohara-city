@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "よくあるご質問（FAQ）" };
+export const metadata: Metadata = { title: "よくあるご質問（FAQ）", description: "住民登録・証明書・ごみ・子育て・税金・市役所など、市民の皆様からよくいただくご質問と回答をまとめています。" };
 
 const faqs = [
   {
