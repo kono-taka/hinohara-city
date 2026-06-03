@@ -25,6 +25,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  verification: {
+    google: "OyPpK3OnZc-quuSn2vOdde3MBrzgSxNn07YrqFrI6Io",
+  },
   openGraph: {
     siteName: "日野原市公式ホームページ",
     locale: "ja_JP",
