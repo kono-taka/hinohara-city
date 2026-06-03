@@ -53,6 +53,48 @@ export const metadata: Metadata = {
   },
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@type": "GovernmentOrganization",
+  name: "日野原市",
+  alternateName: "ひのはらし",
+  url: BASE_URL,
+  logo: `${BASE_URL}/icon.svg`,
+  image: `${BASE_URL}/images/hero/hero-1.png`,
+  description: "千葉県日野原市の公式ホームページです。市政情報、行政サービス、くらしの手続き、観光・移住情報をご案内しています。",
+  address: {
+    "@type": "PostalAddress",
+    streetAddress: "中央一丁目1番地1号",
+    addressLocality: "日野原市",
+    addressRegion: "千葉県",
+    postalCode: "299-1401",
+    addressCountry: "JP",
+  },
+  telephone: "0439-88-1111",
+  faxNumber: "0439-88-1119",
+  email: "info@city.hinohara.lg.jp",
+  openingHours: "Mo-Fr 08:30-17:15",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "0439-88-1111",
+    contactType: "customer service",
+    areaServed: "JP",
+    availableLanguage: "Japanese",
+    hoursAvailable: {
+      "@type": "OpeningHoursSpecification",
+      dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      opens: "08:30",
+      closes: "17:15",
+    },
+  },
+  sameAs: [
+    "https://line.me/R/ti/p/@hinohara_city",
+    "https://www.instagram.com/hinohara_city_official/",
+    "https://x.com/hinohara_city",
+    "https://www.youtube.com/@city_hinohara",
+  ],
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -60,6 +102,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="ja">
+      <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        />
+      </head>
       <body>{children}</body>
     </html>
   );
