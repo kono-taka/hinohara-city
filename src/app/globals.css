@@ -76,7 +76,7 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
 
 .city-logo { display: flex; align-items: center; gap: 16px; text-decoration: none; }
 .city-logo:hover { text-decoration: none; }
-.city-emblem { width: 58px; height: 58px; flex-shrink: 0; }
+.city-emblem { width: 90px; height: 90px; flex-shrink: 0; }
 .city-name-block { display: flex; flex-direction: column; }
 .city-name-ja { font-size: 28px; font-weight: bold; color: var(--city-primary); letter-spacing: 0.08em; line-height: 1.15; }
 .city-name-en { font-size: 11.5px; color: var(--text-muted); letter-spacing: 0.16em; margin-top: 3px; font-weight: 500; }
@@ -641,7 +641,7 @@ ruby rt {
     flex-wrap: wrap;
     gap: 8px;
   }
-  .city-emblem { width: 40px; height: 40px; }
+  .city-emblem { width: 56px; height: 56px; }
   .city-name-ja { font-size: 18px; }
   .city-name-en { font-size: 9px; }
 
