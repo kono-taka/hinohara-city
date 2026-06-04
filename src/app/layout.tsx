@@ -13,10 +13,10 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(BASE_URL),
   title: {
-    default: "日野原市公式ホームページ",
+    default: "日野原市｜日々に、まなざしを。",
     template: "%s | 日野原市",
   },
-  description: "千葉県日野原市の公式ホームページです。市政情報、行政サービス、くらしの手続き、観光・移住情報など、市に関する情報をご案内しています。",
+  description: "日野原市の公式ホームページです。施設や行政サービスの案内、イベント情報、観光情報などについてご紹介しています。",
   keywords: ["日野原市", "ひのはらし", "千葉県", "市役所", "行政サービス", "移住", "観光", "ひのはら"],
   authors: [{ name: "日野原市" }],
   creator: "日野原市",
@@ -29,12 +29,12 @@ export const metadata: Metadata = {
     google: "OyPpK3OnZc-quuSn2vOdde3MBrzgSxNn07YrqFrI6Io",
   },
   openGraph: {
-    siteName: "日野原市公式ホームページ",
+    siteName: "日野原市｜日々に、まなざしを。",
     locale: "ja_JP",
     type: "website",
     url: BASE_URL,
-    title: "日野原市公式ホームページ",
-    description: "千葉県日野原市の公式ホームページです。市政情報、行政サービス、くらしの手続き、観光・移住情報など、市に関する情報をご案内しています。",
+    title: "日野原市｜日々に、まなざしを。",
+    description: "日野原市の公式ホームページです。施設や行政サービスの案内、イベント情報、観光情報などについてご紹介しています。",
     images: [
       {
         url: "/images/hero/hero-1.png",
@@ -46,14 +46,13 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "日野原市公式ホームページ",
-    description: "千葉県日野原市の公式ホームページです。",
+    title: "日野原市｜日々に、まなざしを。",
+    description: "日野原市の公式ホームページです。施設や行政サービスの案内、イベント情報、観光情報などについてご紹介しています。",
     images: ["/images/hero/hero-1.png"],
   },
   icons: {
-    icon: "/icon.svg",
-    shortcut: "/favicon.ico",
-    apple: "/icon.svg",
+    icon: "/icon.png",
+    apple: "/icon.png",
   },
 };
 
@@ -63,9 +62,9 @@ const jsonLd = {
   name: "日野原市",
   alternateName: "ひのはらし",
   url: BASE_URL,
-  logo: `${BASE_URL}/icon.svg`,
+  logo: `${BASE_URL}/icon.png`,
   image: `${BASE_URL}/images/hero/hero-1.png`,
-  description: "千葉県日野原市の公式ホームページです。市政情報、行政サービス、くらしの手続き、観光・移住情報をご案内しています。",
+  description: "日野原市の公式ホームページです。施設や行政サービスの案内、イベント情報、観光情報などについてご紹介しています。",
   address: {
     "@type": "PostalAddress",
     streetAddress: "中央一丁目1番地1号",
