@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import CityEmblem from "./CityEmblem";
+import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
 import { usePathname } from "next/navigation";
 
@@ -125,12 +125,14 @@ export default function SiteHeader({ current }: { current?: string }) {
       </div>
       <div className="header-main">
         <Link href="/" className="city-logo">
-          <CityEmblem className="city-emblem" />
-          <div className="city-name-block">
-            <span className="city-name-ja">日野原市</span>
-            <span className="city-name-en">HINOHARA CITY</span>
-            <span className="city-catchcopy">日々に、まなざしを。</span>
-          </div>
+          <Image
+            src="/images/emblem/emblem_copy.png"
+            alt="日野原市 日々に、まなざしを。"
+            width={2172}
+            height={724}
+            className="city-logo-img"
+            priority
+          />
         </Link>
         <div className="header-right">
           <form className="header-search" onSubmit={handleSearch}>

@@ -74,13 +74,9 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
   margin: 0 auto;
 }
 
-.city-logo { display: flex; align-items: center; gap: 16px; text-decoration: none; }
+.city-logo { display: flex; align-items: center; text-decoration: none; }
 .city-logo:hover { text-decoration: none; }
-.city-emblem { width: 90px; height: 90px; flex-shrink: 0; }
-.city-name-block { display: flex; flex-direction: column; }
-.city-name-ja { font-size: 28px; font-weight: bold; color: var(--city-primary); letter-spacing: 0.08em; line-height: 1.15; }
-.city-name-en { font-size: 11.5px; color: var(--text-muted); letter-spacing: 0.16em; margin-top: 3px; font-weight: 500; }
-.city-catchcopy { font-size: 10.5px; color: var(--city-primary); letter-spacing: 0.18em; margin-top: 3px; font-style: italic; opacity: 0.75; }
+.city-logo-img { height: 80px; width: auto; }
 .header-catchcopy { font-size: 11px; color: rgba(255,255,255,0.6); letter-spacing: 0.12em; font-style: italic; margin-left: 8px; }
 
 .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 7px; }
@@ -641,9 +637,7 @@ ruby rt {
     flex-wrap: wrap;
     gap: 8px;
   }
-  .city-emblem { width: 56px; height: 56px; }
-  .city-name-ja { font-size: 18px; }
-  .city-name-en { font-size: 9px; }
+  .city-logo-img { height: 52px; }
 
   .header-right {
     display: none; /* モバイルでは検索・アクセシビリティを非表示 */
