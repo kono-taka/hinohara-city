@@ -69,14 +69,14 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 20px;
+  padding: 16px 24px;
   max-width: 1160px;
   margin: 0 auto;
 }
 
 .city-logo { display: flex; align-items: center; text-decoration: none; }
-.city-logo:hover { text-decoration: none; }
-.city-logo-img { height: 80px; width: auto; }
+.city-logo:hover { opacity: 0.85; }
+.city-logo-img { height: 120px; width: auto; }
 .header-catchcopy { font-size: 11px; color: rgba(255,255,255,0.6); letter-spacing: 0.12em; font-style: italic; margin-left: 8px; }
 
 .header-right { display: flex; flex-direction: column; align-items: flex-end; gap: 7px; }
@@ -637,7 +637,7 @@ ruby rt {
     flex-wrap: wrap;
     gap: 8px;
   }
-  .city-logo-img { height: 52px; }
+  .city-logo-img { height: 60px; }
 
   .header-right {
     display: none; /* モバイルでは検索・アクセシビリティを非表示 */
