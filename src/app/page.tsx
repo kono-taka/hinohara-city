@@ -55,7 +55,7 @@ const pickups = [
   { Icon: PickupIconFurusato, title: "ふるさと納税", desc: "日野原市へのふるさと納税。地元特産品でお礼の品をお届け。", href: "/furusato" },
   { Icon: PickupIconCarbon,   title: "ゼロカーボン推進", desc: "2050年脱炭素社会の実現に向けた市の取り組みをご覧ください。", href: "/sangyo" },
   { Icon: PickupIconMynumber, title: "マイナンバーカード", desc: "マイナンバーカードの申請・更新・各種利用についてご案内。", href: "/kurashi" },
-  { Icon: PickupIconToshi,    title: "都市計画・土地利用", desc: "日野原市都市計画マスタープランの概要と手続きについて。", href: "/kurashi" },
+  { Icon: PickupIconToshi,    title: "都市計画・土地利用", desc: "日野原市都市計画マスタープランの概要と手続きについて。", href: "/shisei/toshi" },
 ];
 
 export default function Home() {
