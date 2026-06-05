@@ -51,6 +51,7 @@ export default function SangyoPage() {
               Icon: CatIconShoko,
               items: [
                 { label: "商工業振興・中小企業支援", href: "/sangyo/shoko", desc: "市内中小企業の経営改善・設備投資への補助金・融資あっせん。" },
+                { label: "事業者向け情報（補助金・支援制度まとめ）", href: "/jigyosha", desc: "企業誘致・創業支援・補助金・融資・入札など事業者向け情報を一覧できます。" },
                 { label: "企業誘致・産業立地の促進", href: "/sangyo/kigyoyuchi", desc: "産業用地の分譲・賃貸情報。立地補助金制度のご案内。" },
                 { label: "創業・起業支援（ひのはら創業塾）", href: "/sangyo/shoko", desc: "創業計画の作成から開業後のフォローまで伴走支援。年2回開催。" },
                 { label: "プレミアム付商品券・地域経済応援策", href: "/sangyo/shoko", desc: "令和8年度 日野原市プレミアム付商品券の販売情報。" },

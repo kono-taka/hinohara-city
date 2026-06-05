@@ -119,7 +119,59 @@ export default function Home() {
             ))}
           </div>
 
-          {/* ③ ライフイベントから探す */}
+          {/* ③ よく見られているページ（20項目） */}
+          <div className="section-title">よく見られているページ</div>
+          <div style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(5, 1fr)",
+            gap: 0,
+            border: "1px solid var(--border-light)",
+            background: "#fff",
+            marginBottom: 24,
+          }}>
+            {[
+              { label: "住民票・証明書",       href: "/kurashi/shomeisho",       emoji: "📄" },
+              { label: "転入・転出手続き",      href: "/kurashi/jumin",           emoji: "🚚" },
+              { label: "ごみの出し方・分別",    href: "/kurashi/gomi",            emoji: "♻️" },
+              { label: "保育所・入所申込",      href: "/kosodate",                emoji: "👶" },
+              { label: "児童手当",              href: "/kenko/kosodate/jidoteate", emoji: "💰" },
+              { label: "マイナンバーカード",    href: "/kurashi",                 emoji: "🪪" },
+              { label: "介護保険・認定",        href: "/kenko/kaigo/seido",       emoji: "🧓" },
+              { label: "国民健康保険",          href: "/kenko/kokuho/tetsuzuki",  emoji: "🏥" },
+              { label: "市税の支払い",          href: "/kurashi/zei",             emoji: "💳" },
+              { label: "道路・公共交通",        href: "/kurashi/doro",            emoji: "🚌" },
+              { label: "粗大ごみ・申込",        href: "/kurashi/gomi",            emoji: "🛋" },
+              { label: "住宅・リフォーム補助",  href: "/kurashi/jutaku",          emoji: "🏠" },
+              { label: "防災・ハザードマップ",  href: "/bousai",                  emoji: "🗺️" },
+              { label: "選挙・投票",            href: "/senkyo",                  emoji: "🗳" },
+              { label: "ふるさと納税",          href: "/furusato",                emoji: "🎁" },
+              { label: "施設の予約",            href: "/shisetsu",                emoji: "🏛️" },
+              { label: "電子申請・手続き",      href: "/shinsei",                 emoji: "💻" },
+              { label: "移住・定住支援",        href: "/kanko/iju",               emoji: "🌿" },
+              { label: "事業者向け情報",        href: "/jigyosha",                emoji: "🏭" },
+              { label: "採用情報",              href: "/saiyo",                   emoji: "👔" },
+            ].map((item) => (
+              <a
+                key={item.label}
+                href={item.href}
+                style={{
+                  display: "flex", alignItems: "center", gap: 6,
+                  padding: "9px 10px",
+                  fontSize: 12, color: "#333", textDecoration: "none",
+                  borderRight: "1px solid var(--border-light)",
+                  borderBottom: "1px solid var(--border-light)",
+                  transition: "background 0.1s",
+                }}
+                onMouseOver={e => (e.currentTarget.style.background = "#f0f6f3")}
+                onMouseOut={e => (e.currentTarget.style.background = "")}
+              >
+                <span style={{ fontSize: 15 }}>{item.emoji}</span>
+                <span style={{ lineHeight: 1.4 }}>{item.label}</span>
+              </a>
+            ))}
+          </div>
+
+          {/* ④ ライフイベントから探す */}
           <div className="life-event-section">
             <div className="section-title">ライフイベントから探す</div>
             <div className="life-event-grid">

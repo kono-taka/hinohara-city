@@ -50,6 +50,7 @@ export default function ShiseiPage() {
               { label: "都市計画・土地利用", href: "/shisei/toshi", desc: "都市計画マスタープランの概要、用途地域の区分、開発許可など都市計画に関する情報です。" },
               { label: "パブリックコメント（意見公募）", href: "/shisei/pubcom", desc: "計画・条例等の策定にあたり、市民の皆様から意見を募集しています。" },
               { label: "選挙情報", href: "/senkyo", desc: "選挙日程・投票所・選挙結果などの選挙に関する情報です。" },
+              { label: "採用情報（職員募集）", href: "/saiyo", desc: "職員採用試験・会計年度任用職員の募集情報です。" },
               { label: "ひのぽん（マスコットキャラクター）", href: "/shisei/mascot", desc: "日野原市のマスコットキャラクター「ひのぽん」のプロフィール・活動紹介・素材利用について。" },
             ].map((item, i) => (
               <div key={i} style={{ display: "flex", gap: 12, padding: "10px 14px", borderBottom: "1px solid #e8edf4", alignItems: "flex-start" }}>
