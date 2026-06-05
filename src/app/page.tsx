@@ -130,34 +130,30 @@ export default function Home() {
             marginBottom: 24,
           }}>
             {[
-              { label: "住民票・証明書",       href: "/kurashi/shomeisho",       emoji: "📄" },
-              { label: "転入・転出手続き",      href: "/kurashi/jumin",           emoji: "🚚" },
-              { label: "ごみの出し方・分別",    href: "/kurashi/gomi",            emoji: "♻️" },
-              { label: "保育所・入所申込",      href: "/kosodate",                emoji: "👶" },
-              { label: "児童手当",              href: "/kenko/kosodate/jidoteate", emoji: "💰" },
-              { label: "マイナンバーカード",    href: "/kurashi",                 emoji: "🪪" },
-              { label: "介護保険・認定",        href: "/kenko/kaigo/seido",       emoji: "🧓" },
-              { label: "国民健康保険",          href: "/kenko/kokuho/tetsuzuki",  emoji: "🏥" },
-              { label: "市税の支払い",          href: "/kurashi/zei",             emoji: "💳" },
-              { label: "道路・公共交通",        href: "/kurashi/doro",            emoji: "🚌" },
-              { label: "粗大ごみ・申込",        href: "/kurashi/gomi",            emoji: "🛋" },
-              { label: "住宅・リフォーム補助",  href: "/kurashi/jutaku",          emoji: "🏠" },
-              { label: "防災・ハザードマップ",  href: "/bousai",                  emoji: "🗺️" },
-              { label: "選挙・投票",            href: "/senkyo",                  emoji: "🗳" },
-              { label: "ふるさと納税",          href: "/furusato",                emoji: "🎁" },
-              { label: "施設の予約",            href: "/shisetsu",                emoji: "🏛️" },
-              { label: "電子申請・手続き",      href: "/shinsei",                 emoji: "💻" },
-              { label: "移住・定住支援",        href: "/kanko/iju",               emoji: "🌿" },
-              { label: "事業者向け情報",        href: "/jigyosha",                emoji: "🏭" },
-              { label: "採用情報",              href: "/saiyo",                   emoji: "👔" },
+              { label: "住民票・証明書",       href: "/kurashi/shomeisho" },
+              { label: "転入・転出手続き",      href: "/kurashi/jumin" },
+              { label: "ごみの出し方・分別",    href: "/kurashi/gomi" },
+              { label: "保育所・入所申込",      href: "/kosodate" },
+              { label: "児童手当",              href: "/kenko/kosodate/jidoteate" },
+              { label: "マイナンバーカード",    href: "/kurashi" },
+              { label: "介護保険・認定",        href: "/kenko/kaigo/seido" },
+              { label: "国民健康保険",          href: "/kenko/kokuho/tetsuzuki" },
+              { label: "市税の支払い",          href: "/kurashi/zei" },
+              { label: "道路・公共交通",        href: "/kurashi/doro" },
+              { label: "粗大ごみ・申込",        href: "/kurashi/gomi" },
+              { label: "住宅・リフォーム補助",  href: "/kurashi/jutaku" },
+              { label: "防災・ハザードマップ",  href: "/bousai" },
+              { label: "選挙・投票",            href: "/senkyo" },
+              { label: "ふるさと納税",          href: "/furusato" },
+              { label: "施設の予約",            href: "/shisetsu" },
+              { label: "電子申請・手続き",      href: "/shinsei" },
+              { label: "移住・定住支援",        href: "/kanko/iju" },
+              { label: "事業者向け情報",        href: "/jigyosha" },
+              { label: "採用情報",              href: "/saiyo" },
             ].map((item) => (
-              <a
-                key={item.label}
-                href={item.href}
-                className="popular-item"
-              >
-                <span style={{ fontSize: 15 }}>{item.emoji}</span>
-                <span style={{ lineHeight: 1.4 }}>{item.label}</span>
+              <a key={item.label} href={item.href} className="popular-item">
+                <span className="popular-item-arrow">›</span>
+                {item.label}
               </a>
             ))}
           </div>
@@ -180,7 +176,7 @@ export default function Home() {
           {/* ④ もしものとき */}
           <div className="bousai-section">
             <div className="section-title-white">
-              <span style={{ fontSize: 18 }}>🆘</span> もしものとき・緊急情報
+              <span className="bousai-badge">緊急</span>もしものとき・緊急情報
             </div>
             <div className="bousai-grid">
               {bousaiLinks.map((item) => (
@@ -198,8 +194,8 @@ export default function Home() {
           {/* ⑤ オンラインサービス */}
           <div className="online-section">
             <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-              <div style={{ fontWeight: "bold", fontSize: 14, color: "#1a4e78", display: "flex", alignItems: "center", gap: 6 }}>
-                <span style={{ fontSize: 18 }}>🖥️</span> オンラインサービス・電子申請
+              <div style={{ fontWeight: "bold", fontSize: 14, color: "#1a4e78" }}>
+                オンラインサービス・電子申請
               </div>
               <a href="/shinsei" style={{ fontSize: 12, color: "#1a4e78", fontWeight: "bold" }}>
                 申請書一覧 →

@@ -364,14 +364,15 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
 
 /* ===== よく見られているページ ===== */
 .popular-item {
-  display: flex; align-items: center; gap: 6px;
+  display: flex; align-items: center; gap: 5px;
   padding: 9px 10px; font-size: 12px; color: #333;
-  text-decoration: none;
+  text-decoration: none; line-height: 1.4;
   border-right: 1px solid var(--border-light);
   border-bottom: 1px solid var(--border-light);
   transition: background 0.1s;
 }
-.popular-item:hover { background: #f0f6f3; }
+.popular-item:hover { background: #f0f6f3; color: var(--city-primary); }
+.popular-item-arrow { color: var(--city-primary); font-size: 14px; flex-shrink: 0; font-weight: bold; }
 
 /* ===== ライフイベントセクション ===== */
 .life-event-section { margin-bottom: 24px; }
@@ -408,6 +409,12 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
 .bousai-section .section-title-white {
   color: #fff; font-size: 14px; font-weight: bold;
   margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+}
+.bousai-badge {
+  background: #c62828; color: #fff;
+  font-size: 11px; font-weight: bold;
+  padding: 2px 8px; border-radius: 2px; letter-spacing: 0.05em;
+  flex-shrink: 0;
 }
 .bousai-grid {
   display: grid;
