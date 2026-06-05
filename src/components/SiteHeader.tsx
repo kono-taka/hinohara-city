@@ -2,7 +2,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useState, useEffect, useCallback } from "react";
-import { usePathname } from "next/navigation";
 
 const navItems = [
   { label: "市政情報",     ruby: "しせいじょうほう",     href: "/shisei" },
@@ -44,13 +43,16 @@ const ALERT_LABELS: Record<AlertLevel, string> = {
   info: "お知らせ",
 };
 
+const ALERT_DISMISS_KEY = "hc-alert-dismissed";
+const ALERT_DISMISS_TTL = 24 * 60 * 60 * 1000; // 24時間
+
 export default function SiteHeader({ current }: { current?: string }) {
-  const pathname = usePathname();
   const [fontSize, setFontSize] = useState<FontSize>("normal");
   const [furigana, setFurigana] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
-  const [dismissedAlerts, setDismissedAlerts] = useState<string[]>([]);
+  // alertId → dismiss した UNIX ミリ秒 のマップ
+  const [dismissedMap, setDismissedMap] = useState<Record<string, number>>({});
 
   const handleSearch = (e: React.FormEvent) => {
     e.preventDefault();
@@ -68,21 +70,27 @@ export default function SiteHeader({ current }: { current?: string }) {
     if (fg) setFurigana(true);
   }, []);
 
-  // アラートdismiss状態管理：TOPページでリセット、それ以外はsessionStorage維持
+  // アラートdismiss状態管理：localStorage + 24時間TTL
   useEffect(() => {
-    if (pathname === "/") {
-      sessionStorage.removeItem("hc-dismissed-alerts");
-      setDismissedAlerts([]);
-    } else {
-      const da: string[] = JSON.parse(sessionStorage.getItem("hc-dismissed-alerts") ?? "[]");
-      setDismissedAlerts(da);
-    }
-  }, [pathname]);
+    try {
+      const stored = localStorage.getItem(ALERT_DISMISS_KEY);
+      if (!stored) return;
+      const map: Record<string, number> = JSON.parse(stored);
+      const now = Date.now();
+      // 24時間を超えたエントリを除去してセット
+      const valid: Record<string, number> = {};
+      for (const [id, ts] of Object.entries(map)) {
+        if (now - ts < ALERT_DISMISS_TTL) valid[id] = ts;
+      }
+      setDismissedMap(valid);
+      localStorage.setItem(ALERT_DISMISS_KEY, JSON.stringify(valid));
+    } catch { /* ignore */ }
+  }, []);
 
   const dismissAlert = useCallback((id: string) => {
-    setDismissedAlerts(prev => {
-      const next = [...prev, id];
-      sessionStorage.setItem("hc-dismissed-alerts", JSON.stringify(next));
+    setDismissedMap(prev => {
+      const next = { ...prev, [id]: Date.now() };
+      localStorage.setItem(ALERT_DISMISS_KEY, JSON.stringify(next));
       return next;
     });
   }, []);
@@ -199,7 +207,10 @@ export default function SiteHeader({ current }: { current?: string }) {
         </div>
       </nav>
       {/* アラートバー */}
-      {ALERTS.filter(a => !dismissedAlerts.includes(a.id)).map(alert => (
+      {ALERTS.filter(a => {
+        const ts = dismissedMap[a.id];
+        return !ts || Date.now() - ts >= ALERT_DISMISS_TTL;
+      }).map(alert => (
         <div key={alert.id} className={`alert-bar alert-bar-${alert.level}`}>
           <span className="alert-bar-badge">{ALERT_LABELS[alert.level]}</span>
           <span className="alert-bar-body">
