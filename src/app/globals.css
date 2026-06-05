@@ -579,6 +579,17 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
   justify-content: center; font-size: 11px; color: var(--text-muted);
   flex-direction: column; gap: 4px; border-radius: 6px;
 }
+@media (max-width: 600px) {
+  .mayor-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .mayor-photo {
+    width: 100px;
+    height: 130px;
+  }
+}
 .mayor-message { font-size: 13.5px; line-height: 1.9; color: var(--text-main); }
 .mayor-name { text-align: right; font-size: 15px; font-weight: bold; margin-top: 14px; color: var(--city-primary); }
 
