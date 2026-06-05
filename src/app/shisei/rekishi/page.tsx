@@ -242,6 +242,55 @@ export default function RekishiPage() {
             </table>
           </div>
 
+          {/* 昭和の中央地区 古写真 */}
+          <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fafafa", padding: "14px 16px", marginBottom: 18 }}>
+            <div style={{ fontSize: 11, color: "#888", marginBottom: 10, fontWeight: "bold", letterSpacing: "0.04em" }}>
+              写真資料 ― 昭和の中央地区（合併以前）
+            </div>
+
+            {/* メイン：商店街 */}
+            <figure style={{ margin: "0 0 10px" }}>
+              <Image
+                src="/images/rekishi/昭和40〜50年代商店街.png"
+                alt="昭和40〜50年代の日野町中央商店街"
+                width={1536}
+                height={1024}
+                style={{ width: "100%", height: "auto", display: "block", border: "1px solid #ddd" }}
+              />
+              <figcaption style={{ fontSize: 11, color: "#666", marginTop: 5, lineHeight: 1.6 }}>
+                日野町中央商店街（昭和40年代後半ごろ）。電柱が連なる街道沿いに個人商店が並び、軽トラックが行き交う。当時の商店街は地域住民の生活の中心だった。／写真提供：日野原市文書館
+              </figcaption>
+            </figure>
+
+            {/* サブ：旧役場・旧バス停 */}
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+              <figure style={{ margin: 0 }}>
+                <Image
+                  src="/images/rekishi/旧日野町役場.png"
+                  alt="旧日野町役場庁舎"
+                  width={1536}
+                  height={1024}
+                  style={{ width: "100%", height: "auto", display: "block", border: "1px solid #ddd" }}
+                />
+                <figcaption style={{ fontSize: 11, color: "#666", marginTop: 5, lineHeight: 1.6 }}>
+                  旧日野町役場庁舎（昭和40年代）。小規模な庁舎に古看板が掲げられ、合併まで行政の中心として機能した。現在は現存しない。／日野原市文書館所蔵
+                </figcaption>
+              </figure>
+              <figure style={{ margin: 0 }}>
+                <Image
+                  src="/images/rekishi/旧バス停.png"
+                  alt="日野街道沿いのバス停留所"
+                  width={1536}
+                  height={1024}
+                  style={{ width: "100%", height: "auto", display: "block", border: "1px solid #ddd" }}
+                />
+                <figcaption style={{ fontSize: 11, color: "#666", marginTop: 5, lineHeight: 1.6 }}>
+                  日野街道沿いのバス停留所（昭和50年代）。山間道路を走る路線バスは、当時の集落住民にとって欠かせない交通手段だった。／日野原市文書館所蔵
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
           <div className="section-title" style={{ marginTop: 16 }}>合併の経緯と旧3町村の紹介</div>
           <div className="content-box" style={{ borderTop: "none" }}>
             <p style={{ fontSize: 13, lineHeight: 1.9, margin: "0 0 14px" }}>
