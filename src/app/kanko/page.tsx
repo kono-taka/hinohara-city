@@ -14,6 +14,7 @@ const spots = [
     season: "ハイキングシーズン：通年（春・秋が最適）",
     photo: "/images/spots/spot-alps.png",
     alt: "日野原アルプスの山並み",
+    href: "/kanko/alps",
   },
   {
     name: "白峰温泉郷",
@@ -21,6 +22,7 @@ const spots = [
     season: "通年営業（旅館6軒・日帰り施設2か所）",
     photo: "/images/spots/spot-onsen2.png",
     alt: "白峰温泉郷の露天風呂",
+    href: null,
   },
   {
     name: "原野川渓谷",
@@ -28,6 +30,7 @@ const spots = [
     season: "紅葉見頃：10月中旬〜11月上旬",
     photo: "/images/spots/spot-valley.png",
     alt: "原野川渓谷の紅葉",
+    href: null,
   },
   {
     name: "下原遺跡（縄文時代）",
@@ -35,6 +38,7 @@ const spots = [
     season: "史跡公園：4月〜11月（無料）",
     photo: "/images/spots/spot-ruins.png",
     alt: "下原遺跡の史跡公園",
+    href: null,
   },
   {
     name: "びわ狩り観光農園",
@@ -42,6 +46,7 @@ const spots = [
     season: "ぽんなわびわ：5月上旬〜下旬　房州びわ：6月上旬〜下旬",
     photo: "/images/spots/spot-biwa.png",
     alt: "ぽんなわびわ狩り体験農園",
+    href: "/kanko/biwa",
   },
   {
     name: "中央公園・市民の森",
@@ -49,6 +54,7 @@ const spots = [
     season: "桜の見頃：4月中旬（例年）",
     photo: "/images/spots/spot-park.png",
     alt: "中央公園の桜並木",
+    href: null,
   },
 ];
 
@@ -77,11 +83,16 @@ export default function KankoPage() {
                   />
                 </div>
                 <div className="spot-body">
-                  <h4>{s.name}</h4>
+                  <h4>{s.href ? <a href={s.href} style={{ color: "inherit", textDecoration: "none" }}>{s.name}</a> : s.name}</h4>
                   <p>{s.desc}</p>
                   <p style={{ marginTop: 6, fontSize: 11, color: "#888", background: "#f4f6fb", padding: "2px 6px", borderLeft: "2px solid var(--city-blue)" }}>
                     期間：{s.season}
                   </p>
+                  {s.href && (
+                    <a href={s.href} style={{ display: "inline-block", marginTop: 8, fontSize: 12, color: "#1a6e5a", fontWeight: "bold" }}>
+                      詳しく見る →
+                    </a>
+                  )}
                 </div>
               </div>
             ))}

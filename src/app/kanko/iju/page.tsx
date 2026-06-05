@@ -2,13 +2,33 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
+import FaqJsonLd from "@/components/FaqJsonLd";
+import BreadcrumbJsonLd from "@/components/BreadcrumbJsonLd";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "移住・定住支援", description: "日野原市への移住・定住を応援します。移住支援金、空き家バンク、移住体験ツアー、各種補助制度のご案内です。" };
+export const metadata: Metadata = {
+  title: "移住・定住支援",
+  description: "日野原市への移住支援金は最大100万円（子育て加算あり）。空き家バンク・お試し移住住宅・移住相談会など、千葉県日野原市への移住・定住を全力サポートします。",
+};
+
+const faqs = [
+  { q: "移住支援金はいくらもらえますか？", a: "世帯（2人以上）で最大100万円、単身で60万円です。さらに18歳未満の子ども1人につき100万円が加算されます（令和5年度〜）。東京圏から5年以上居住していた方が対象です。" },
+  { q: "空き家バンクの物件はどのくらいありますか？", a: "令和8年6月現在、一戸建て18件・古民家3件・土地付き古民家2件の計23件が登録されています。価格帯は100万円〜2,800万円、賃貸は月額3万円〜8万円です。空き家バンク利用者にはリフォーム補助（改修費の1/2・上限100万円）があります。" },
+  { q: "テレワークをしながら移住できますか？", a: "はい。移住支援金の就労要件はテレワーク（リモートワーク）も対象です。市内にはコワーキングスペース「ひのはらワーク」があり、テレワーク移住者に活用されています。" },
+  { q: "農業を始めたいのですが支援はありますか？", a: "農業委員会・農林振興課が農地の賃借相談を受け付けています。空き家バンクで農地付き物件を探すことも可能です。新規就農の相談は産業振興課農政係（☎0439-88-1144）へお問い合わせください。" },
+  { q: "お試し移住住宅はどのくらい利用できますか？", a: "「ひのはらステイ」は最短1か月・最大3か月利用できます（月額5万円、光熱費別）。2LDK・家具家電Wi-Fi完備で、移住前の生活体験に活用できます。" },
+  { q: "移住相談会はどこで開催されていますか？", a: "東京会場（有楽町・ふるさと回帰支援センター）で毎月第1土曜日10:00〜17:00に開催しています（予約制）。オンライン相談も平日10:00〜16:00で随時受け付けています。" },
+];
 
 export default function IjuPage() {
   return (
     <>
+      <FaqJsonLd items={faqs} />
+      <BreadcrumbJsonLd items={[
+        { name: "トップ", href: "/" },
+        { name: "観光・移住", href: "/kanko" },
+        { name: "移住・定住支援" },
+      ]} />
       <SiteHeader current="/kanko" />
       <div className="main-container">
         <main className="main-content">
@@ -108,6 +128,19 @@ export default function IjuPage() {
               </tbody>
             </table>
           </div>
+          {/* FAQ セクション */}
+          <div className="content-box">
+            <h2 className="section-title">よくある質問</h2>
+            <dl style={{ margin: 0 }}>
+              {faqs.map(({ q, a }) => (
+                <div key={q} style={{ borderBottom: "1px solid #e0eae5", padding: "12px 0" }}>
+                  <dt style={{ fontWeight: "bold", fontSize: 13, color: "#1a6e5a", marginBottom: 4 }}>Q. {q}</dt>
+                  <dd style={{ fontSize: 13, lineHeight: 1.8, margin: 0, paddingLeft: 8, color: "#444" }}>A. {a}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+
           <PageInfo department="企画政策課" division="移住定住推進係" tel="0439-88-1114（内線 114）" updated="令和7年4月1日" />
         </main>
         <Sidebar />
