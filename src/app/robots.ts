@@ -9,7 +9,7 @@ export default function robots(): MetadataRoute.Robots {
         disallow: ["/_next/", "/api/"],
       },
     ],
-    sitemap: "https://hinohara-city.vercel.app/sitemap.xml",
-    host: "https://hinohara-city.vercel.app",
+    sitemap: "https://hinohara.city/sitemap.xml",
+    host: "https://hinohara.city",
   };
 }

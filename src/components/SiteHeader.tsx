@@ -56,7 +56,7 @@ export default function SiteHeader({ current }: { current?: string }) {
     e.preventDefault();
     const q = searchQuery.trim();
     if (q) {
-      window.open(`https://www.google.com/search?q=site%3Ahinohara-city.vercel.app+${encodeURIComponent(q)}`, "_blank");
+      window.open(`https://www.google.com/search?q=site%3Ahinohara.city+${encodeURIComponent(q)}`, "_blank");
     }
   };
 

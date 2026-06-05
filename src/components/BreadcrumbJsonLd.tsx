@@ -1,4 +1,4 @@
-const BASE_URL = "https://hinohara-city.vercel.app";
+const BASE_URL = "https://hinohara.city";
 
 type Crumb = { name: string; href?: string };
 
