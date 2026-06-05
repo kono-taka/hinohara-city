@@ -5,13 +5,14 @@ import { useState, useEffect, useCallback } from "react";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { label: "市政情報", ruby: "しせいじょうほう", href: "/shisei" },
-  { label: "くらし・手続き", ruby: "くらし・てつづき", href: "/kurashi" },
-  { label: "健康・福祉", ruby: "けんこう・ふくし", href: "/kenko" },
-  { label: "教育・文化", ruby: "きょういく・ぶんか", href: "/kyoiku" },
-  { label: "産業・環境", ruby: "さんぎょう・かんきょう", href: "/sangyo" },
-  { label: "施設案内", ruby: "しせつあんない", href: "/shisetsu" },
-  { label: "観光・移住", ruby: "かんこう・いじゅう", href: "/kanko" },
+  { label: "市政情報",     ruby: "しせいじょうほう",     href: "/shisei" },
+  { label: "くらし・手続き", ruby: "くらし・てつづき",   href: "/kurashi" },
+  { label: "子育て",       ruby: "こそだて",             href: "/kosodate" },
+  { label: "健康・福祉",   ruby: "けんこう・ふくし",     href: "/kenko" },
+  { label: "教育・文化",   ruby: "きょういく・ぶんか",   href: "/kyoiku" },
+  { label: "産業・環境",   ruby: "さんぎょう・かんきょう", href: "/sangyo" },
+  { label: "施設案内",     ruby: "しせつあんない",       href: "/shisetsu" },
+  { label: "観光・移住",   ruby: "かんこう・いじゅう",   href: "/kanko" },
 ];
 
 type FontSize = "normal" | "large" | "xlarge";

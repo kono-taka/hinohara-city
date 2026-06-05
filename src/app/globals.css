@@ -105,10 +105,11 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
 .global-nav { background: var(--nav-bg); }
 .global-nav-inner { max-width: 1160px; margin: 0 auto; display: flex; }
 .global-nav a {
-  display: flex; align-items: center; padding: 11px 20px; color: rgba(255,255,255,0.92);
-  font-size: 13.5px; font-weight: 600; letter-spacing: 0.02em;
+  display: flex; align-items: center; padding: 11px 15px; color: rgba(255,255,255,0.92);
+  font-size: 13px; font-weight: 600; letter-spacing: 0.02em;
   border-right: 1px solid rgba(255,255,255,0.12);
   transition: background 0.15s; text-decoration: none; white-space: nowrap;
+  flex: 1; justify-content: center;
 }
 .global-nav a:first-child { border-left: 1px solid rgba(255,255,255,0.12); }
 .global-nav a:hover, .global-nav a.active {
@@ -360,6 +361,86 @@ a:hover { color: var(--city-primary-dark); text-decoration: underline; }
 }
 .breadcrumb a { color: var(--link-color); }
 .breadcrumb span { color: var(--text-muted); }
+
+/* ===== ライフイベントセクション ===== */
+.life-event-section { margin-bottom: 24px; }
+.life-event-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 8px;
+  margin-top: 0;
+  border-top: none;
+}
+.life-event-item {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 7px; padding: 14px 8px;
+  border: 1px solid #d8ede5; border-radius: 6px;
+  background: #fff; text-decoration: none;
+  transition: box-shadow 0.15s, border-color 0.15s;
+  cursor: pointer;
+}
+.life-event-item:hover { border-color: #1a6e5a; box-shadow: 0 2px 8px rgba(26,110,90,0.12); }
+.life-event-icon {
+  width: 48px; height: 48px; border-radius: 50%;
+  display: flex; align-items: center; justify-content: center;
+  font-size: 22px; flex-shrink: 0;
+}
+.life-event-label { font-size: 12px; font-weight: bold; color: #333; text-align: center; line-height: 1.4; }
+
+/* ===== もしものときセクション ===== */
+.bousai-section {
+  background: #1c2e28;
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+.bousai-section .section-title-white {
+  color: #fff; font-size: 14px; font-weight: bold;
+  margin-bottom: 12px; display: flex; align-items: center; gap: 8px;
+}
+.bousai-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+}
+.bousai-item {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 12px; border-radius: 4px;
+  text-decoration: none; background: rgba(255,255,255,0.08);
+  transition: background 0.15s;
+}
+.bousai-item:hover { background: rgba(255,255,255,0.16); }
+.bousai-item-icon { font-size: 20px; flex-shrink: 0; }
+.bousai-item-text { color: #fff; }
+.bousai-item-text strong { display: block; font-size: 13px; font-weight: bold; }
+.bousai-item-text span { font-size: 11px; color: rgba(255,255,255,0.65); }
+
+/* ===== オンラインサービスセクション ===== */
+.online-section {
+  background: linear-gradient(135deg, #e8f4fb 0%, #f0f8ff 100%);
+  border: 1px solid #b8d8f0;
+  border-radius: 4px;
+  padding: 16px 20px;
+  margin-bottom: 24px;
+}
+.online-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-top: 12px;
+}
+.online-item {
+  display: flex; flex-direction: column; align-items: center;
+  gap: 6px; padding: 12px 8px;
+  border-radius: 4px; background: #fff;
+  border: 1px solid #c5dff0;
+  text-decoration: none; transition: box-shadow 0.15s;
+  text-align: center;
+}
+.online-item:hover { box-shadow: 0 2px 8px rgba(30,100,170,0.15); }
+.online-item-icon { font-size: 24px; }
+.online-item-label { font-size: 12px; font-weight: bold; color: #1a4e78; line-height: 1.4; }
+.online-item-desc { font-size: 10px; color: #666; }
 
 /* ===== フッター ===== */
 .site-footer { background: #1e2d2a; color: #c4d0cc; margin-top: 32px; }
@@ -707,6 +788,16 @@ ruby rt {
   /* ピックアップ */
   .pickup-grid { grid-template-columns: 1fr 1fr !important; }
 
+  /* ライフイベント */
+  .life-event-grid { grid-template-columns: repeat(4, 1fr) !important; }
+  .life-event-icon { width: 40px; height: 40px; font-size: 18px; }
+
+  /* もしものとき */
+  .bousai-grid { grid-template-columns: 1fr 1fr !important; }
+
+  /* オンラインサービス */
+  .online-grid { grid-template-columns: repeat(2, 1fr) !important; }
+
   /* ページタイトル */
   .page-title { font-size: 18px; }
 
@@ -730,7 +821,10 @@ ruby rt {
   .service-grid { grid-template-columns: repeat(3, 1fr) !important; }
   .spot-grid { grid-template-columns: 1fr !important; }
   .pickup-grid { grid-template-columns: 1fr 1fr !important; }
+  .life-event-grid { grid-template-columns: repeat(3, 1fr) !important; }
+  .bousai-grid { grid-template-columns: 1fr !important; }
+  .online-grid { grid-template-columns: repeat(2, 1fr) !important; }
   .footer-nav-col { min-width: 100%; }
-  .header-top-links a:nth-child(n+3) { display: none; } /* 3つ目以降省略 */
+  .header-top-links a:nth-child(n+3) { display: none; }
   .hero-area { height: 150px; }
 }
