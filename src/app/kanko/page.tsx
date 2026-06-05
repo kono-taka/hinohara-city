@@ -52,7 +52,7 @@ const spots = [
     name: "白嶺の棚田",
     desc: "市北部・白嶺地区に広がる約80haの棚田群。日本の棚田百選認定地。春の水張りと秋の黄金色の稲穂が美しく、散策路も整備されています。棚田オーナー制度で農家と交流しながら農業体験も可能。",
     season: "水張り見頃：5月上旬　稲刈り：9月下旬",
-    photo: "/images/spots/spot-tanada.png",
+    photo: "/images/spots/spot-valley.png",
     alt: "白嶺の棚田と里山の景色",
     href: "/kanko/bunka",
   },
@@ -165,6 +165,11 @@ export default function KankoPage() {
                 </tr>
               </tbody>
             </table>
+            <div style={{ marginTop: 14, textAlign: "right" }}>
+              <a href="/kanko/iju" style={{ fontSize: 13, color: "#1a6e5a", fontWeight: "bold", textDecoration: "none" }}>
+                移住支援の詳細・相談申込はこちら →
+              </a>
+            </div>
           </div>
 
           <div className="section-title" style={{ marginTop: 16 }}>アクセス</div>
