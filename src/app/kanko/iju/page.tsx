@@ -117,6 +117,36 @@ export default function IjuPage() {
             </table>
           </div>
 
+          {/* 資料ダウンロード */}
+          <div className="content-box" style={{ borderLeft: "4px solid #1a6e5a", background: "#eaf3ef" }}>
+            <h2 className="section-title">資料ダウンロード</h2>
+            <div style={{ display: "flex", alignItems: "center", gap: 16, padding: "10px 0" }}>
+              <span style={{ fontSize: 36, flexShrink: 0 }}>📄</span>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontWeight: "bold", fontSize: 14, marginBottom: 3 }}>
+                  日野原市移住ガイドブック
+                </div>
+                <div style={{ fontSize: 12, color: "#555", marginBottom: 8 }}>
+                  移住支援金・空き家バンク・お試し住宅・相談窓口など、日野原市への移住に必要な情報をまとめた公式ガイドです。（PDF・10ページ）
+                </div>
+                <a
+                  href="/files/emigration/日野原市移住ガイドブック.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex", alignItems: "center", gap: 6,
+                    padding: "7px 18px",
+                    background: "#1a6e5a", color: "#fff",
+                    borderRadius: 3, fontSize: 13, fontWeight: "bold",
+                    textDecoration: "none",
+                  }}
+                >
+                  📥 PDFをダウンロード（無料）
+                </a>
+              </div>
+            </div>
+          </div>
+
           <div className="content-box" style={{ background: "#f0f4f9", border: "1px solid #c0d0e8" }}>
             <h2 className="section-title">窓口・お問い合わせ</h2>
             <table className="content-table">
