@@ -44,32 +44,32 @@ const services = [
 ];
 
 const lifeEvents = [
-  { emoji: "🚚", bg: "#e8f4fd", label: "引越し\n（転入・転出）",   href: "/kurashi/jumin" },
-  { emoji: "👶", bg: "#fde8f0", label: "妊娠・\n出産",             href: "/kosodate" },
-  { emoji: "🎒", bg: "#fdf3e8", label: "入園・\n入学",             href: "/kosodate" },
-  { emoji: "💍", bg: "#fde8fb", label: "結婚",                     href: "/kurashi/jumin" },
-  { emoji: "🏠", bg: "#e8fde8", label: "住まいを\n探す・買う",     href: "/kurashi/jutaku" },
-  { emoji: "💼", bg: "#e8edf8", label: "就職・\nしごと",           href: "/sangyo/shigoto" },
-  { emoji: "👴", bg: "#f3e8fd", label: "介護が\n必要になったら",   href: "/kenko/kaigo" },
-  { emoji: "🌸", bg: "#f8f0e8", label: "おくやみ\n（死亡届）",     href: "/kurashi/jumin" },
-  { emoji: "♿", bg: "#e8f8f3", label: "障がい者\n支援",           href: "/kenko/shogai" },
-  { emoji: "📱", bg: "#e8f0fd", label: "マイナンバー\nカード",     href: "/kurashi" },
+  { icon: "/images/icon/life_hikkoshi.png",  label: "引越し\n（転入・転出）",   href: "/kurashi/jumin" },
+  { icon: "/images/icon/life_shussan.png",   label: "妊娠・\n出産",             href: "/kosodate" },
+  { icon: "/images/icon/life_nyugaku.png",   label: "入園・\n入学",             href: "/kosodate" },
+  { icon: "/images/icon/life_kekkon.png",    label: "結婚",                     href: "/kurashi/jumin" },
+  { icon: "/images/icon/life_sumai.png",     label: "住まいを\n探す・買う",     href: "/kurashi/jutaku" },
+  { icon: "/images/icon/life_shushoku.png",  label: "就職・\nしごと",           href: "/sangyo/shigoto" },
+  { icon: "/images/icon/life_kaigo.png",     label: "介護が\n必要になったら",   href: "/kenko/kaigo" },
+  { icon: "/images/icon/life_okuyami.png",   label: "おくやみ\n（死亡届）",     href: "/kurashi/jumin" },
+  { icon: "/images/icon/life_shogai.png",    label: "障がい者\n支援",           href: "/kenko/shogai" },
+  { icon: "/images/icon/life_mynumber.png",  label: "マイナンバー\nカード",     href: "/kurashi" },
 ];
 
 const bousaiLinks = [
-  { emoji: "🚑", title: "夜間・休日救急",   desc: "救急医療機関を検索",   href: "/kenko/kokuho/kyukyu" },
-  { emoji: "🗺️", title: "ハザードマップ",   desc: "土砂・洪水・地震",     href: "/news/bousai-map" },
-  { emoji: "🏃", title: "避難所・避難情報", desc: "市内の指定避難所一覧", href: "/bousai" },
-  { emoji: "🔥", title: "消防・火災",       desc: "消防署・火災予防情報", href: "/kurashi/bousai" },
-  { emoji: "⚠️", title: "警戒・避難情報",  desc: "警戒レベルと行動指針", href: "/bousai/keikai" },
-  { emoji: "📞", title: "緊急連絡先",       desc: "市役所・各機関の電話", href: "/inquiry" },
+  { icon: "/images/icon/bousai_kyukyu.png",  title: "夜間・休日救急",   desc: "救急医療機関を検索",   href: "/kenko/kokuho/kyukyu" },
+  { icon: "/images/icon/bousai_hazard.png",  title: "ハザードマップ",   desc: "土砂・洪水・地震",     href: "/news/bousai-map" },
+  { icon: "/images/icon/bousai_hinan.png",   title: "避難所・避難情報", desc: "市内の指定避難所一覧", href: "/bousai" },
+  { icon: "/images/icon/bousai_fire.png",    title: "消防・火災",       desc: "消防署・火災予防情報", href: "/kurashi/bousai" },
+  { icon: "/images/icon/bousai_keikai.png",  title: "警戒・避難情報",   desc: "警戒レベルと行動指針", href: "/bousai/keikai" },
+  { icon: "/images/icon/bousai_contact.png", title: "緊急連絡先",       desc: "市役所・各機関の電話", href: "/inquiry" },
 ];
 
 const onlineServices = [
-  { emoji: "💻", label: "申請書ダウンロード",   desc: "各種様式・PDF",       href: "/shinsei" },
-  { emoji: "🏛️", label: "施設の予約",           desc: "公共施設をオンライン予約", href: "/shisetsu" },
-  { emoji: "📚", label: "電子図書館",           desc: "電子書籍・雑誌を閲覧", href: "/kyoiku/toshokan" },
-  { emoji: "🪪", label: "マイナポータル",       desc: "証明書取得・給付申請", href: "https://myna.go.jp/" },
+  { icon: "/images/icon/online_shinsei.png",  label: "申請書ダウンロード", desc: "各種様式・PDF",           href: "/shinsei" },
+  { icon: "/images/icon/online_shisetsu.png", label: "施設の予約",         desc: "公共施設をオンライン予約", href: "/shisetsu" },
+  { icon: "/images/icon/online_toshokan.png", label: "電子図書館",         desc: "電子書籍・雑誌を閲覧",   href: "/kyoiku/toshokan" },
+  { icon: "/images/icon/online_myna.png",     label: "マイナポータル",     desc: "証明書取得・給付申請",   href: "https://myna.go.jp/" },
 ];
 
 const events = [
@@ -177,8 +177,8 @@ export default function Home() {
             <div className="life-event-grid">
               {lifeEvents.map((ev) => (
                 <a key={ev.label} href={ev.href} className="life-event-item">
-                  <div className="life-event-icon" style={{ background: ev.bg }}>
-                    {ev.emoji}
+                  <div className="life-event-icon" style={{ background: "#f5f9f7" }}>
+                    <Image src={ev.icon} alt={ev.label.replace(/\n/g, "")} width={48} height={48} style={{ objectFit: "contain" }} />
                   </div>
                   <span className="life-event-label" style={{ whiteSpace: "pre-line" }}>{ev.label}</span>
                 </a>
@@ -194,7 +194,7 @@ export default function Home() {
             <div className="bousai-grid">
               {bousaiLinks.map((item) => (
                 <a key={item.title} href={item.href} className="bousai-item">
-                  <span className="bousai-item-icon">{item.emoji}</span>
+                  <Image src={item.icon} alt={item.title} width={32} height={32} className="bousai-item-icon" style={{ objectFit: "contain", flexShrink: 0 }} />
                   <div className="bousai-item-text">
                     <strong>{item.title}</strong>
                     <span>{item.desc}</span>
@@ -222,7 +222,7 @@ export default function Home() {
                   className="online-item"
                   {...(item.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
                 >
-                  <span className="online-item-icon">{item.emoji}</span>
+                  <Image src={item.icon} alt={item.label} width={48} height={48} className="online-item-icon" style={{ objectFit: "contain" }} />
                   <span className="online-item-label">{item.label}</span>
                   <span className="online-item-desc">{item.desc}</span>
                 </a>
