@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import Sidebar from "@/components/Sidebar";
@@ -72,6 +73,55 @@ export default function RekishiPage() {
                 </tr>
               </tbody>
             </table>
+          </div>
+
+          {/* 下原遺跡 写真資料 */}
+          <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fafafa", padding: "14px 16px", marginBottom: 0 }}>
+            <div style={{ fontSize: 11, color: "#888", marginBottom: 10, fontWeight: "bold", letterSpacing: "0.04em" }}>
+              写真資料 ― 下原遺跡 発掘調査記録
+            </div>
+
+            {/* メイン：発掘現場 */}
+            <figure style={{ margin: "0 0 10px" }}>
+              <Image
+                src="/images/rekishi/hakkutsu.png"
+                alt="下原遺跡 発掘調査の様子"
+                width={1536}
+                height={1024}
+                style={{ width: "100%", height: "auto", display: "block", border: "1px solid #ddd" }}
+              />
+              <figcaption style={{ fontSize: 11, color: "#666", marginTop: 5, lineHeight: 1.6 }}>
+                下原遺跡の発掘調査（平成28年度）。発掘区画ごとにロープで仕切られた調査区内で、作業員が土層を丁寧に掘り進めている。スケール棒は50cm。
+              </figcaption>
+            </figure>
+
+            {/* サブ：土器片・看板 */}
+            <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
+              <figure style={{ margin: 0 }}>
+                <Image
+                  src="/images/rekishi/hakkutsu2.png"
+                  alt="出土した縄文土器片"
+                  width={1536}
+                  height={1024}
+                  style={{ width: "100%", height: "auto", display: "block", border: "1px solid #ddd" }}
+                />
+                <figcaption style={{ fontSize: 11, color: "#666", marginTop: 5, lineHeight: 1.6 }}>
+                  出土した縄文時代の土器片。土付きのまま取り上げられた状態。出土品の一部は市立歴史民俗資料館で展示している。
+                </figcaption>
+              </figure>
+              <figure style={{ margin: 0 }}>
+                <Image
+                  src="/images/rekishi/hakkutsu3.png"
+                  alt="下原遺跡 現地説明看板"
+                  width={1536}
+                  height={1024}
+                  style={{ width: "100%", height: "auto", display: "block", border: "1px solid #ddd" }}
+                />
+                <figcaption style={{ fontSize: 11, color: "#666", marginTop: 5, lineHeight: 1.6 }}>
+                  史跡公園内に設置された現地説明看板。国指定史跡として整備されており、見学は無料（4〜11月）。
+                </figcaption>
+              </figure>
+            </div>
           </div>
 
           <div style={{ fontSize: 13, fontWeight: "bold", color: "var(--city-blue)", background: "#e8f0fb", padding: "6px 14px", borderLeft: "4px solid var(--city-blue)", marginBottom: 0, borderTop: "1px solid var(--border-light)" }}>
