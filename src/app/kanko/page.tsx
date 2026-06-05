@@ -186,6 +186,34 @@ export default function KankoPage() {
               </tbody>
             </table>
           </div>
+          <div className="content-box" style={{ borderLeft: "4px solid #1a6e5a", background: "#eaf3ef" }}>
+            <h2 className="section-title">観光マップ・資料ダウンロード</h2>
+            <div style={{ display: "flex", alignItems: "center", gap: 16, padding: "10px 0" }}>
+              <span style={{ fontSize: 36, flexShrink: 0 }}>🗺️</span>
+              <div style={{ flex: 1 }}>
+                <div style={{ fontWeight: "bold", fontSize: 14, marginBottom: 3 }}>
+                  日野原市観光マップ
+                </div>
+                <div style={{ fontSize: 12, color: "#555", marginBottom: 8 }}>
+                  観光スポット・温泉・農園・ハイキングコース・道の駅・公共交通など、市内の観光情報を一覧できる公式マップです。（PDF）
+                </div>
+                <a
+                  href="/files/emigration/日野原市観光マップ.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display: "inline-flex", alignItems: "center", gap: 6,
+                    padding: "7px 18px",
+                    background: "#1a6e5a", color: "#fff",
+                    borderRadius: 3, fontSize: 13, textDecoration: "none", fontWeight: "bold",
+                  }}
+                >
+                  PDFをダウンロード
+                </a>
+              </div>
+            </div>
+          </div>
+
           <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
