@@ -251,7 +251,7 @@ export default function RekishiPage() {
             {/* メイン：商店街 */}
             <figure style={{ margin: "0 0 10px" }}>
               <Image
-                src="/images/rekishi/昭和40〜50年代商店街.png"
+                src="/images/rekishi/showa-shotengai.png"
                 alt="昭和40〜50年代の日野町中央商店街"
                 width={1536}
                 height={1024}
@@ -266,7 +266,7 @@ export default function RekishiPage() {
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 10 }}>
               <figure style={{ margin: 0 }}>
                 <Image
-                  src="/images/rekishi/旧日野町役場.png"
+                  src="/images/rekishi/kyu-yakuba.png"
                   alt="旧日野町役場庁舎"
                   width={1536}
                   height={1024}
@@ -278,7 +278,7 @@ export default function RekishiPage() {
               </figure>
               <figure style={{ margin: 0 }}>
                 <Image
-                  src="/images/rekishi/旧バス停.png"
+                  src="/images/rekishi/kyu-basutei.png"
                   alt="日野街道沿いのバス停留所"
                   width={1536}
                   height={1024}
