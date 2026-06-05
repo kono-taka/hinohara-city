@@ -20,6 +20,12 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
+    id: "heatstroke-r8-06-05",
+    level: "important",
+    text: "熱中症に注意してください。こまめな水分補給・冷房使用を心がけましょう。",
+    href: "/news/r8-nessho-yobo",
+  },
+  {
     id: "maintenance-r8-06-07",
     level: "info",
     text: "6月7日（日）午前0時〜5時 システムメンテナンスのため電子申請サービスをご利用いただけません。",

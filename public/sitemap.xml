@@ -542,9 +542,15 @@
 </url>
 <url>
 <loc>https://hinohara-city.vercel.app/news</loc>
-<lastmod>2026-06-05T00:00:00.000Z</lastmod>
+<lastmod>2026-06-05T09:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
+</url>
+<url>
+<loc>https://hinohara-city.vercel.app/news/r8-nessho-yobo</loc>
+<lastmod>2026-06-05T09:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
 <loc>https://hinohara-city.vercel.app/news/bousai-map</loc>
