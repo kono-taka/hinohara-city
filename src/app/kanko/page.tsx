@@ -106,7 +106,24 @@ export default function KankoPage() {
             ))}
           </div>
 
-          <div className="section-title" style={{ marginTop: 16 }}>特産品・グルメ</div>
+          {/* ── クイックリンク ── */}
+          <div style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "8px 0 16px" }}>
+            {[
+              { label: "イベント情報", href: "/kanko/event" },
+              { label: "特産品・グルメ", href: "/kanko/tokusanhin" },
+              { label: "やまびこ祭り", href: "/kanko/yamabiko" },
+              { label: "市へのアクセス", href: "/kanko/access" },
+            ].map((l) => (
+              <a key={l.href} href={l.href} style={{
+                padding: "6px 16px", border: "1px solid #1a6e5a", borderRadius: 2,
+                fontSize: 13, color: "#1a6e5a", textDecoration: "none", background: "#fff",
+              }}>
+                {l.label} →
+              </a>
+            ))}
+          </div>
+
+          <div className="section-title" style={{ marginTop: 8 }}>特産品・グルメ</div>
           <div className="content-box" style={{ borderTop: "none" }}>
             <table className="content-table">
               <tbody>

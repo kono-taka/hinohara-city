@@ -107,12 +107,12 @@ export default function KyoikuPage() {
           <div className="section-title">生涯学習・文化活動</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff", marginBottom: 16 }}>
             {[
-              { label: "市立中央図書館", href: "#", desc: "蔵書約14万冊。月曜休館。インターネット端末・複写サービスあり。☎ 0100-88-4500" },
-              { label: "市民文化センター（ホール・会議室）", href: "#", desc: "大ホール800席・中ホール250席。各種公演・市民活動に。☎ 0100-88-3800" },
-              { label: "生涯学習センター（まなびの館）", href: "#", desc: "各種講座・サークル活動の拠点。陶芸室・音楽室・調理実習室あり。" },
-              { label: "日野原市歴史民俗資料館", href: "#", desc: "縄文〜近代の地域の歴史を展示。下原遺跡出土品の常設展示。入館300円。" },
-              { label: "青少年育成・子どもの居場所づくり", href: "#", desc: "放課後子供教室・青少年センター・ジュニアリーダー養成事業。" },
-              { label: "市民大学・各種講座", href: "#", desc: "令和8年度 前期市民大学（6月〜9月）受講者募集中。" },
+              { label: "市立中央図書館", href: "/kyoiku/toshokan", desc: "蔵書約14万冊。月曜休館。インターネット端末・複写サービスあり。☎ 0100-88-4500" },
+              { label: "市民文化センター（ホール・会議室）", href: "/shisetsu/bunka-center", desc: "大ホール800席・中ホール250席。各種公演・市民活動に。☎ 0100-88-3800" },
+              { label: "生涯学習センター（まなびの館）", href: "/kyoiku/shogaigakushu", desc: "各種講座・サークル活動の拠点。陶芸室・音楽室・調理実習室あり。" },
+              { label: "日野原市歴史民俗資料館", href: "/shisetsu/rekishi-shiryokan", desc: "縄文〜近代の地域の歴史を展示。下原遺跡出土品の常設展示。入館300円。" },
+              { label: "青少年育成・子どもの居場所づくり", href: "/kyoiku/shogaigakushu", desc: "放課後子供教室・青少年センター・ジュニアリーダー養成事業。" },
+              { label: "市民大学・各種講座", href: "/kyoiku/shogaigakushu", desc: "令和8年度 前期市民大学（6月〜9月）受講者募集中。" },
             ].map((item, i) => (
               <div key={i} style={{ display: "flex", gap: 12, padding: "9px 14px", borderBottom: "1px solid #e8edf4", alignItems: "flex-start" }}>
                 <div style={{ minWidth: 230 }}><a href={item.href} style={{ fontSize: 13, fontWeight: "bold" }}>▶ {item.label}</a></div>
@@ -124,10 +124,10 @@ export default function KyoikuPage() {
           <div className="section-title">スポーツ振興</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
             {[
-              { label: "市総合体育館・屋内プールの利用", href: "#", desc: "利用料・予約方法・各種スポーツ教室のご案内。☎ 0100-53-0010" },
-              { label: "市民グラウンド・野球場・テニスコート", href: "#", desc: "各施設の予約方法と利用料金。" },
-              { label: "ひのはらスポーツクラブ（総合型地域SC）", href: "#", desc: "子どもから高齢者まで、30種類以上の教室・チームが活動中。" },
-              { label: "令和8年度 市民体育祭（10月12日開催予定）", href: "#", desc: "参加チーム・種目の申込は8月1日から受付。" },
+              { label: "市総合体育館・屋内プールの利用", href: "/kyoiku/sport", desc: "利用料・予約方法・各種スポーツ教室のご案内。☎ 0100-53-0010" },
+              { label: "市民グラウンド・野球場・テニスコート", href: "/kyoiku/sport", desc: "各施設の予約方法と利用料金。" },
+              { label: "ひのはらスポーツクラブ（総合型地域SC）", href: "/kyoiku/sport", desc: "子どもから高齢者まで、30種類以上の教室・チームが活動中。" },
+              { label: "令和8年度 市民体育祭（10月12日開催予定）", href: "/kyoiku/sport", desc: "参加チーム・種目の申込は8月1日から受付。" },
             ].map((item, i) => (
               <div key={i} style={{ display: "flex", gap: 12, padding: "9px 14px", borderBottom: "1px solid #e8edf4", alignItems: "flex-start" }}>
                 <div style={{ minWidth: 280 }}><a href={item.href} style={{ fontSize: 13, fontWeight: "bold" }}>▶ {item.label}</a></div>

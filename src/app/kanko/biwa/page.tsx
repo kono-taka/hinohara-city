@@ -68,10 +68,10 @@ export default function BiwaPage() {
                 <tr><th>農園名</th><th>取扱品種</th><th>予約</th><th>電話</th></tr>
               </thead>
               <tbody>
-                <tr><td>本縄農園（びわ観光農園）</td><td>ぽんなわ・房州</td><td>要予約</td><td>0100-○○-○○○○</td></tr>
-                <tr><td>白嶺びわの里</td><td>房州びわ</td><td>要予約</td><td>0100-○○-○○○○</td></tr>
-                <tr><td>日野原ふるさと農場</td><td>ぽんなわ・房州</td><td>要予約</td><td>0100-○○-○○○○</td></tr>
-                <tr><td>原野びわ園</td><td>房州びわ</td><td>当日可</td><td>0100-○○-○○○○</td></tr>
+                <tr><td>本縄農園（びわ観光農園）</td><td>ぽんなわ・房州</td><td>要予約</td><td>0100-55-2831</td></tr>
+                <tr><td>白嶺びわの里</td><td>房州びわ</td><td>要予約</td><td>0100-58-2814</td></tr>
+                <tr><td>日野原ふるさと農場</td><td>ぽんなわ・房州</td><td>要予約</td><td>0100-55-3107</td></tr>
+                <tr><td>原野びわ園</td><td>房州びわ</td><td>当日可</td><td>0100-55-3522</td></tr>
               </tbody>
             </table>
             <p style={{ fontSize: 12, color: "#666", marginTop: 8 }}>
