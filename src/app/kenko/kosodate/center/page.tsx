@@ -27,7 +27,7 @@ export default function Page() {
               <tbody>
                 <tr><th>名称</th><td>ひのはらキッズひろば（日野原市子育て支援センター）</td></tr>
                 <tr><th>所在地</th><td>〒299-1401　千葉県日野原市中央3丁目2番地（市民文化センター1階）</td></tr>
-                <tr><th>電話</th><td>0439-88-5100</td></tr>
+                <tr><th>電話</th><td>0100-88-5100</td></tr>
                 <tr><th>開所時間</th><td>月〜土曜日 午前9時〜午後5時</td></tr>
                 <tr><th>休所日</th><td>日曜・祝日・年末年始（12月29日〜1月3日）</td></tr>
                 <tr><th>対象</th><td>市内在住の就学前の子どもとその保護者（無料・予約不要）</td></tr>
@@ -48,9 +48,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　子育て支援課　☎ 0439-88-1123
+            <strong>お問い合わせ</strong>　子育て支援課　☎ 0100-88-1123
           </div>
-          <PageInfo department="子育て支援課" tel="0439-88-1172（内線 172）" updated="令和7年4月1日" />
+          <PageInfo department="子育て支援課" tel="0100-88-1172（内線 172）" updated="令和7年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -27,7 +27,7 @@ export default function Page() {
               <tbody>
                 <tr><th>名称</th><td>日野原市障がい者相談支援センター「ひのはら相談室」</td></tr>
                 <tr><th>所在地</th><td>〒299-1401　千葉県日野原市中央4丁目5番地2号</td></tr>
-                <tr><th>電話</th><td>0439-88-6200　／　FAX：0439-88-6201</td></tr>
+                <tr><th>電話</th><td>0100-88-6200　／　FAX：0100-88-6201</td></tr>
                 <tr><th>開所時間</th><td>平日 午前9時〜午後5時</td></tr>
                 <tr><th>運営</th><td>市より委託（社会福祉法人 日野原市社会福祉協議会）</td></tr>
               </tbody>
@@ -46,9 +46,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　福祉課　☎ 0439-88-1120
+            <strong>お問い合わせ</strong>　福祉課　☎ 0100-88-1120
           </div>
-          <PageInfo department="福祉課" division="相談支援係" tel="0439-88-1161（内線 162）" updated="令和5年4月1日" />
+          <PageInfo department="福祉課" division="相談支援係" tel="0100-88-1161（内線 162）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

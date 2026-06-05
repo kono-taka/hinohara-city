@@ -35,7 +35,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒299-1401　千葉県日野原市中央3丁目5番地</td></tr>
-                <tr><th>電話</th><td>0439-88-3800　／　FAX：0439-88-3801</td></tr>
+                <tr><th>電話</th><td>0100-88-3800　／　FAX：0100-88-3801</td></tr>
                 <tr><th>開館時間</th><td>午前9時〜午後9時30分</td></tr>
                 <tr><th>休館日</th><td>毎週月曜日・祝日の翌日（月曜が祝日の場合は翌平日）・年末年始（12月28日〜1月3日）</td></tr>
                 <tr><th>駐車場</th><td>センター専用駐車場（無料・80台）　大型バス駐車可（要事前連絡）</td></tr>
@@ -86,10 +86,10 @@ export default function Page() {
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>お問い合わせ・ご予約</strong><br />
-            日野原市民文化センター　☎ 0439-88-3800<br />
+            日野原市民文化センター　☎ 0100-88-3800<br />
             受付時間：開館時間中（午前9時〜午後9時30分）
           </div>
-          <PageInfo department="生涯学習課" division="文化施設係" tel="0439-88-8312（内線 312）" updated="令和7年4月1日" />
+          <PageInfo department="生涯学習課" division="文化施設係" tel="0100-88-8312（内線 312）" updated="令和7年4月1日" />
         </main>
         <Sidebar />
       </div>

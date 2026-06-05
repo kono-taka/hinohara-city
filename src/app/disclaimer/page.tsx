@@ -49,12 +49,12 @@ export default function DisclaimerPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>総務課 広報情報係</td></tr>
-                <tr><th>電話</th><td>☎0439-88-1113</td></tr>
+                <tr><th>電話</th><td>☎0100-88-1113</td></tr>
                 <tr><th>メール</th><td>somu@city.hinohara.lg.jp</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="総務課" tel="0439-88-1121（内線 121）" updated="令和元年5月1日" />
+          <PageInfo department="総務課" tel="0100-88-1121（内線 121）" updated="令和元年5月1日" />
         </main>
         <Sidebar />
       </div>

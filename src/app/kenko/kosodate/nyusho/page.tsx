@@ -26,7 +26,7 @@ export default function Page() {
               
               <tbody>
                 <tr><th>申込受付期間</th><td>令和9年度入所分：令和8年10月1日（水）〜11月15日（金）※一次申込</td></tr>
-                <tr><th>申込窓口</th><td>市役所1階 子育て支援課 保育係（☎ 0439-88-1123）</td></tr>
+                <tr><th>申込窓口</th><td>市役所1階 子育て支援課 保育係（☎ 0100-88-1123）</td></tr>
                 <tr><th>申請書類</th><td>入所申込書（窓口または市ウェブよりダウンロード）・就労証明書・源泉徴収票など</td></tr>
                 <tr><th>利用調整</th><td>令和8年12月上旬に一次結果を通知します</td></tr>
                 <tr><th>二次申込</th><td>令和9年1月6日〜1月31日（一次で未定となった方・途中入所希望の方）</td></tr>
@@ -50,9 +50,9 @@ export default function Page() {
             令和8年10月以降、マイナポータルを通じたオンライン申請も受付予定です。
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　子育て支援課　☎ 0439-88-1123
+            <strong>お問い合わせ</strong>　子育て支援課　☎ 0100-88-1123
           </div>
-          <PageInfo department="子育て支援課" division="保育係" tel="0439-88-1172（内線 172）" updated="令和8年4月1日" />
+          <PageInfo department="子育て支援課" division="保育係" tel="0100-88-1172（内線 172）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

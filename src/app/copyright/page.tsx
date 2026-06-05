@@ -32,7 +32,7 @@ export default function CopyrightPage() {
               <li>フレーム等を使用して本サイトのコンテンツを自サイトのコンテンツとして表示する場合</li>
               <li>本市の名誉・信用を傷つけるおそれのある場合</li>
             </ul>
-            <p style={{ fontSize: 13 }}>リンクを張る際に事前連絡は不要ですが、張っていただけた場合はお知らせいただけると幸いです（広報情報課 ☎0439-88-1113）。</p>
+            <p style={{ fontSize: 13 }}>リンクを張る際に事前連絡は不要ですが、張っていただけた場合はお知らせいただけると幸いです（広報情報課 ☎0100-88-1113）。</p>
           </div>
 
           <div className="content-box">
@@ -55,12 +55,12 @@ export default function CopyrightPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>総務課 広報情報係</td></tr>
-                <tr><th>電話</th><td>☎0439-88-1113</td></tr>
+                <tr><th>電話</th><td>☎0100-88-1113</td></tr>
                 <tr><th>メール</th><td>somu@city.hinohara.lg.jp</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="秘書広報課" tel="0439-88-1105（内線 105）" updated="令和元年5月1日" />
+          <PageInfo department="秘書広報課" tel="0100-88-1105（内線 105）" updated="令和元年5月1日" />
         </main>
         <Sidebar />
       </div>

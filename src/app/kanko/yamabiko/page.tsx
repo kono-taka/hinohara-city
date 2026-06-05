@@ -117,14 +117,14 @@ export default function YamabikoPage() {
             <h2 className="section-title">お問い合わせ</h2>
             <table className="content-table">
               <tbody>
-                <tr><th>産業振興課 観光係</th><td>☎ <strong>0439-88-1144</strong>（内線 144）</td></tr>
-                <tr><th>やまびこ祭り実行委員会事務局</th><td>☎ <strong>0439-88-1145</strong></td></tr>
+                <tr><th>産業振興課 観光係</th><td>☎ <strong>0100-88-1144</strong>（内線 144）</td></tr>
+                <tr><th>やまびこ祭り実行委員会事務局</th><td>☎ <strong>0100-88-1145</strong></td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15</td></tr>
               </tbody>
             </table>
           </div>
 
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和8年5月27日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和8年5月27日" />
         </main>
         <Sidebar />
       </div>

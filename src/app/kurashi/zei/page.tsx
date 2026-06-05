@@ -198,7 +198,7 @@ export default function ZeiPage() {
                 </tr>
                 <tr>
                   <th>電話番号</th>
-                  <td>☎ 0439-88-1116</td>
+                  <td>☎ 0100-88-1116</td>
                 </tr>
                 <tr>
                   <th>開庁時間</th>
@@ -207,7 +207,7 @@ export default function ZeiPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="税務課" division="市民税係" tel="0439-88-1116（内線 221）" updated="令和8年4月1日" />
+          <PageInfo department="税務課" division="市民税係" tel="0100-88-1116（内線 221）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

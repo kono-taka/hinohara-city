@@ -25,7 +25,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8812　千葉県日野原市原野字中沢120番地</td></tr>
-                <tr><th>電話</th><td>0439-55-1300　／　FAX：0439-55-1301</td></tr>
+                <tr><th>電話</th><td>0100-55-1300　／　FAX：0100-55-1301</td></tr>
                 <tr><th>校長</th><td>村上 哲也（むらかみ てつや）</td></tr>
                 <tr><th>生徒数</th><td>98人（令和8年5月1日現在）</td></tr>
                 <tr><th>学級数</th><td>3学級（各学年1学級）</td></tr>
@@ -62,13 +62,13 @@ export default function Page() {
           <div style={{ padding: 14, background: "#fff8e8", border: "1px solid #e8c040", fontSize: 12, lineHeight: 1.8, marginBottom: 12 }}>
             <strong>スクールバスについて</strong><br />
             原野地区の広域から通学するため、スクールバスを運行しています（市街地〜原野中学校）。
-            詳細は学校または学校教育課（☎ 0439-88-1140）へお問い合わせください。
+            詳細は学校または学校教育課（☎ 0100-88-1140）へお問い合わせください。
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　日野原市立原野中学校　☎ 0439-55-1300（平日 8:00〜17:00）
+            <strong>お問い合わせ</strong>　日野原市立原野中学校　☎ 0100-55-1300（平日 8:00〜17:00）
           </div>
-          <PageInfo department="教育総務課" division="学校教育係" tel="0439-88-8301（内線 301）" updated="令和4年4月1日" />
+          <PageInfo department="教育総務課" division="学校教育係" tel="0100-88-8301（内線 301）" updated="令和4年4月1日" />
         </main>
         <Sidebar />
       </div>

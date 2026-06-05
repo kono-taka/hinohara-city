@@ -52,13 +52,13 @@ export default function Page() {
             </table>
             <h3 style={{ fontSize: 13, marginTop: 16, marginBottom: 4 }}>申込方法</h3>
             <p>
-              電話（市民文化センター ☎ 0439-88-3800）または市公式ウェブサイトの申込フォームよりお申し込みください。定員に達し次第、締切前でも受付を終了する場合があります。
+              電話（市民文化センター ☎ 0100-88-3800）または市公式ウェブサイトの申込フォームよりお申し込みください。定員に達し次第、締切前でも受付を終了する場合があります。
             </p>
           </div>
 
           <div style={{ border: "1px solid var(--border-light)", padding: "12px 16px", background: "#f4f8ff", fontSize: 13, lineHeight: 1.8 }}>
             <strong>このページに関するお問い合わせ</strong>
-            <p style={{ margin: "6px 0 0" }}>市民文化センター　☎ 0439-88-3800（平日 9:00〜17:00）</p>
+            <p style={{ margin: "6px 0 0" }}>市民文化センター　☎ 0100-88-3800（平日 9:00〜17:00）</p>
           </div>
           <div style={{ marginTop: 24, paddingTop: 16, borderTop: "1px solid var(--border-light)" }}>
             <a href="/news" style={{ fontSize: 13, color: "var(--link-color)" }}>← お知らせ・新着情報 一覧に戻る</a>

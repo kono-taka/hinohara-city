@@ -255,7 +255,7 @@ export default function ShikakuPage() {
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9 }}>
             <strong>お問い合わせ</strong><br />
-            総務課 契約検査係　☎ 0439-88-1122（内線 122）<br />
+            総務課 契約検査係　☎ 0100-88-1122（内線 122）<br />
             〒299-1401　千葉県日野原市中央一丁目1番地1号　日野原市役所2階<br />
             受付時間：平日 8:30〜17:15
           </div>
@@ -263,7 +263,7 @@ export default function ShikakuPage() {
           <PageInfo
             department="総務課"
             division="契約検査係"
-            tel="0439-88-1122（内線 122）"
+            tel="0100-88-1122（内線 122）"
             updated="令和7年4月1日"
           />
         </main>

@@ -88,12 +88,12 @@ export default function KohoPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>広報ひのはら 編集・発行</strong><br />
             日野原市役所 企画政策課 広報広聴係<br />
-            電話：0439-88-1115　メール：koho@city.hinohara.lg.jp<br />
+            電話：0100-88-1115　メール：koho@city.hinohara.lg.jp<br />
             <br />
             ※点字版・声の広報（音声CD）をご希望の方は企画政策課へお申し込みください。<br />
             ※市外にお住まいの方への郵送をご希望の方は、切手代（年間1,320円）のご負担をお願いしています。
           </div>
-          <PageInfo department="秘書広報課" division="広報係" tel="0439-88-1105（内線 105）" updated="令和8年4月1日" />
+          <PageInfo department="秘書広報課" division="広報係" tel="0100-88-1105（内線 105）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

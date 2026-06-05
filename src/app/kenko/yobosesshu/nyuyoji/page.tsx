@@ -43,9 +43,9 @@ export default function Page() {
             接種会場：市保健センター・かかりつけ医院（市指定医療機関）。接種券は誕生月等に個別郵送します。
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　健康推進課　☎ 0439-88-1122
+            <strong>お問い合わせ</strong>　健康推進課　☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" division="母子保健係" tel="0439-88-1167（内線 167）" updated="令和8年4月1日" />
+          <PageInfo department="健康推進課" division="母子保健係" tel="0100-88-1167（内線 167）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

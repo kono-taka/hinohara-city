@@ -25,9 +25,9 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>中央センター（担当：中央・東部地区）</th><td>〒299-1401　市中央1丁目5番地（市福祉センター内）☎ 0439-88-6500</td></tr>
-                <tr><th>原野センター（担当：原野地区）</th><td>〒298-8812　原野字中沢130番地（原野公民館内）☎ 0439-55-6500</td></tr>
-                <tr><th>白峰センター（担当：白峰地区）</th><td>〒298-8821　白峰字里150番地（白峰地区センター内）☎ 0439-58-6500</td></tr>
+                <tr><th>中央センター（担当：中央・東部地区）</th><td>〒299-1401　市中央1丁目5番地（市福祉センター内）☎ 0100-88-6500</td></tr>
+                <tr><th>原野センター（担当：原野地区）</th><td>〒298-8812　原野字中沢130番地（原野公民館内）☎ 0100-55-6500</td></tr>
+                <tr><th>白峰センター（担当：白峰地区）</th><td>〒298-8821　白峰字里150番地（白峰地区センター内）☎ 0100-58-6500</td></tr>
               </tbody>
             </table>
           </div>
@@ -44,9 +44,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0439-88-1121
+            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0100-88-1121
           </div>
-          <PageInfo department="介護保険課" division="地域支援係" tel="0439-88-1162（内線 164）" updated="令和6年4月1日" />
+          <PageInfo department="介護保険課" division="地域支援係" tel="0100-88-1162（内線 164）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

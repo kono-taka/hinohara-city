@@ -107,7 +107,7 @@ export default function ReikiPage() {
             </p>
             <p style={{ fontSize: 12.5, lineHeight: 1.8, margin: 0, color: "#555" }}>
               ※例規集の内容は参考情報であり、改廃により現行法令と相違する場合があります。
-              正確な内容については総務課（☎ 0439-88-1121）にお問い合わせください。
+              正確な内容については総務課（☎ 0100-88-1121）にお問い合わせください。
             </p>
           </div>
 
@@ -144,14 +144,14 @@ export default function ReikiPage() {
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.9, marginTop: 4 }}>
             <strong>条例・規則に関するお問い合わせ</strong><br />
-            総務課 庶務係　☎ 0439-88-1121（内線 121）<br />
+            総務課 庶務係　☎ 0100-88-1121（内線 121）<br />
             受付時間：平日 8:30〜17:15
           </div>
 
           <PageInfo
             department="総務課"
             division="庶務係"
-            tel="0439-88-1121（内線 121）"
+            tel="0100-88-1121（内線 121）"
             updated="令和8年4月1日"
           />
         </main>

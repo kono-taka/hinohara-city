@@ -39,15 +39,15 @@ export default function Page() {
               <tbody>
                 <tr><th>申請期限</th><td>出生・転入の翌日から15日以内（15日を超えると受給が翌月からになる場合があります）</td></tr>
                 <tr><th>必要書類</th><td>認定請求書・請求者の個人番号確認書類・口座情報がわかるもの</td></tr>
-                <tr><th>申請窓口</th><td>市役所1階 子育て支援課（☎ 0439-88-1123）またはマイナポータルからオンライン申請可</td></tr>
+                <tr><th>申請窓口</th><td>市役所1階 子育て支援課（☎ 0100-88-1123）またはマイナポータルからオンライン申請可</td></tr>
                 <tr><th>変更届</th><td>住所変更・金融機関変更・受給者の変更などは速やかに届出を</td></tr>
               </tbody>
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　子育て支援課　☎ 0439-88-1123
+            <strong>お問い合わせ</strong>　子育て支援課　☎ 0100-88-1123
           </div>
-          <PageInfo department="子育て支援課" division="給付係" tel="0439-88-1173（内線 173）" updated="令和8年10月1日" />
+          <PageInfo department="子育て支援課" division="給付係" tel="0100-88-1173（内線 173）" updated="令和8年10月1日" />
         </main>
         <Sidebar />
       </div>

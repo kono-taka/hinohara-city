@@ -115,13 +115,13 @@ export default function ZaiseiPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>財政課（予算係・資産管理係）</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1117</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1117</strong></td></tr>
                 <tr><th>メール</th><td>zaisei@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="財政課" tel="0439-88-1111（内線 111）" updated="令和8年3月31日" />
+          <PageInfo department="財政課" tel="0100-88-1111（内線 111）" updated="令和8年3月31日" />
         </main>
         <Sidebar />
       </div>

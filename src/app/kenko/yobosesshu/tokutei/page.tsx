@@ -46,9 +46,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　健康推進課　☎ 0439-88-1122
+            <strong>お問い合わせ</strong>　健康推進課　☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" division="保健係" tel="0439-88-1167（内線 167）" updated="令和7年4月1日" />
+          <PageInfo department="健康推進課" division="保健係" tel="0100-88-1167（内線 167）" updated="令和7年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -109,9 +109,9 @@ export default function KenkoPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>福祉課・健康推進課 窓口（市役所1階）</strong><br />
             受付時間：平日 午前8時30分〜午後5時15分<br />
-            福祉課：☎ 0439-88-1120 / 健康推進課：☎ 0439-88-1122
+            福祉課：☎ 0100-88-1120 / 健康推進課：☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" tel="0439-88-1165（内線 165）" updated="令和8年4月1日" />
+          <PageInfo department="健康推進課" tel="0100-88-1165（内線 165）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -35,12 +35,12 @@ export default function GakkoPage() {
             <table className="content-table">
               <thead><tr><th>学校名</th><th>種別</th><th>所在地</th><th>電話</th><th>児童・生徒数</th></tr></thead>
               <tbody>
-                <tr><td>ひのはら市立中央小学校</td><td>小学校</td><td>中央2丁目</td><td>0439-88-2100</td><td>412名</td></tr>
-                <tr><td>ひのはら市立北部小学校</td><td>小学校</td><td>北部3丁目</td><td>0439-53-1100</td><td>286名</td></tr>
-                <tr><td>ひのはら市立原野小学校</td><td>小学校</td><td>原野地区</td><td>0439-54-1100</td><td>163名</td></tr>
-                <tr><td>ひのはら市立白峰小学校</td><td>小学校</td><td>白峰地区</td><td>0439-55-1100</td><td>72名</td></tr>
-                <tr><td>ひのはら市立第一中学校</td><td>中学校</td><td>中央4丁目</td><td>0439-88-3100</td><td>412名</td></tr>
-                <tr><td>ひのはら市立第二中学校</td><td>中学校</td><td>北部2丁目</td><td>0439-53-2100</td><td>298名</td></tr>
+                <tr><td>ひのはら市立中央小学校</td><td>小学校</td><td>中央2丁目</td><td>0100-88-2100</td><td>412名</td></tr>
+                <tr><td>ひのはら市立北部小学校</td><td>小学校</td><td>北部3丁目</td><td>0100-53-1100</td><td>286名</td></tr>
+                <tr><td>ひのはら市立原野小学校</td><td>小学校</td><td>原野地区</td><td>0100-54-1100</td><td>163名</td></tr>
+                <tr><td>ひのはら市立白峰小学校</td><td>小学校</td><td>白峰地区</td><td>0100-55-1100</td><td>72名</td></tr>
+                <tr><td>ひのはら市立第一中学校</td><td>中学校</td><td>中央4丁目</td><td>0100-88-3100</td><td>412名</td></tr>
+                <tr><td>ひのはら市立第二中学校</td><td>中学校</td><td>北部2丁目</td><td>0100-53-2100</td><td>298名</td></tr>
               </tbody>
             </table>
           </div>
@@ -93,7 +93,7 @@ export default function GakkoPage() {
                 <tr>
                   <td>学校教育課 教育相談</td>
                   <td>不登校・いじめ・学校生活全般の相談</td>
-                  <td>☎ 0439-88-1142（平日 8:30〜17:15）</td>
+                  <td>☎ 0100-88-1142（平日 8:30〜17:15）</td>
                 </tr>
                 <tr>
                   <td>スクールカウンセラー</td>
@@ -108,7 +108,7 @@ export default function GakkoPage() {
                 <tr>
                   <td>教育支援センター（ひのはらルーム）</td>
                   <td>不登校児童・生徒への学習支援・居場所提供</td>
-                  <td>☎ 0439-88-1142（事前申込制）</td>
+                  <td>☎ 0100-88-1142（事前申込制）</td>
                 </tr>
               </tbody>
             </table>
@@ -143,7 +143,7 @@ export default function GakkoPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             学校教育課（市役所2階）<br />
-            ☎ 0439-88-1140　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1140　受付時間：平日 8:30〜17:15
           </div>
           <div className="section-title" style={{ marginTop: 16 }}>市立学校一覧</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
@@ -163,7 +163,7 @@ export default function GakkoPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="教育総務課" division="学校教育係" tel="0439-88-8301（内線 301）" updated="令和8年4月1日" />
+          <PageInfo department="教育総務課" division="学校教育係" tel="0100-88-8301（内線 301）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

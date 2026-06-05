@@ -120,7 +120,7 @@ export default function KeikaiPage() {
                 <td><strong>白峰地区センター</strong></td>
                 <td>白峰字里100</td>
                 <td>200人</td>
-                <td>☎0439-56-3300</td>
+                <td>☎0100-56-3300</td>
               </tr>
             </tbody>
           </table>
@@ -134,11 +134,11 @@ export default function KeikaiPage() {
         <div className="content-box" style={{ background: "#f3e5f5", border: "1px solid #ce93d8" }}>
           <h2 className="section-title">防災行政無線 放送内容確認ダイヤル</h2>
           <p style={{ fontSize: 15, fontWeight: "bold", textAlign: "center", padding: "10px 0" }}>
-            ☎ <span style={{ fontSize: 22, color: "#6a1b9a" }}>0439-88-7799</span>（24時間自動応答）
+            ☎ <span style={{ fontSize: 22, color: "#6a1b9a" }}>0100-88-7799</span>（24時間自動応答）
           </p>
           <p style={{ fontSize: 13, textAlign: "center", color: "#555" }}>防災行政無線の放送が聞き取れなかった場合は、上記番号に電話すると直近の放送内容を自動音声で確認できます。</p>
         </div>
-        <PageInfo department="総務課" division="防災係" tel="0439-88-1123（内線 123）" updated="令和8年6月1日" />
+        <PageInfo department="総務課" division="防災係" tel="0100-88-1123（内線 123）" updated="令和8年6月1日" />
       </div>
       <SiteFooter />
     </>

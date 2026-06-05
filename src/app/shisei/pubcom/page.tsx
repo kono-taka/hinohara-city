@@ -106,7 +106,7 @@ export default function PubComPage() {
                   </div>
                   <div style={{ marginTop: 12, padding: "10px 14px", background: "#f4f6fb", border: "1px solid var(--border-light)", borderRadius: 4, fontSize: 12.5 }}>
                     <strong>意見の提出方法：</strong>
-                    ①市役所企画政策課（持参・郵送）、②電子メール（pubcom@city.hinohara.lg.jp）、③FAX（0439-88-1199）<br />
+                    ①市役所企画政策課（持参・郵送）、②電子メール（pubcom@city.hinohara.lg.jp）、③FAX（0100-88-1199）<br />
                     様式は任意ですが、①氏名・住所、②意見、③該当箇所 をご記入ください。
                   </div>
                 </div>
@@ -155,7 +155,7 @@ export default function PubComPage() {
                 <tr><th style={{ width: 160 }}>根拠規定</th><td>日野原市パブリックコメント手続条例（平成20年条例第18号）</td></tr>
                 <tr><th>対象となる計画等</th><td>市の基本的な計画・条例・規則の制定・改廃のうち、広く市民の意見を聴くことが適当なもの</td></tr>
                 <tr><th>意見を提出できる方</th><td>市内に住所を有する方、市内に事業所を有する法人・団体、市内の施設に通勤・通学する方、その他市の政策に利害関係を有する方</td></tr>
-                <tr><th>担当</th><td>企画政策課 政策企画係　☎ 0439-88-1114（内線 101）</td></tr>
+                <tr><th>担当</th><td>企画政策課 政策企画係　☎ 0100-88-1114（内線 101）</td></tr>
               </tbody>
             </table>
           </div>
@@ -163,7 +163,7 @@ export default function PubComPage() {
           <PageInfo
             department="企画政策課"
             division="政策企画係"
-            tel="0439-88-1114（内線 101）"
+            tel="0100-88-1114（内線 101）"
             updated="令和8年6月1日"
           />
         </main>

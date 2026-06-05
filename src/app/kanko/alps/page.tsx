@@ -145,14 +145,14 @@ export default function AlpsPage() {
             <h2 className="section-title">お問い合わせ</h2>
             <table className="content-table">
               <tbody>
-                <tr><th>産業振興課 観光係</th><td>☎ <strong>0439-88-1144</strong>（内線 144）</td></tr>
-                <tr><th>日野原市ビジターセンター</th><td>☎ <strong>0439-88-1155</strong>（登山情報・道路状況）</td></tr>
+                <tr><th>産業振興課 観光係</th><td>☎ <strong>0100-88-1144</strong>（内線 144）</td></tr>
+                <tr><th>日野原市ビジターセンター</th><td>☎ <strong>0100-88-1155</strong>（登山情報・道路状況）</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15　ビジターセンター：9:00〜16:30（水曜休館）</td></tr>
               </tbody>
             </table>
           </div>
 
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和8年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

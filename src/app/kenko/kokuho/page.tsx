@@ -208,7 +208,7 @@ export default function KokuhoPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             市民課 国保係（市役所1階）<br />
-            ☎ 0439-88-1113　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1113　受付時間：平日 8:30〜17:15
           </div>
           <div className="section-title" style={{ marginTop: 16 }}>国民健康保険 関連情報</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
@@ -225,7 +225,7 @@ export default function KokuhoPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="健康推進課" division="国保係" tel="0439-88-1165（内線 165）" updated="令和8年4月1日" />
+          <PageInfo department="健康推進課" division="国保係" tel="0100-88-1165（内線 165）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -52,7 +52,7 @@ export default function NotFound() {
         </div>
         <p style={{ fontSize: 11, color: "#888", marginTop: 12, textAlign: "center" }}>
           問題が解決しない場合は、<a href="/inquiry">お問い合わせフォーム</a>よりご連絡ください。<br />
-          日野原市役所 代表電話：0439-88-1111（平日 午前8時30分〜午後5時15分）
+          日野原市役所 代表電話：0100-88-1111（平日 午前8時30分〜午後5時15分）
         </p>
       </div>
       <SiteFooter />

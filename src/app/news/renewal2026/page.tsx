@@ -123,7 +123,7 @@ export default function Page() {
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
             <strong>お問い合わせ</strong><br />
             日野原市役所 企画政策課 広報広聴係<br />
-            ☎ 0439-88-1115　メール：koho@city.hinohara.lg.jp
+            ☎ 0100-88-1115　メール：koho@city.hinohara.lg.jp
           </div>
           <div style={{ marginTop: 24, paddingTop: 16, borderTop: "1px solid var(--border-light)" }}>
             <a href="/news" style={{ fontSize: 13, color: "var(--link-color)" }}>← お知らせ・新着情報 一覧に戻る</a>

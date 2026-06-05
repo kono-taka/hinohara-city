@@ -150,7 +150,7 @@ export default function KankoPage() {
                 </tr>
                 <tr>
                   <th>移住相談窓口</th>
-                  <td>市役所 企画政策課 移住定住推進係　☎ 0439-88-1114<br />オンライン相談も受け付けています（要予約）。</td>
+                  <td>市役所 企画政策課 移住定住推進係　☎ 0100-88-1114<br />オンライン相談も受け付けています（要予約）。</td>
                 </tr>
               </tbody>
             </table>
@@ -175,7 +175,7 @@ export default function KankoPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和6年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

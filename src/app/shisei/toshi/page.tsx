@@ -166,7 +166,7 @@ export default function ToshiPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>都市建設課（都市計画係）</td></tr>
-                <tr><th>電話</th><td>☎ <strong>0439-88-1130</strong>（内線 210）</td></tr>
+                <tr><th>電話</th><td>☎ <strong>0100-88-1130</strong>（内線 210）</td></tr>
                 <tr><th>メール</th><td>toshi@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
                 <tr><th>窓口場所</th><td>市役所本庁舎 2 階　都市建設課</td></tr>
@@ -174,7 +174,7 @@ export default function ToshiPage() {
             </table>
           </div>
 
-          <PageInfo department="都市建設課" division="都市計画係" tel="0439-88-1130（内線 210）" updated="令和6年4月1日" />
+          <PageInfo department="都市建設課" division="都市計画係" tel="0100-88-1130（内線 210）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -88,13 +88,13 @@ export default function KankyoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>環境対策課（環境政策係・廃棄物対策係）</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1136</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1136</strong></td></tr>
                 <tr><th>メール</th><td>kankyo@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="環境対策課" tel="0439-88-1136（内線 152）" updated="令和6年4月1日" />
+          <PageInfo department="環境対策課" tel="0100-88-1136（内線 152）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

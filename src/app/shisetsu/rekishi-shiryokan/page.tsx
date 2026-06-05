@@ -35,7 +35,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8808　千葉県日野原市下原字宮ノ前820番地</td></tr>
-                <tr><th>電話</th><td>0439-88-7200　／　FAX：0439-88-7201</td></tr>
+                <tr><th>電話</th><td>0100-88-7200　／　FAX：0100-88-7201</td></tr>
                 <tr><th>開館時間</th><td>午前9時〜午後5時（入館は午後4時30分まで）</td></tr>
                 <tr><th>休館日</th><td>毎週月曜日・祝日の翌平日・年末年始（12月28日〜1月4日）・展示替え期間</td></tr>
                 <tr><th>入館料</th><td>一般 300円　高校・大学生 150円　中学生以下 無料　※65歳以上・障がい者手帳所持者 150円</td></tr>
@@ -77,10 +77,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　日野原市歴史民俗資料館　☎ 0439-88-7200<br />
+            <strong>お問い合わせ</strong>　日野原市歴史民俗資料館　☎ 0100-88-7200<br />
             団体見学・体験学習の予約は電話またはメール（rekishi@city.hinohara.lg.jp）で受け付けています。
           </div>
-          <PageInfo department="生涯学習課" division="文化財・歴史係" tel="0439-88-8313（内線 313）" updated="令和5年4月1日" />
+          <PageInfo department="生涯学習課" division="文化財・歴史係" tel="0100-88-8313（内線 313）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

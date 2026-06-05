@@ -61,7 +61,7 @@ export default function ShiseiPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="企画政策課" tel="0439-88-1114（内線 101）" updated="令和8年4月1日" />
+          <PageInfo department="企画政策課" tel="0100-88-1114（内線 101）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

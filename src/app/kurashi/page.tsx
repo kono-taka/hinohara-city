@@ -144,9 +144,9 @@ export default function KurashiPage() {
             <strong>窓口のご案内（市役所1階 市民課）</strong><br />
             受付時間：平日 午前8時30分〜午後5時15分<br />
             ※毎月第2・第4土曜日は午前8時30分〜正午まで住民票・印鑑証明の発行のみ対応<br />
-            電話：0439-88-1113　メール：shimin@city.hinohara.lg.jp
+            電話：0100-88-1113　メール：shimin@city.hinohara.lg.jp
           </div>
-          <PageInfo department="市民課" division="窓口班" tel="0439-88-1113（内線 212）" updated="令和8年4月1日" />
+          <PageInfo department="市民課" division="窓口班" tel="0100-88-1113（内線 212）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

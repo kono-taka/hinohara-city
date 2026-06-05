@@ -45,7 +45,7 @@ export default function PrivacyPage() {
             },
             {
               title: "7. お問い合わせ",
-              body: "個人情報の取り扱いに関するお問い合わせは、下記の担当部署にご連絡ください。\n\n日野原市役所 総務課 情報公開・個人情報保護担当\n電話：0439-88-1112\nメール：somu@city.hinohara.lg.jp",
+              body: "個人情報の取り扱いに関するお問い合わせは、下記の担当部署にご連絡ください。\n\n日野原市役所 総務課 情報公開・個人情報保護担当\n電話：0100-88-1112\nメール：somu@city.hinohara.lg.jp",
             },
           ].map((item, i) => (
             <div key={i} style={{ marginBottom: 20 }}>
@@ -58,7 +58,7 @@ export default function PrivacyPage() {
             最終改定：令和6年（2024年）4月1日
           </p>
         </div>
-        <PageInfo department="総務課" division="個人情報保護係" tel="0439-88-1121（内線 201）" updated="令和5年4月1日" />
+        <PageInfo department="総務課" division="個人情報保護係" tel="0100-88-1121（内線 201）" updated="令和5年4月1日" />
       </div>
       <SiteFooter />
     </>

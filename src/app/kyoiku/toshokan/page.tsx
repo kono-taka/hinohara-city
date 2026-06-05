@@ -26,8 +26,8 @@ export default function ToshokanPage() {
               <thead><tr><th>項目</th><th>内容</th></tr></thead>
               <tbody>
                 <tr><td>所在地</td><td>中央2丁目8番12号</td></tr>
-                <tr><td>電話</td><td>☎ 0439-88-4500</td></tr>
-                <tr><td>FAX</td><td>0439-88-4501</td></tr>
+                <tr><td>電話</td><td>☎ 0100-88-4500</td></tr>
+                <tr><td>FAX</td><td>0100-88-4501</td></tr>
                 <tr>
                   <td>開館時間</td>
                   <td>
@@ -93,7 +93,7 @@ export default function ToshokanPage() {
               </tbody>
             </table>
             <p style={{ marginTop: 10, lineHeight: 1.8 }}>
-              <strong>貸出延長：</strong>返却期限前であれば電話（☎ 0439-88-4500）またはカウンターで1回のみ延長できます（予約が入っている場合は延長不可）。<br />
+              <strong>貸出延長：</strong>返却期限前であれば電話（☎ 0100-88-4500）またはカウンターで1回のみ延長できます（予約が入っている場合は延長不可）。<br />
               <strong>インターネット予約：</strong>市立図書館ホームページからも予約が可能です（要カード番号・パスワード）。
             </p>
           </div>
@@ -151,10 +151,10 @@ export default function ToshokanPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             市立中央図書館<br />
-            ☎ 0439-88-4500　開館時間内にお電話ください<br />
+            ☎ 0100-88-4500　開館時間内にお電話ください<br />
             貸出延長・予約も電話で受け付けています
           </div>
-          <PageInfo department="生涯学習課" division="図書館係" tel="0439-88-8311（内線 311）" updated="令和6年4月1日" />
+          <PageInfo department="生涯学習課" division="図書館係" tel="0100-88-8311（内線 311）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -360,7 +360,7 @@ export default function SitemapPage() {
           </div>
         ))}
 
-        <PageInfo department="情報管理課" tel="0439-88-1132（内線 132）" updated="令和8年6月1日" />
+        <PageInfo department="情報管理課" tel="0100-88-1132（内線 132）" updated="令和8年6月1日" />
       </div>
       <SiteFooter />
     </>

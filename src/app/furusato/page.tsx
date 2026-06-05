@@ -185,10 +185,10 @@ export default function FurusatoPage() {
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>ふるさと納税 担当窓口（日野原市役所 企画政策課）</strong><br />
-            電話：0439-88-1114　メール：furusato@city.hinohara.lg.jp<br />
+            電話：0100-88-1114　メール：furusato@city.hinohara.lg.jp<br />
             受付時間：平日 午前8時30分〜午後5時15分
           </div>
-          <PageInfo department="ふるさと納税推進室" tel="0439-88-1115（内線 115）" updated="令和8年4月1日" />
+          <PageInfo department="ふるさと納税推進室" tel="0100-88-1115（内線 115）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

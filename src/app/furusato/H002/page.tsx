@@ -50,7 +50,7 @@ export default function Page() {
                 <tr><th>対象旅館</th><td>白峰温泉旅館組合加盟6旅館</td></tr>
                 <tr><th>利用方法</th><td>有効期限内に旅館へ直接ご予約ください</td></tr>
                 <tr><th>有効期限</th><td>発行日から1年間</td></tr>
-                <tr><th>提供者</th><td>白峰温泉旅館組合（☎ 0439-58-8888）</td></tr>
+                <tr><th>提供者</th><td>白峰温泉旅館組合（☎ 0100-58-8888）</td></tr>
               </tbody>
             </table>
           </div>

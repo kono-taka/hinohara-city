@@ -143,7 +143,7 @@ export default function JutakuPage() {
                 </tr>
                 <tr>
                   <th>電話番号</th>
-                  <td>☎ 0439-88-1131</td>
+                  <td>☎ 0100-88-1131</td>
                 </tr>
                 <tr>
                   <th>開庁時間</th>
@@ -152,7 +152,7 @@ export default function JutakuPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="建設課" division="住宅係" tel="0439-88-1182（内線 182）" updated="令和5年4月1日" />
+          <PageInfo department="建設課" division="住宅係" tel="0100-88-1182（内線 182）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

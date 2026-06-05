@@ -140,7 +140,7 @@ export default function GomiPage() {
             <h2 className="section-title">粗大ごみの申込方法</h2>
             <p>粗大ごみは事前に申込が必要です。収集日の3日前までにお申し込みください。</p>
             <ul>
-              <li><strong>電話：</strong>☎ 0439-88-1200（平日 8:30〜17:00）</li>
+              <li><strong>電話：</strong>☎ 0100-88-1200（平日 8:30〜17:00）</li>
               <li><strong>市ウェブサイト：</strong>24時間受付（収集希望日の1週間前まで）</li>
             </ul>
             <p>申込時に品目・個数をお伝えください。処理手数料（1点300円）は収集当日にお支払いいただきます（現金またはPayPay）。</p>
@@ -157,7 +157,7 @@ export default function GomiPage() {
                 </tr>
                 <tr>
                   <th>電話番号</th>
-                  <td>☎ 0439-88-1136</td>
+                  <td>☎ 0100-88-1136</td>
                 </tr>
                 <tr>
                   <th>開庁時間</th>
@@ -166,7 +166,7 @@ export default function GomiPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="環境対策課" division="廃棄物対策係" tel="0439-88-1136（内線 152）" updated="令和8年4月1日" />
+          <PageInfo department="環境対策課" division="廃棄物対策係" tel="0100-88-1136（内線 152）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

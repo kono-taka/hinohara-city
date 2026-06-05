@@ -28,7 +28,7 @@ export default function Page() {
                 <tr><th>目的</th><td>一人暮らし・高齢者世帯の孤立防止と異変の早期発見・対応</td></tr>
                 <tr><th>構成員</th><td>民生委員・児童委員、町内会、郵便局、宅配事業者、新聞販売店、ガス・電力会社など</td></tr>
                 <tr><th>見守りの方法</th><td>日常的なあいさつ・声かけ・配達時の観察等を通じた緩やかな見守り</td></tr>
-                <tr><th>異変を発見したら</th><td>地域包括支援センター（中央☎ 0439-88-6500）または市役所高齢者支援課へ連絡</td></tr>
+                <tr><th>異変を発見したら</th><td>地域包括支援センター（中央☎ 0100-88-6500）または市役所高齢者支援課へ連絡</td></tr>
               </tbody>
             </table>
           </div>
@@ -45,9 +45,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0439-88-1121
+            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0100-88-1121
           </div>
-          <PageInfo department="介護保険課" division="地域支援係" tel="0439-88-1162（内線 164）" updated="令和5年4月1日" />
+          <PageInfo department="介護保険課" division="地域支援係" tel="0100-88-1162（内線 164）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

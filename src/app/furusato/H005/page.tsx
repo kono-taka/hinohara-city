@@ -50,7 +50,7 @@ export default function Page() {
                 <tr><th>配送</th><td>クール便（冷蔵）</td></tr>
                 <tr><th>賞味期限</th><td>発送から7〜14日（各商品により異なります）</td></tr>
                 <tr><th>注意</th><td>冷蔵にて保存し、お早めにお召し上がりください</td></tr>
-                <tr><th>提供者</th><td>有限会社 白峰高原牧場（☎ 0439-58-3100）</td></tr>
+                <tr><th>提供者</th><td>有限会社 白峰高原牧場（☎ 0100-58-3100）</td></tr>
               </tbody>
             </table>
           </div>

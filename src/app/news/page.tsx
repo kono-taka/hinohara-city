@@ -72,7 +72,7 @@ export default function NewsPage() {
           <div style={{ textAlign: "center", padding: "12px 0", borderTop: "1px solid var(--border-light)", fontSize: 13, color: "#888" }}>
             過去のお知らせはこちらから検索できます。　<a href="/news">過去のお知らせ（年別）</a>
           </div>
-          <PageInfo department="秘書広報課" division="広報係" tel="0439-88-1105（内線 105）" updated="令和8年6月1日" />
+          <PageInfo department="秘書広報課" division="広報係" tel="0100-88-1105（内線 105）" updated="令和8年6月1日" />
         </main>
         <Sidebar />
       </div>

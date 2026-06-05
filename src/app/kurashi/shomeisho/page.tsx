@@ -142,8 +142,8 @@ export default function ShomeishoPage() {
             <h3>窓口・お問い合わせ</h3>
             <table className="content-table">
               <tbody>
-                <tr><th>市民課（住民票・戸籍・印鑑証明）</th><td>市役所1階　☎ 0439-88-1113（内線 212）</td></tr>
-                <tr><th>税務課（課税・納税・固定資産証明）</th><td>市役所2階　☎ 0439-88-1116（内線 221）</td></tr>
+                <tr><th>市民課（住民票・戸籍・印鑑証明）</th><td>市役所1階　☎ 0100-88-1113（内線 212）</td></tr>
+                <tr><th>税務課（課税・納税・固定資産証明）</th><td>市役所2階　☎ 0100-88-1116（内線 221）</td></tr>
                 <tr><th>開庁時間</th><td>平日 8:30〜17:15 / 第2・第4土曜 8:30〜12:00（住民票・印鑑証明のみ）</td></tr>
               </tbody>
             </table>
@@ -152,7 +152,7 @@ export default function ShomeishoPage() {
           <PageInfo
             department="市民課"
             division="窓口班"
-            tel="0439-88-1113（内線 212）"
+            tel="0100-88-1113（内線 212）"
             updated="令和7年4月1日"
           />
         </main>

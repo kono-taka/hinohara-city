@@ -93,7 +93,7 @@ export default function SangyoPage() {
               </div>
             </div>
           ))}
-          <PageInfo department="産業振興課" tel="0439-88-1141（内線 141）" updated="令和8年4月1日" />
+          <PageInfo department="産業振興課" tel="0100-88-1141（内線 141）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

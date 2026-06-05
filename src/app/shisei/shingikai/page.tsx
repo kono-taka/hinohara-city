@@ -125,9 +125,9 @@ export default function ShingikaiPage() {
           <div className="content-box" style={{ background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>お問い合わせ</strong><br />
             審議会・委員会に関するお問い合わせは、各担当課または総務課行政係までお願いします。<br />
-            総務課　☎ 0439-88-1111（代表）　内線 2102
+            総務課　☎ 0100-88-1111（代表）　内線 2102
           </div>
-          <PageInfo department="総務課" division="庶務係" tel="0439-88-1121（内線 123）" updated="令和6年10月1日" />
+          <PageInfo department="総務課" division="庶務係" tel="0100-88-1121（内線 123）" updated="令和6年10月1日" />
         </main>
         <Sidebar />
       </div>

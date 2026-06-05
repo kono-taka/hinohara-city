@@ -88,11 +88,11 @@ export default function AccessPage() {
               </tbody>
             </table>
             <h3 style={{ fontSize: 14, fontWeight: "bold", margin: "12px 0 6px" }}>デマンドタクシー（予約型乗合）</h3>
-            <p style={{ fontSize: 13, lineHeight: 1.7 }}>バス路線のない地区をカバーする予約型の乗合タクシー。前日17時までに予約が必要。料金: 300〜500円（地区ごとに異なる）。予約: ☎0439-88-1100（市コールセンター）</p>
+            <p style={{ fontSize: 13, lineHeight: 1.7 }}>バス路線のない地区をカバーする予約型の乗合タクシー。前日17時までに予約が必要。料金: 300〜500円（地区ごとに異なる）。予約: ☎0100-88-1100（市コールセンター）</p>
             <h3 style={{ fontSize: 14, fontWeight: "bold", margin: "12px 0 6px" }}>タクシー会社</h3>
             <ul style={{ paddingLeft: 18, fontSize: 13, lineHeight: 1.8 }}>
-              <li>日野原交通 ☎0439-88-3300</li>
-              <li>白峰タクシー ☎0439-56-2200</li>
+              <li>日野原交通 ☎0100-88-3300</li>
+              <li>白峰タクシー ☎0100-56-2200</li>
             </ul>
           </div>
 
@@ -116,7 +116,7 @@ export default function AccessPage() {
             <h2 className="section-title">市役所・主要施設へのアクセス</h2>
             <p style={{ fontSize: 13, lineHeight: 1.7 }}>日野原市役所（日野原市中央1丁目1-1）は日野原中央バスターミナルから徒歩約8分、市営バス「市役所前」停留所前に位置します。駐車場は市役所西側（120台・無料）をご利用ください。市内の主要施設（文化センター・体育館・図書館・各地区センター）については、市公式ウェブサイトの施設マップページをご参照ください。</p>
           </div>
-          <PageInfo department="建設課" division="道路係" tel="0439-88-1181（内線 181）" updated="令和5年4月1日" />
+          <PageInfo department="建設課" division="道路係" tel="0100-88-1181（内線 181）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

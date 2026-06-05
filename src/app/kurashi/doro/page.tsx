@@ -27,7 +27,7 @@ export default function DoroPage() {
               <tbody>
                 <tr>
                   <th>通報先（建設課）</th>
-                  <td>☎ 0439-88-1130</td>
+                  <td>☎ 0100-88-1130</td>
                 </tr>
                 <tr>
                   <th>受付時間</th>
@@ -39,7 +39,7 @@ export default function DoroPage() {
                 </tr>
               </tbody>
             </table>
-            <p>※国道・県道の通報先はそれぞれ千葉国道事務所（☎ 043-213-5511）・千葉県君津土木事務所（☎ 0439-56-2100）へお願いします。</p>
+            <p>※国道・県道の通報先はそれぞれ千葉国道事務所（☎ 043-213-5511）・千葉県君津土木事務所（☎ 0100-56-2100）へお願いします。</p>
           </div>
 
           <div className="content-box">
@@ -111,7 +111,7 @@ export default function DoroPage() {
                 </tr>
                 <tr>
                   <th>予約方法</th>
-                  <td>電話予約（☎ 0439-88-1130）：乗車日の前日17時までに受付</td>
+                  <td>電話予約（☎ 0100-88-1130）：乗車日の前日17時までに受付</td>
                 </tr>
                 <tr>
                   <th>運賃</th>
@@ -135,7 +135,7 @@ export default function DoroPage() {
                 </tr>
                 <tr>
                   <th>電話番号</th>
-                  <td>☎ 0439-88-1130</td>
+                  <td>☎ 0100-88-1130</td>
                 </tr>
                 <tr>
                   <th>開庁時間</th>
@@ -144,7 +144,7 @@ export default function DoroPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="建設課" division="道路係" tel="0439-88-1181（内線 181）" updated="令和6年4月1日" />
+          <PageInfo department="建設課" division="道路係" tel="0100-88-1181（内線 181）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

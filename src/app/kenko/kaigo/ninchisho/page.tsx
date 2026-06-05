@@ -39,14 +39,14 @@ export default function Page() {
                 <tr><th>認知症カフェ（オレンジカフェひのはら）</th><td>毎月第2・第4水曜 午後1時30分〜（市民文化センター1階）当事者・家族・地域住民が参加できるカフェ</td></tr>
                 <tr><th>認知症サポーター養成講座</th><td>企業・学校・地域団体を対象に出前開催。受講者にはオレンジリングを贈呈。</td></tr>
                 <tr><th>家族介護者のつどい</th><td>月1回（要連絡）介護する家族同士の交流・情報交換の場</td></tr>
-                <tr><th>行方不明SOS情報共有</th><td>認知症による行方不明が心配な方は事前登録制度（☎ 0439-88-1121）をご利用ください</td></tr>
+                <tr><th>行方不明SOS情報共有</th><td>認知症による行方不明が心配な方は事前登録制度（☎ 0100-88-1121）をご利用ください</td></tr>
               </tbody>
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0439-88-1121
+            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0100-88-1121
           </div>
-          <PageInfo department="介護保険課" division="地域支援係" tel="0439-88-1162（内線 164）" updated="令和5年4月1日" />
+          <PageInfo department="介護保険課" division="地域支援係" tel="0100-88-1162（内線 164）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

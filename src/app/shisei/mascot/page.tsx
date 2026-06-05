@@ -103,9 +103,9 @@ export default function MascotPage() {
 
           <div className="content-box" style={{ background: "#f4f6fb", border: "1px solid var(--border-light)" }}>
             <strong>ひのぽんに関するお問い合わせ</strong><br />
-            <span style={{ fontSize: 13 }}>日野原市役所 企画政策課 広報広聴係　☎ 0439-88-1115　メール：koho@city.hinohara.lg.jp</span>
+            <span style={{ fontSize: 13 }}>日野原市役所 企画政策課 広報広聴係　☎ 0100-88-1115　メール：koho@city.hinohara.lg.jp</span>
           </div>
-          <PageInfo department="秘書広報課" division="広報係" tel="0439-88-1105（内線 105）" updated="令和6年4月1日" />
+          <PageInfo department="秘書広報課" division="広報係" tel="0100-88-1105（内線 105）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

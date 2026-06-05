@@ -26,7 +26,7 @@ export default function SportPage() {
               <thead><tr><th>項目</th><th>内容</th></tr></thead>
               <tbody>
                 <tr><td>所在地</td><td>北部1丁目4番地</td></tr>
-                <tr><td>電話</td><td>☎ 0439-53-0010</td></tr>
+                <tr><td>電話</td><td>☎ 0100-53-0010</td></tr>
                 <tr><td>開館時間</td><td>9:00〜21:00</td></tr>
                 <tr><td>休館日</td><td>火曜日（祝日の場合は翌日）・年末年始（12月29日〜1月3日）</td></tr>
               </tbody>
@@ -134,7 +134,7 @@ export default function SportPage() {
                     ソフトボール・水泳・体操・ヨガ・ピラティス・太極拳・ゲートボール 等
                   </td>
                 </tr>
-                <tr><td>問合せ</td><td>ひのはらスポーツクラブ事務局（体育館内）☎ 0439-53-0020</td></tr>
+                <tr><td>問合せ</td><td>ひのはらスポーツクラブ事務局（体育館内）☎ 0100-53-0020</td></tr>
               </tbody>
             </table>
           </div>
@@ -152,7 +152,7 @@ export default function SportPage() {
                   <td>陸上競技・バレーボール・バドミントン・卓球・ソフトボール・剣道・柔道・弓道 等</td>
                 </tr>
                 <tr><td>申込受付</td><td>令和8年8月1日（金）〜8月22日（金）</td></tr>
-                <tr><td>申込先</td><td>生涯学習課体育振興係（☎ 0439-88-1141）または各種目競技団体</td></tr>
+                <tr><td>申込先</td><td>生涯学習課体育振興係（☎ 0100-88-1141）または各種目競技団体</td></tr>
                 <tr><td>参加資格</td><td>市内在住・在勤・在学の方（在学は中学生以上）</td></tr>
               </tbody>
             </table>
@@ -162,10 +162,10 @@ export default function SportPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             生涯学習課 体育振興係（市役所2階）<br />
-            ☎ 0439-88-1141　受付時間：平日 8:30〜17:15<br />
-            施設の利用申込・体育祭に関するお問い合わせは市総合体育館（☎ 0439-53-0010）でも受け付けています
+            ☎ 0100-88-1141　受付時間：平日 8:30〜17:15<br />
+            施設の利用申込・体育祭に関するお問い合わせは市総合体育館（☎ 0100-53-0010）でも受け付けています
           </div>
-          <PageInfo department="生涯学習課" division="スポーツ振興係" tel="0439-88-8311（内線 311）" updated="令和6年4月1日" />
+          <PageInfo department="生涯学習課" division="スポーツ振興係" tel="0100-88-8311（内線 311）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

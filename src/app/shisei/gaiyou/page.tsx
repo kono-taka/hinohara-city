@@ -113,7 +113,7 @@ export default function GaiyouPage() {
               <tbody>
                 <tr><th>市名</th><td>日野原市（ひのはらし）</td></tr>
                 <tr><th>所在地</th><td>千葉県南房総地方（房総丘陵中央部）</td></tr>
-                <tr><th>市役所</th><td>〒299-1401　千葉県日野原市中央一丁目1番地1号<br />☎ 0439-88-1111（代表）</td></tr>
+                <tr><th>市役所</th><td>〒299-1401　千葉県日野原市中央一丁目1番地1号<br />☎ 0100-88-1111（代表）</td></tr>
                 <tr><th>市制施行日</th><td>平成18年（2006年）3月20日<br /><span style={{ fontSize: 12, color: "#666" }}>旧日野町・原野村・白峰村の3町村が合併して発足</span></td></tr>
                 <tr><th>総面積</th><td>312.41 km²</td></tr>
                 <tr><th>人口密度</th><td>135.7人/km²</td></tr>
@@ -261,7 +261,7 @@ export default function GaiyouPage() {
             </div>
           </div>
 
-          <PageInfo department="企画政策課" tel="0439-88-1114（内線 101）" updated="令和7年4月1日" />
+          <PageInfo department="企画政策課" tel="0100-88-1114（内線 101）" updated="令和7年4月1日" />
         </main>
         <Sidebar />
       </div>

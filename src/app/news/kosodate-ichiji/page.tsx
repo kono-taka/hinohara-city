@@ -61,7 +61,7 @@ export default function Page() {
 
           <div style={{ border: "1px solid var(--border-light)", padding: "12px 16px", background: "#f4f8ff", fontSize: 13, lineHeight: 1.8 }}>
             <strong>このページに関するお問い合わせ</strong>
-            <p style={{ margin: "6px 0 0" }}>子育て支援課　☎ 0439-88-1123（平日 8:30〜17:15）</p>
+            <p style={{ margin: "6px 0 0" }}>子育て支援課　☎ 0100-88-1123（平日 8:30〜17:15）</p>
           </div>
           <div style={{ marginTop: 24, paddingTop: 16, borderTop: "1px solid var(--border-light)" }}>
             <a href="/news" style={{ fontSize: 13, color: "var(--link-color)" }}>← お知らせ・新着情報 一覧に戻る</a>

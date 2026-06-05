@@ -22,7 +22,7 @@ export default function Page() {
 
           <div style={{ padding: "8px 12px", background: "#fff3cd", border: "1px solid #ffc107", fontSize: 12, marginBottom: 12, lineHeight: 1.7 }}>
             ※白峰地区の少子化に伴い、令和10年度を目途に近隣校との統合について保護者・地域と協議中です。
-            詳細は学校教育課（☎ 0439-88-1140）または学校へお問い合わせください。
+            詳細は学校教育課（☎ 0100-88-1140）または学校へお問い合わせください。
           </div>
 
           <div className="content-box">
@@ -30,7 +30,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8821　千葉県日野原市白峰字学校台200番地</td></tr>
-                <tr><th>電話</th><td>0439-58-1200　／　FAX：0439-58-1201</td></tr>
+                <tr><th>電話</th><td>0100-58-1200　／　FAX：0100-58-1201</td></tr>
                 <tr><th>校長</th><td>長田 真由美（おさだ まゆみ）</td></tr>
                 <tr><th>児童数</th><td>47人（令和8年5月1日現在）</td></tr>
                 <tr><th>学級数</th><td>6学級（全学年複式学級）</td></tr>
@@ -51,10 +51,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　日野原市立白峰小学校　☎ 0439-58-1200（平日 8:00〜17:00）<br />
-            スクールバス（市街地〜白峰）については学校または学校教育課（☎ 0439-88-1140）へ。
+            <strong>お問い合わせ</strong>　日野原市立白峰小学校　☎ 0100-58-1200（平日 8:00〜17:00）<br />
+            スクールバス（市街地〜白峰）については学校または学校教育課（☎ 0100-88-1140）へ。
           </div>
-          <PageInfo department="教育総務課" division="学校教育係" tel="0439-88-8301（内線 301）" updated="令和3年4月1日" />
+          <PageInfo department="教育総務課" division="学校教育係" tel="0100-88-8301（内線 301）" updated="令和3年4月1日" />
         </main>
         <Sidebar />
       </div>

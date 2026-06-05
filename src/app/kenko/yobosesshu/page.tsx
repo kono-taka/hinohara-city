@@ -195,7 +195,7 @@ export default function YobosesshuPage() {
           <div className="content-box">
             <p style={{ lineHeight: 1.8 }}>定期接種・各種健診は、以下の会場で実施しています。</p>
             <ul style={{ paddingLeft: 20, lineHeight: 2, marginTop: 8 }}>
-              <li><strong>市保健センター</strong>（中央1丁目6番地、☎ 0439-88-1122）：乳幼児健診・集団接種</li>
+              <li><strong>市保健センター</strong>（中央1丁目6番地、☎ 0100-88-1122）：乳幼児健診・集団接種</li>
               <li><strong>各地区公民館</strong>（原野・白峰・北部・南部）：集団健診・巡回接種</li>
               <li><strong>かかりつけ医療機関</strong>：個別予防接種（要予約）</li>
             </ul>
@@ -208,7 +208,7 @@ export default function YobosesshuPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             健康推進課（市保健センター内）<br />
-            ☎ 0439-88-1122　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1122　受付時間：平日 8:30〜17:15
           </div>
           <div className="section-title" style={{ marginTop: 16 }}>予防接種・健診 関連情報</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
@@ -224,7 +224,7 @@ export default function YobosesshuPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="健康推進課" division="保健係" tel="0439-88-1167（内線 167）" updated="令和8年4月1日" />
+          <PageInfo department="健康推進課" division="保健係" tel="0100-88-1167（内線 167）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

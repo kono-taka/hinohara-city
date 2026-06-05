@@ -7,15 +7,15 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "教育・文化", description: "市立小中学校・保育所・認定こども園・生涯学習・図書館・スポーツなど、日野原市の教育・文化に関する情報をご案内します。" };
 
 const schools = [
-  { name: "日野原市立中央小学校", href: "/kyoiku/gakko/chuo-sho",    address: "中央二丁目12番地",   tel: "0439-88-2100", pupils: 412, classes: 12 },
-  { name: "日野原市立北部小学校", href: "/kyoiku/gakko/hokubu-sho",  address: "北部三丁目8番地",    tel: "0439-88-2200", pupils: 286, classes: 8 },
-  { name: "日野原市立南部小学校", href: "/kyoiku/gakko/nanbu-sho",   address: "南部一丁目15番地",   tel: "0439-88-2300", pupils: 248, classes: 8 },
-  { name: "日野原市立東部小学校", href: "/kyoiku/gakko/tobu-sho",    address: "東部二丁目4番地",    tel: "0439-88-2400", pupils: 195, classes: 6 },
-  { name: "日野原市立原野小学校", href: "/kyoiku/gakko/haruno-sho",  address: "原野字宮ノ下45番地", tel: "0439-55-1100", pupils: 163, classes: 6 },
-  { name: "日野原市立白峰小学校", href: "/kyoiku/gakko/shirotaki-sho", address: "白峰字学校台200番地", tel: "0439-58-1200", pupils: 72, classes: 6 },
-  { name: "日野原市立第一中学校", href: "/kyoiku/gakko/daiichi-chu", address: "中央四丁目2番地",    tel: "0439-88-3100", pupils: 412, classes: 12 },
-  { name: "日野原市立第二中学校", href: "/kyoiku/gakko/daini-chu",   address: "北部二丁目20番地",   tel: "0439-88-3200", pupils: 298, classes: 9 },
-  { name: "日野原市立原野中学校", href: "/kyoiku/gakko/haruno-chu",  address: "原野字中沢120番地",  tel: "0439-55-1300", pupils: 154, classes: 3 },
+  { name: "日野原市立中央小学校", href: "/kyoiku/gakko/chuo-sho",    address: "中央二丁目12番地",   tel: "0100-88-2100", pupils: 412, classes: 12 },
+  { name: "日野原市立北部小学校", href: "/kyoiku/gakko/hokubu-sho",  address: "北部三丁目8番地",    tel: "0100-88-2200", pupils: 286, classes: 8 },
+  { name: "日野原市立南部小学校", href: "/kyoiku/gakko/nanbu-sho",   address: "南部一丁目15番地",   tel: "0100-88-2300", pupils: 248, classes: 8 },
+  { name: "日野原市立東部小学校", href: "/kyoiku/gakko/tobu-sho",    address: "東部二丁目4番地",    tel: "0100-88-2400", pupils: 195, classes: 6 },
+  { name: "日野原市立原野小学校", href: "/kyoiku/gakko/haruno-sho",  address: "原野字宮ノ下45番地", tel: "0100-55-1100", pupils: 163, classes: 6 },
+  { name: "日野原市立白峰小学校", href: "/kyoiku/gakko/shirotaki-sho", address: "白峰字学校台200番地", tel: "0100-58-1200", pupils: 72, classes: 6 },
+  { name: "日野原市立第一中学校", href: "/kyoiku/gakko/daiichi-chu", address: "中央四丁目2番地",    tel: "0100-88-3100", pupils: 412, classes: 12 },
+  { name: "日野原市立第二中学校", href: "/kyoiku/gakko/daini-chu",   address: "北部二丁目20番地",   tel: "0100-88-3200", pupils: 298, classes: 9 },
+  { name: "日野原市立原野中学校", href: "/kyoiku/gakko/haruno-chu",  address: "原野字中沢120番地",  tel: "0100-55-1300", pupils: 154, classes: 3 },
 ];
 
 export default function KyoikuPage() {
@@ -70,12 +70,12 @@ export default function KyoikuPage() {
               <div className="section-title">保育所・幼稚園・認定こども園</div>
               <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
                 {[
-                  { name: "市立ひのはら保育所", type: "認定こども園", address: "中央一丁目", tel: "0439-88-4100" },
-                  { name: "市立北部保育所", type: "保育所（公立）", address: "北部四丁目", tel: "0439-88-4200" },
-                  { name: "市立原野保育所", type: "保育所（公立）", address: "原野字上田", tel: "0439-55-2100" },
-                  { name: "社会福祉法人 白峰保育園", type: "保育所（私立）", address: "白峰字里", tel: "0439-58-2300" },
-                  { name: "学校法人 日野原幼稚園", type: "幼稚園（私立）", address: "中央五丁目", tel: "0439-88-4400" },
-                  { name: "NPO法人 あそびの森", type: "認可外保育施設", address: "東部一丁目", tel: "0439-53-0800" },
+                  { name: "市立ひのはら保育所", type: "認定こども園", address: "中央一丁目", tel: "0100-88-4100" },
+                  { name: "市立北部保育所", type: "保育所（公立）", address: "北部四丁目", tel: "0100-88-4200" },
+                  { name: "市立原野保育所", type: "保育所（公立）", address: "原野字上田", tel: "0100-55-2100" },
+                  { name: "社会福祉法人 白峰保育園", type: "保育所（私立）", address: "白峰字里", tel: "0100-58-2300" },
+                  { name: "学校法人 日野原幼稚園", type: "幼稚園（私立）", address: "中央五丁目", tel: "0100-88-4400" },
+                  { name: "NPO法人 あそびの森", type: "認可外保育施設", address: "東部一丁目", tel: "0100-53-0800" },
                 ].map((f, i) => (
                   <div key={i} style={{ padding: "8px 12px", borderBottom: "1px solid #e8edf4", fontSize: 12 }}>
                     <div style={{ fontWeight: "bold" }}><a href="/kyoiku/hoiku">{f.name}</a></div>
@@ -107,8 +107,8 @@ export default function KyoikuPage() {
           <div className="section-title">生涯学習・文化活動</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff", marginBottom: 16 }}>
             {[
-              { label: "市立中央図書館", href: "#", desc: "蔵書約14万冊。月曜休館。インターネット端末・複写サービスあり。☎ 0439-88-4500" },
-              { label: "市民文化センター（ホール・会議室）", href: "#", desc: "大ホール800席・中ホール250席。各種公演・市民活動に。☎ 0439-88-3800" },
+              { label: "市立中央図書館", href: "#", desc: "蔵書約14万冊。月曜休館。インターネット端末・複写サービスあり。☎ 0100-88-4500" },
+              { label: "市民文化センター（ホール・会議室）", href: "#", desc: "大ホール800席・中ホール250席。各種公演・市民活動に。☎ 0100-88-3800" },
               { label: "生涯学習センター（まなびの館）", href: "#", desc: "各種講座・サークル活動の拠点。陶芸室・音楽室・調理実習室あり。" },
               { label: "日野原市歴史民俗資料館", href: "#", desc: "縄文〜近代の地域の歴史を展示。下原遺跡出土品の常設展示。入館300円。" },
               { label: "青少年育成・子どもの居場所づくり", href: "#", desc: "放課後子供教室・青少年センター・ジュニアリーダー養成事業。" },
@@ -124,7 +124,7 @@ export default function KyoikuPage() {
           <div className="section-title">スポーツ振興</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
             {[
-              { label: "市総合体育館・屋内プールの利用", href: "#", desc: "利用料・予約方法・各種スポーツ教室のご案内。☎ 0439-53-0010" },
+              { label: "市総合体育館・屋内プールの利用", href: "#", desc: "利用料・予約方法・各種スポーツ教室のご案内。☎ 0100-53-0010" },
               { label: "市民グラウンド・野球場・テニスコート", href: "#", desc: "各施設の予約方法と利用料金。" },
               { label: "ひのはらスポーツクラブ（総合型地域SC）", href: "#", desc: "子どもから高齢者まで、30種類以上の教室・チームが活動中。" },
               { label: "令和8年度 市民体育祭（10月12日開催予定）", href: "#", desc: "参加チーム・種目の申込は8月1日から受付。" },
@@ -135,7 +135,7 @@ export default function KyoikuPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="教育総務課" tel="0439-88-8301（内線 301）" updated="令和8年4月1日" />
+          <PageInfo department="教育総務課" tel="0100-88-8301（内線 301）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

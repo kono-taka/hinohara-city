@@ -81,7 +81,7 @@ export default function MayorPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="秘書広報課" division="秘書係" tel="0439-88-1102（内線 102）" updated="令和8年1月15日" />
+          <PageInfo department="秘書広報課" division="秘書係" tel="0100-88-1102（内線 102）" updated="令和8年1月15日" />
         </main>
         <Sidebar />
       </div>

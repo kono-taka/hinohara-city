@@ -35,7 +35,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8803　千葉県日野原市北部1丁目4番地</td></tr>
-                <tr><th>電話</th><td>0439-53-0010　／　FAX：0439-53-0011</td></tr>
+                <tr><th>電話</th><td>0100-53-0010　／　FAX：0100-53-0011</td></tr>
                 <tr><th>開館時間</th><td>午前9時〜午後9時</td></tr>
                 <tr><th>休館日</th><td>毎週火曜日・年末年始（12月28日〜1月3日）</td></tr>
                 <tr><th>駐車場</th><td>体育館前駐車場（無料・200台）　大型バス駐車場あり</td></tr>
@@ -84,10 +84,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ・ご予約</strong>　日野原市総合体育館　☎ 0439-53-0010<br />
+            <strong>お問い合わせ・ご予約</strong>　日野原市総合体育館　☎ 0100-53-0010<br />
             受付時間：開館時間中（午前9時〜午後9時・火曜除く）
           </div>
-          <PageInfo department="生涯学習課" division="スポーツ振興係" tel="0439-88-8311（内線 311）" updated="令和6年4月1日" />
+          <PageInfo department="生涯学習課" division="スポーツ振興係" tel="0100-88-8311（内線 311）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

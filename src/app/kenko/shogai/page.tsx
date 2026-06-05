@@ -139,7 +139,7 @@ export default function ShogaiPage() {
               <thead><tr><th>項目</th><th>内容</th></tr></thead>
               <tbody>
                 <tr><td>所在地</td><td>中央4丁目5番2号</td></tr>
-                <tr><td>電話</td><td>☎ 0439-88-6200</td></tr>
+                <tr><td>電話</td><td>☎ 0100-88-6200</td></tr>
                 <tr><td>相談時間</td><td>月〜金 9:00〜17:00（祝日・年末年始を除く）</td></tr>
                 <tr><td>主な業務</td><td>福祉サービス利用計画の作成・相談支援・関係機関との連絡調整・権利擁護</td></tr>
               </tbody>
@@ -180,7 +180,7 @@ export default function ShogaiPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             福祉課 障がい係（市役所1階）<br />
-            ☎ 0439-88-1120　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1120　受付時間：平日 8:30〜17:15
           </div>
           <div className="section-title" style={{ marginTop: 16 }}>障がい福祉 関連情報</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
@@ -196,7 +196,7 @@ export default function ShogaiPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="福祉課" division="障がい福祉係" tel="0439-88-1161（内線 161）" updated="令和6年4月1日" />
+          <PageInfo department="福祉課" division="障がい福祉係" tel="0100-88-1161（内線 161）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

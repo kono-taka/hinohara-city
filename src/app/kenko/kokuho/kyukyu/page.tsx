@@ -26,7 +26,7 @@ export default function Page() {
               
               <tbody>
                 <tr><th>場所</th><td>日野原中央病院内（中央2-3-1）</td></tr>
-                <tr><th>電話</th><td>0439-88-2020</td></tr>
+                <tr><th>電話</th><td>0100-88-2020</td></tr>
                 <tr><th>診療日時</th><td>日曜日・祝日 午前9時〜午後5時（内科・小児科）</td></tr>
               </tbody>
             </table>
@@ -40,7 +40,7 @@ export default function Page() {
                 <tr><th>千葉県救急医療情報センター</th><td>☎ 043-245-7711（24時間）病院・診療所の案内</td></tr>
                 <tr><th>子どもの救急電話相談</th><td>☎ #8000（平日18時〜翌8時・土日祝24時間）</td></tr>
                 <tr><th>大人の救急電話相談</th><td>☎ #7119（24時間）</td></tr>
-                <tr><th>近隣の二次救急病院</th><td>君津中央病院（☎ 0439-88-3300）・亀田総合病院（☎ 04-7092-2211）</td></tr>
+                <tr><th>近隣の二次救急病院</th><td>君津中央病院（☎ 0100-88-3300）・亀田総合病院（☎ 04-7092-2211）</td></tr>
               </tbody>
             </table>
           </div>
@@ -48,9 +48,9 @@ export default function Page() {
             救急か否か迷ったときは「#7119（救急安心センター）」にご相談ください。不要不急の救急要請はお控えください。
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　健康推進課　☎ 0439-88-1122
+            <strong>お問い合わせ</strong>　健康推進課　☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" tel="0439-88-1165（内線 165）" updated="令和5年4月1日" />
+          <PageInfo department="健康推進課" tel="0100-88-1165（内線 165）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

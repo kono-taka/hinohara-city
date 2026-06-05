@@ -27,7 +27,7 @@ export default function Page() {
               <tbody>
                 <tr><th>支給対象</th><td>18歳に達する日以後の最初の3月31日までの子を養育するひとり親家庭の親（所得制限あり）</td></tr>
                 <tr><th>支給額（全部支給）</th><td>月額 45,500円（第2子加算 10,750円、第3子以降 6,450円）</td></tr>
-                <tr><th>申請窓口</th><td>市役所1階 福祉課 ☎ 0439-88-1120</td></tr>
+                <tr><th>申請窓口</th><td>市役所1階 福祉課 ☎ 0100-88-1120</td></tr>
                 <tr><th>支払月</th><td>1月・3月・5月・7月・9月・11月の11日前後</td></tr>
               </tbody>
             </table>
@@ -45,9 +45,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　福祉課　☎ 0439-88-1120
+            <strong>お問い合わせ</strong>　福祉課　☎ 0100-88-1120
           </div>
-          <PageInfo department="子育て支援課" division="給付係" tel="0439-88-1173（内線 173）" updated="令和6年4月1日" />
+          <PageInfo department="子育て支援課" division="給付係" tel="0100-88-1173（内線 173）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

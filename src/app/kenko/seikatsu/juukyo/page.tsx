@@ -38,16 +38,16 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>申請窓口</th><td>市役所1階 福祉課 ☎ 0439-88-1120</td></tr>
+                <tr><th>申請窓口</th><td>市役所1階 福祉課 ☎ 0100-88-1120</td></tr>
                 <tr><th>必要書類</th><td>申請書・収入申告書・身分証明書・賃貸借契約書・通帳写しなど</td></tr>
                 <tr><th>申請後</th><td>状況確認のうえ、要件を満たす場合は支給決定。家主へ直接振込。</td></tr>
               </tbody>
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　福祉課　☎ 0439-88-1120
+            <strong>お問い合わせ</strong>　福祉課　☎ 0100-88-1120
           </div>
-          <PageInfo department="福祉課" tel="0439-88-1161（内線 163）" updated="令和5年4月1日" />
+          <PageInfo department="福祉課" tel="0100-88-1161（内線 163）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

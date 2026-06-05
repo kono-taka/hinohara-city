@@ -77,9 +77,9 @@ export default function LinksPage() {
         </div>
         <p style={{ fontSize: 11, color: "#888", marginTop: 16, lineHeight: 1.8 }}>
           ※本ページに掲載しているリンクは、情報提供を目的としたものです。リンク先のウェブサイトに関して、日野原市は内容を保証するものではありません。<br />
-          ※リンクの追加・修正のご要望は企画政策課広報広聴係（☎ 0439-88-1115）までお問い合わせください。
+          ※リンクの追加・修正のご要望は企画政策課広報広聴係（☎ 0100-88-1115）までお問い合わせください。
         </p>
-        <PageInfo department="秘書広報課" division="広報係" tel="0439-88-1105（内線 105）" updated="令和5年4月1日" />
+        <PageInfo department="秘書広報課" division="広報係" tel="0100-88-1105（内線 105）" updated="令和5年4月1日" />
       </div>
       <SiteFooter />
     </>

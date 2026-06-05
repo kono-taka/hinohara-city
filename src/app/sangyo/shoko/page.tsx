@@ -86,7 +86,7 @@ export default function ShokoPage() {
               <tbody>
                 <tr><th>名称</th><td>日野原市商工会</td></tr>
                 <tr><th>所在地</th><td>日野原市中央2丁目1-1（商工会館内）</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1300</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1300</strong></td></tr>
                 <tr><th>相談内容</th><td>経営相談・税務・労務・金融・IT化・事業承継（各種相談無料）</td></tr>
                 <tr><th>巡回指導</th><td>経営指導員が市内事業所を定期巡回</td></tr>
               </tbody>
@@ -111,13 +111,13 @@ export default function ShokoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>農林振興課 商工係</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1136</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1136</strong></td></tr>
                 <tr><th>メール</th><td>shoko@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="産業振興課" division="商工係" tel="0439-88-1141（内線 141）" updated="令和6年4月1日" />
+          <PageInfo department="産業振興課" division="商工係" tel="0100-88-1141（内線 141）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

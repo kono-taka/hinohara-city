@@ -89,14 +89,14 @@ export default function KigyoyuchiPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>企画政策課 産業振興係</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1114</strong></td></tr>
-                <tr><th>FAX</th><td>0439-88-1198</td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1114</strong></td></tr>
+                <tr><th>FAX</th><td>0100-88-1198</td></tr>
                 <tr><th>メール</th><td>kikaku@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="産業振興課" tel="0439-88-1141（内線 141）" updated="令和5年4月1日" />
+          <PageInfo department="産業振興課" tel="0100-88-1141（内線 141）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

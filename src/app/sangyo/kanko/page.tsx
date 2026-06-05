@@ -62,7 +62,7 @@ export default function SangyoKankoPage() {
               <tbody>
                 <tr><th>名称</th><td>一般社団法人 日野原市観光協会</td></tr>
                 <tr><th>所在地</th><td>日野原市中央1丁目1-1（市役所1階 観光案内所内）</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-58-8888</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-58-8888</strong></td></tr>
                 <tr><th>主な事業</th><td>外国語パンフレット作成・SNS（Instagram/X/Facebook）発信・観光情報発信サイト運営</td></tr>
                 <tr><th>フォロワー数</th><td>Instagram: 約18,000人（令和8年5月現在）</td></tr>
               </tbody>
@@ -83,7 +83,7 @@ export default function SangyoKankoPage() {
                 <tr><td>房総野菜の収穫体験</td><td>7月〜9月</td><td>1,500円（野菜お土産付き）</td><td>各回15人</td></tr>
               </tbody>
             </table>
-            <p style={{ fontSize: 12, color: "#666", marginTop: 8 }}>予約・詳細は日野原市観光協会（☎0439-58-8888）まで。</p>
+            <p style={{ fontSize: 12, color: "#666", marginTop: 8 }}>予約・詳細は日野原市観光協会（☎0100-58-8888）まで。</p>
           </div>
 
           <div className="content-box" style={{ background: "#f0f4f9", border: "1px solid #c0d0e8" }}>
@@ -91,13 +91,13 @@ export default function SangyoKankoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>観光振興課（観光政策係・誘客促進係）</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1138</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1138</strong></td></tr>
                 <tr><th>メール</th><td>kanko@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和6年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -129,7 +129,7 @@ export default function GikaiPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="議会事務局" division="議事係" tel="0439-88-8321（内線 321）" updated="令和5年5月1日" />
+          <PageInfo department="議会事務局" division="議事係" tel="0100-88-8321（内線 321）" updated="令和5年5月1日" />
         </main>
         <Sidebar />
       </div>

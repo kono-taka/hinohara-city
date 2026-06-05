@@ -93,7 +93,7 @@ export default function SenkyoPage() {
                 </tr>
                 <tr>
                   <th>郵便等による不在者投票</th>
-                  <td>身体に重度の障がいがある方は、郵便等による不在者投票ができます。事前に選挙管理委員会への申請が必要です（☎ 0439-88-8340）。</td>
+                  <td>身体に重度の障がいがある方は、郵便等による不在者投票ができます。事前に選挙管理委員会への申請が必要です（☎ 0100-88-8340）。</td>
                 </tr>
               </tbody>
             </table>
@@ -158,8 +158,8 @@ export default function SenkyoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th style={{ width: 160 }}>所在地</th><td>〒299-1401 千葉県日野原市中央一丁目1番地1号（市役所3階）</td></tr>
-                <tr><th>電話</th><td>0439-88-8340（内線 340）</td></tr>
-                <tr><th>FAX</th><td>0439-88-8341</td></tr>
+                <tr><th>電話</th><td>0100-88-8340（内線 340）</td></tr>
+                <tr><th>FAX</th><td>0100-88-8341</td></tr>
                 <tr><th>受付時間</th><td>平日 8:30〜17:15</td></tr>
                 <tr>
                   <th>委員長</th>
@@ -171,7 +171,7 @@ export default function SenkyoPage() {
 
           <PageInfo
             department="選挙管理委員会事務局"
-            tel="0439-88-8340（内線 340）"
+            tel="0100-88-8340（内線 340）"
             updated="令和8年4月1日"
           />
         </main>

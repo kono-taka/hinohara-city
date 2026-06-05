@@ -25,12 +25,12 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>日野原中央病院（100床）</th><td>中央2-3-1　☎ 0439-88-2000　内科・外科・整形外科・小児科等</td></tr>
-                <tr><th>南部クリニック</th><td>南部1-8-5　☎ 0439-88-3300　内科・循環器科</td></tr>
-                <tr><th>原野診療所</th><td>原野字中沢80　☎ 0439-55-2200　内科・小児科（月・水・金）</td></tr>
-                <tr><th>白峰へき地診療所</th><td>白峰字里200　☎ 0439-58-2500　内科（火・木・土）</td></tr>
-                <tr><th>たかはし整形外科クリニック</th><td>北部1-2-8　☎ 0439-88-4800　整形外科・リハビリ</td></tr>
-                <tr><th>ひのはら眼科</th><td>中央4-1-9　☎ 0439-53-0300　眼科</td></tr>
+                <tr><th>日野原中央病院（100床）</th><td>中央2-3-1　☎ 0100-88-2000　内科・外科・整形外科・小児科等</td></tr>
+                <tr><th>南部クリニック</th><td>南部1-8-5　☎ 0100-88-3300　内科・循環器科</td></tr>
+                <tr><th>原野診療所</th><td>原野字中沢80　☎ 0100-55-2200　内科・小児科（月・水・金）</td></tr>
+                <tr><th>白峰へき地診療所</th><td>白峰字里200　☎ 0100-58-2500　内科（火・木・土）</td></tr>
+                <tr><th>たかはし整形外科クリニック</th><td>北部1-2-8　☎ 0100-88-4800　整形外科・リハビリ</td></tr>
+                <tr><th>ひのはら眼科</th><td>中央4-1-9　☎ 0100-53-0300　眼科</td></tr>
               </tbody>
             </table>
           </div>
@@ -39,10 +39,10 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>中央歯科クリニック</th><td>中央3-5-2　☎ 0439-88-5000</td></tr>
-                <tr><th>みなみ歯科医院</th><td>南部2-4-1　☎ 0439-88-5100</td></tr>
+                <tr><th>中央歯科クリニック</th><td>中央3-5-2　☎ 0100-88-5000</td></tr>
+                <tr><th>みなみ歯科医院</th><td>南部2-4-1　☎ 0100-88-5100</td></tr>
                 <tr><th>調剤薬局（市内5店舗）</th><td>ドラッグストア内含む（詳細は市HPで確認）</td></tr>
-                <tr><th>休日急病診療センター</th><td>市中央病院内　日曜・祝日 午前9時〜午後5時（☎ 0439-88-2020）</td></tr>
+                <tr><th>休日急病診療センター</th><td>市中央病院内　日曜・祝日 午前9時〜午後5時（☎ 0100-88-2020）</td></tr>
               </tbody>
             </table>
           </div>
@@ -50,9 +50,9 @@ export default function Page() {
             市内医療機関の最新情報・専門科目は、千葉県医療機関情報システム（外部リンク）でもご確認いただけます。
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　健康推進課　☎ 0439-88-1122
+            <strong>お問い合わせ</strong>　健康推進課　☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" division="国保係" tel="0439-88-1165（内線 165）" updated="令和5年4月1日" />
+          <PageInfo department="健康推進課" division="国保係" tel="0100-88-1165（内線 165）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -84,8 +84,8 @@ export default function Page() {
             <div style={{ background: "#fffbf0", border: "1px solid #e8d9a0", padding: "10px 14px", borderRadius: 3, marginTop: 16, fontSize: 13 }}>
               <strong>熱中症に関する相談窓口</strong><br />
               <span style={{ display: "block", marginTop: 6 }}>
-                ・健康推進課（保健センター内）　☎ 0439-88-1161（内線 161）<br />
-                ・千葉県熱中症対策相談電話　☎ 0570-048-200（平日 9:00〜17:00）<br />
+                ・健康推進課（保健センター内）　☎ 0100-88-1161（内線 161）<br />
+                ・千葉県熱中症対策相談電話　☎ 0570-100-200（平日 9:00〜17:00）<br />
                 ・救急安心センター（#7119）　24時間・年中無休
               </span>
             </div>
@@ -93,7 +93,7 @@ export default function Page() {
 
           <div style={{ border: "1px solid var(--border-light)", padding: "12px 16px", background: "#f4f8ff", fontSize: 13, lineHeight: 1.8 }}>
             <strong>このページに関するお問い合わせ</strong>
-            <p style={{ margin: "6px 0 0" }}>健康推進課　☎ 0439-88-1161（内線 161）（平日 8:30〜17:15）</p>
+            <p style={{ margin: "6px 0 0" }}>健康推進課　☎ 0100-88-1161（内線 161）（平日 8:30〜17:15）</p>
           </div>
           <div style={{ marginTop: 24, paddingTop: 16, borderTop: "1px solid var(--border-light)" }}>
             <a href="/news" style={{ fontSize: 13, color: "var(--link-color)" }}>← お知らせ・新着情報 一覧に戻る</a>

@@ -90,7 +90,7 @@ export default function NogvoPage() {
                 <tr><th>年間来場者数</th><td>約<strong>12万人</strong>（令和5年度実績）</td></tr>
                 <tr><th>年間売上</th><td>約<strong>3.8億円</strong>（令和5年度実績）</td></tr>
                 <tr><th>出品者数</th><td>市内農家・加工業者 約180者</td></tr>
-                <tr><th>電話</th><td>☎0439-58-7700</td></tr>
+                <tr><th>電話</th><td>☎0100-58-7700</td></tr>
               </tbody>
             </table>
           </div>
@@ -102,7 +102,7 @@ export default function NogvoPage() {
               <li>申請締切: <strong>毎月15日</strong>（農業委員会総会の前月）</li>
               <li>主な業務: 農地転用許可・農地の権利移転許可（農地法第3条・4条・5条）</li>
               <li>農地情報公開: 農業委員会ネットワーク（農地ナビ）で閲覧可能</li>
-              <li>担当: 農業委員会事務局（農林振興課内）☎0439-88-1135</li>
+              <li>担当: 農業委員会事務局（農林振興課内）☎0100-88-1135</li>
             </ul>
           </div>
 
@@ -133,14 +133,14 @@ export default function NogvoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>農林振興課（農政係・農業委員会事務局・林務係）</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1135</strong></td></tr>
-                <tr><th>FAX</th><td>0439-88-1199</td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1135</strong></td></tr>
+                <tr><th>FAX</th><td>0100-88-1199</td></tr>
                 <tr><th>メール</th><td>nogyo@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="農林課" division="農政係" tel="0439-88-1143（内線 143）" updated="令和7年4月1日" />
+          <PageInfo department="農林課" division="農政係" tel="0100-88-1143（内線 143）" updated="令和7年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -24,7 +24,7 @@ export default function AccessibilityPage() {
             { title: "文字サイズの変更", body: "ヘッダー右上の「文字を大きく」「文字を小さく」ボタンから、サイト内の文字サイズを変更できます。また、各ブラウザの機能でも文字サイズの変更が可能です。" },
             { title: "色・コントラスト", body: "文字と背景のコントラスト比が4.5:1以上になるよう配慮しています。" },
             { title: "PDFファイルについて", body: "一部のページではPDFファイルを提供しています。PDFファイルをご覧いただくには、Adobe Acrobat Reader（無料）が必要です。PDFの内容をテキストでご希望の場合は担当課までお問い合わせください。" },
-            { title: "ご意見・お問い合わせ", body: "本ウェブサイトのアクセシビリティに関するお気づきの点がございましたら、下記担当課までお知らせください。\n\n日野原市役所 企画政策課 広報広聴係\n電話：0439-88-1115\nメール：koho@city.hinohara.lg.jp" },
+            { title: "ご意見・お問い合わせ", body: "本ウェブサイトのアクセシビリティに関するお気づきの点がございましたら、下記担当課までお知らせください。\n\n日野原市役所 企画政策課 広報広聴係\n電話：0100-88-1115\nメール：koho@city.hinohara.lg.jp" },
           ].map((item, i) => (
             <div key={i} style={{ marginBottom: 20 }}>
               <h3 style={{ fontSize: 14, fontWeight: "bold", color: "var(--city-blue)", borderBottom: "1px solid var(--border-light)", paddingBottom: 4, marginBottom: 8 }}>{item.title}</h3>
@@ -32,7 +32,7 @@ export default function AccessibilityPage() {
             </div>
           ))}
         </div>
-        <PageInfo department="情報管理課" tel="0439-88-1132（内線 132）" updated="令和3年6月30日" />
+        <PageInfo department="情報管理課" tel="0100-88-1132（内線 132）" updated="令和3年6月30日" />
       </div>
       <SiteFooter />
     </>

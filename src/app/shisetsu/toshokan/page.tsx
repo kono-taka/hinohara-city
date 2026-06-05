@@ -35,7 +35,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒299-1401　千葉県日野原市中央2丁目8番地12号</td></tr>
-                <tr><th>電話</th><td>0439-88-4500　／　FAX：0439-88-4501</td></tr>
+                <tr><th>電話</th><td>0100-88-4500　／　FAX：0100-88-4501</td></tr>
                 <tr><th>メール</th><td>toshokan@city.hinohara.lg.jp</td></tr>
                 <tr><th>開館時間</th><td>平日：午前9時〜午後7時　　土日祝：午前9時〜午後5時</td></tr>
                 <tr><th>休館日</th><td>毎週月曜日・毎月末日（整理日）・年末年始（12月28日〜1月4日）・特別整理期間（8月下旬 1週間程度）</td></tr>
@@ -96,10 +96,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　日野原市立中央図書館　☎ 0439-88-4500<br />
+            <strong>お問い合わせ</strong>　日野原市立中央図書館　☎ 0100-88-4500<br />
             インターネット予約・利用状況確認：「日野原市図書館蔵書検索システム」（市ウェブトップページよりアクセス）
           </div>
-          <PageInfo department="生涯学習課" division="図書館係" tel="0439-88-8311（内線 311）" updated="令和6年4月1日" />
+          <PageInfo department="生涯学習課" division="図書館係" tel="0100-88-8311（内線 311）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

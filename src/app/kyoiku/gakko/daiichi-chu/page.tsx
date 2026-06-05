@@ -26,7 +26,7 @@ export default function Page() {
               <tbody>
                 <tr><th>学校名</th><td>日野原市立第一中学校</td></tr>
                 <tr><th>所在地</th><td>〒299-1401　千葉県日野原市中央4丁目2番地</td></tr>
-                <tr><th>電話</th><td>0439-88-3100　／　FAX：0439-88-3101</td></tr>
+                <tr><th>電話</th><td>0100-88-3100　／　FAX：0100-88-3101</td></tr>
                 <tr><th>校長</th><td>河野 裕史（かわの ひろし）</td></tr>
                 <tr><th>生徒数</th><td>428人（令和8年5月1日現在）</td></tr>
                 <tr><th>学級数</th><td>12学級（1年4学級・2年4学級・3年4学級）</td></tr>
@@ -97,11 +97,11 @@ export default function Page() {
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>お問い合わせ</strong><br />
-            日野原市立第一中学校　☎ 0439-88-3100<br />
+            日野原市立第一中学校　☎ 0100-88-3100<br />
             受付時間：平日 午前8時〜午後5時<br />
-            学校に関する全般的なお問い合わせは、学校教育課（☎ 0439-88-1140）へもどうぞ。
+            学校に関する全般的なお問い合わせは、学校教育課（☎ 0100-88-1140）へもどうぞ。
           </div>
-          <PageInfo department="教育総務課" division="学校教育係" tel="0439-88-8301（内線 301）" updated="令和5年4月1日" />
+          <PageInfo department="教育総務課" division="学校教育係" tel="0100-88-8301（内線 301）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

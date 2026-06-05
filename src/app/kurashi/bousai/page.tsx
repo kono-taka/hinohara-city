@@ -142,7 +142,7 @@ export default function BousaiPage() {
             <h2 className="section-title">防災行政無線</h2>
             <p>市内各地に設置された防災行政無線スピーカーから、避難情報や気象情報等をお知らせします。</p>
             <ul>
-              <li><strong>放送内容の確認（テレホンサービス）：</strong>☎ 0120-388-011（フリーダイヤル・24時間）</li>
+              <li><strong>放送内容の確認（テレホンサービス）：</strong>☎ 0120-100-001（フリーダイヤル・24時間）</li>
               <li><strong>市公式LINEアカウント：</strong>避難情報・気象警報をプッシュ通知でお届けします（「日野原市」で友だち追加）</li>
               <li><strong>市防災メール：</strong>メールでの情報受信登録は市ウェブサイトから</li>
             </ul>
@@ -168,7 +168,7 @@ export default function BousaiPage() {
                 </tr>
                 <tr>
                   <th>電話番号</th>
-                  <td>☎ 0439-88-1112</td>
+                  <td>☎ 0100-88-1112</td>
                 </tr>
                 <tr>
                   <th>開庁時間</th>
@@ -176,12 +176,12 @@ export default function BousaiPage() {
                 </tr>
                 <tr>
                   <th>緊急時</th>
-                  <td>災害発生時は☎ 0439-88-1112（時間外も転送対応）</td>
+                  <td>災害発生時は☎ 0100-88-1112（時間外も転送対応）</td>
                 </tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="総務課" division="防災係" tel="0439-88-1123（内線 123）" updated="令和8年4月1日" />
+          <PageInfo department="総務課" division="防災係" tel="0100-88-1123（内線 123）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

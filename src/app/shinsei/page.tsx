@@ -79,7 +79,7 @@ type Department = {
 const departments: Department[] = [
   {
     name: "市民課",
-    tel: "0439-88-1111（内線 201）",
+    tel: "0100-88-1111（内線 201）",
     forms: [
       { no: "様式第1号", name: "転入届", desc: "市外から転入する際に提出する届出書。転入日から14日以内に提出してください。", formats: ["PDF"], note: "押印不要", updated: "R5.4" },
       { no: "様式第2号", name: "転出届（郵送申請用）", desc: "郵送による転出手続きに使用します。窓口での手続きも可能です。", formats: ["PDF"], note: "押印必要", updated: "R4.10" },
@@ -90,7 +90,7 @@ const departments: Department[] = [
   },
   {
     name: "税務課",
-    tel: "0439-88-1111（内線 211）",
+    tel: "0100-88-1111（内線 211）",
     forms: [
       { no: "様式第10号", name: "市・県民税 申告書", desc: "市民税・県民税の申告に使用します。給与所得のみの方は原則不要です。", formats: ["PDF"], note: "押印不要", updated: "R8.1" },
       { no: "様式第11号", name: "固定資産税 減額申請書", desc: "住宅用地・新築住宅・耐震改修等に係る減額申請書です。", formats: ["PDF", "Word"], note: "押印必要", updated: "R5.4" },
@@ -101,7 +101,7 @@ const departments: Department[] = [
   },
   {
     name: "子育て支援課",
-    tel: "0439-88-1111（内線 241）",
+    tel: "0100-88-1111（内線 241）",
     forms: [
       { no: "様式第30号", name: "保育所等 利用申込書", desc: "保育所・認定こども園・地域型保育事業の利用を申し込む書類です。", formats: ["PDF", "Word"], note: "押印不要", updated: "R8.4" },
       { no: "様式第31号", name: "児童手当 認定請求書", desc: "児童手当の新規認定を請求する書類です。出生・転入後15日以内に提出してください。", formats: ["PDF"], note: "押印不要", updated: "R6.10" },
@@ -111,7 +111,7 @@ const departments: Department[] = [
   },
   {
     name: "福祉課",
-    tel: "0439-88-1111（内線 231）",
+    tel: "0100-88-1111（内線 231）",
     forms: [
       { no: "様式第20号", name: "身体障害者手帳 交付申請書", desc: "身体障害者手帳の新規交付・再交付を申請する書類です。診断書・意見書が別途必要です。", formats: ["PDF", "Word"], note: "押印不要", updated: "R5.4" },
       { no: "様式第21号", name: "介護保険 要介護・要支援 認定申請書", desc: "介護保険の新規認定・更新・区分変更を申請する書類です。", formats: ["PDF"], note: "押印必要", updated: "R6.1" },
@@ -121,7 +121,7 @@ const departments: Department[] = [
   },
   {
     name: "建設課",
-    tel: "0439-88-1111（内線 261）",
+    tel: "0100-88-1111（内線 261）",
     forms: [
       { no: "様式第40号", name: "道路占用許可申請書", desc: "市道に工作物・物件・広告板等を設置する際の占用許可申請書です。", formats: ["PDF", "Word"], note: "押印必要", updated: "R4.4" },
       { no: "様式第41号", name: "道路掘削工事 施工承認申請書", desc: "市道の掘削を伴う工事（水道・下水道接続等）の施工承認申請書です。", formats: ["PDF", "Word"], note: "押印必要", updated: "R4.4" },
@@ -130,7 +130,7 @@ const departments: Department[] = [
   },
   {
     name: "農林課",
-    tel: "0439-88-1111（内線 271）",
+    tel: "0100-88-1111（内線 271）",
     forms: [
       { no: "様式第50号", name: "農地転用許可申請書（農地法第4条）", desc: "農地所有者が自らの農地を農地以外の目的に転用する場合の申請書です。", formats: ["PDF", "Word"], note: "押印必要", updated: "R4.4" },
       { no: "様式第51号", name: "農地転用許可申請書（農地法第5条）", desc: "農地を取得して農地以外の目的に転用する場合の申請書です。", formats: ["PDF", "Word"], note: "押印必要", updated: "R4.4" },
@@ -283,7 +283,7 @@ export default function ShinseiPage() {
             </p>
           </div>
 
-          <PageInfo department="総務課" division="行政係" tel="0439-88-1111（内線 101）" updated="令和8年4月1日" />
+          <PageInfo department="総務課" division="行政係" tel="0100-88-1111（内線 101）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

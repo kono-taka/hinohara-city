@@ -25,7 +25,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8804　千葉県日野原市北部2丁目20番地</td></tr>
-                <tr><th>電話</th><td>0439-88-3200　／　FAX：0439-88-3201</td></tr>
+                <tr><th>電話</th><td>0100-88-3200　／　FAX：0100-88-3201</td></tr>
                 <tr><th>校長</th><td>岸田 明子（きしだ あきこ）</td></tr>
                 <tr><th>生徒数</th><td>312人（令和8年5月1日現在）</td></tr>
                 <tr><th>学級数</th><td>9学級（各学年3学級）</td></tr>
@@ -76,9 +76,9 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　日野原市立第二中学校　☎ 0439-88-3200（平日 8:00〜17:00）
+            <strong>お問い合わせ</strong>　日野原市立第二中学校　☎ 0100-88-3200（平日 8:00〜17:00）
           </div>
-          <PageInfo department="教育総務課" division="学校教育係" tel="0439-88-8301（内線 301）" updated="令和4年4月1日" />
+          <PageInfo department="教育総務課" division="学校教育係" tel="0100-88-8301（内線 301）" updated="令和4年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -94,14 +94,14 @@ export default function JohoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>総務課 情報公開係</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1112</strong></td></tr>
-                <tr><th>FAX</th><td>0439-88-1199</td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1112</strong></td></tr>
+                <tr><th>FAX</th><td>0100-88-1199</td></tr>
                 <tr><th>メール</th><td>joho@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="総務課" division="情報公開係" tel="0439-88-1121（内線 201）" updated="令和5年4月1日" />
+          <PageInfo department="総務課" division="情報公開係" tel="0100-88-1121（内線 201）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

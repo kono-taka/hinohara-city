@@ -77,9 +77,9 @@ export default function EventPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
             <strong>イベント情報の掲載・お問い合わせ</strong><br />
             掲載依頼・お問い合わせ：日野原市役所 企画政策課 広報広聴係<br />
-            電話：0439-88-1115　メール：koho@city.hinohara.lg.jp
+            電話：0100-88-1115　メール：koho@city.hinohara.lg.jp
           </div>
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和8年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -25,13 +25,13 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>中央学童クラブ</th><td>中央小学校内・定員40名・☎ 0439-88-5200</td></tr>
-                <tr><th>北部学童クラブ</th><td>北部小学校内・定員30名・☎ 0439-88-5210</td></tr>
-                <tr><th>南部学童クラブ</th><td>南部小学校内・定員25名・☎ 0439-88-5220</td></tr>
-                <tr><th>東部学童クラブ</th><td>東部小学校内・定員20名・☎ 0439-88-5230</td></tr>
-                <tr><th>原野学童クラブ</th><td>原野小学校内・定員15名・☎ 0439-55-5200</td></tr>
-                <tr><th>白峰学童クラブ</th><td>白峰小学校内・定員12名・☎ 0439-58-5200</td></tr>
-                <tr><th>民間学童（あそびの杜）</th><td>中央2丁目・定員30名・☎ 0439-53-1500</td></tr>
+                <tr><th>中央学童クラブ</th><td>中央小学校内・定員40名・☎ 0100-88-5200</td></tr>
+                <tr><th>北部学童クラブ</th><td>北部小学校内・定員30名・☎ 0100-88-5210</td></tr>
+                <tr><th>南部学童クラブ</th><td>南部小学校内・定員25名・☎ 0100-88-5220</td></tr>
+                <tr><th>東部学童クラブ</th><td>東部小学校内・定員20名・☎ 0100-88-5230</td></tr>
+                <tr><th>原野学童クラブ</th><td>原野小学校内・定員15名・☎ 0100-55-5200</td></tr>
+                <tr><th>白峰学童クラブ</th><td>白峰小学校内・定員12名・☎ 0100-58-5200</td></tr>
+                <tr><th>民間学童（あそびの杜）</th><td>中央2丁目・定員30名・☎ 0100-53-1500</td></tr>
               </tbody>
             </table>
           </div>
@@ -48,9 +48,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　子育て支援課　☎ 0439-88-1123
+            <strong>お問い合わせ</strong>　子育て支援課　☎ 0100-88-1123
           </div>
-          <PageInfo department="子育て支援課" division="放課後係" tel="0439-88-1174（内線 174）" updated="令和6年4月1日" />
+          <PageInfo department="子育て支援課" division="放課後係" tel="0100-88-1174（内線 174）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

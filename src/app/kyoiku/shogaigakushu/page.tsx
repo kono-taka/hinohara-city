@@ -27,7 +27,7 @@ export default function ShogaigakushuPage() {
               <thead><tr><th>項目</th><th>内容</th></tr></thead>
               <tbody>
                 <tr><td>所在地</td><td>東部1丁目8番3号</td></tr>
-                <tr><td>電話</td><td>☎ 0439-53-1200</td></tr>
+                <tr><td>電話</td><td>☎ 0100-53-1200</td></tr>
                 <tr><td>開館時間</td><td>9:00〜21:00（日曜・祝日は17:00まで）</td></tr>
                 <tr><td>休館日</td><td>月曜日（祝日の場合は翌日）・年末年始（12月28日〜1月3日）</td></tr>
               </tbody>
@@ -133,7 +133,7 @@ export default function ShogaigakushuPage() {
               </table>
             </div>
             <p style={{ fontSize: 12, color: "#666", marginTop: 8, lineHeight: 1.8 }}>
-              ※申込は5月15日（木）から生涯学習センター「まなびの館」（☎ 0439-53-1200）または市役所生涯学習課窓口で受け付けます。<br />
+              ※申込は5月15日（木）から生涯学習センター「まなびの館」（☎ 0100-53-1200）または市役所生涯学習課窓口で受け付けます。<br />
               ※定員になり次第締め切り。キャンセル待ち制度あり。
             </p>
           </div>
@@ -180,13 +180,13 @@ export default function ShogaigakushuPage() {
             <table className="content-table" style={{ marginTop: 10 }}>
               <thead><tr><th>公民館名</th><th>所在地</th><th>電話</th></tr></thead>
               <tbody>
-                <tr><td>中央公民館（まなびの館併設）</td><td>東部1丁目</td><td>0439-53-1200</td></tr>
-                <tr><td>北部公民館</td><td>北部2丁目</td><td>0439-53-1400</td></tr>
-                <tr><td>東部公民館</td><td>東部5丁目</td><td>0439-53-1500</td></tr>
-                <tr><td>南部公民館</td><td>南部3丁目</td><td>0439-88-7100</td></tr>
-                <tr><td>原野公民館</td><td>原野地区</td><td>0439-54-2100</td></tr>
-                <tr><td>白峰公民館</td><td>白峰地区</td><td>0439-55-1300</td></tr>
-                <tr><td>川端公民館</td><td>川端地区</td><td>0439-56-0200</td></tr>
+                <tr><td>中央公民館（まなびの館併設）</td><td>東部1丁目</td><td>0100-53-1200</td></tr>
+                <tr><td>北部公民館</td><td>北部2丁目</td><td>0100-53-1400</td></tr>
+                <tr><td>東部公民館</td><td>東部5丁目</td><td>0100-53-1500</td></tr>
+                <tr><td>南部公民館</td><td>南部3丁目</td><td>0100-88-7100</td></tr>
+                <tr><td>原野公民館</td><td>原野地区</td><td>0100-54-2100</td></tr>
+                <tr><td>白峰公民館</td><td>白峰地区</td><td>0100-55-1300</td></tr>
+                <tr><td>川端公民館</td><td>川端地区</td><td>0100-56-0200</td></tr>
               </tbody>
             </table>
             <h3 style={{ fontSize: 14, fontWeight: "bold", margin: "14px 0 8px" }}>文化活動への補助制度</h3>
@@ -202,10 +202,10 @@ export default function ShogaigakushuPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             生涯学習課（市役所2階）<br />
-            ☎ 0439-88-1141　受付時間：平日 8:30〜17:15<br />
-            施設の利用申込・講座申込は生涯学習センター「まなびの館」（☎ 0439-53-1200）でも受け付けています
+            ☎ 0100-88-1141　受付時間：平日 8:30〜17:15<br />
+            施設の利用申込・講座申込は生涯学習センター「まなびの館」（☎ 0100-53-1200）でも受け付けています
           </div>
-          <PageInfo department="生涯学習課" tel="0439-88-8311（内線 311）" updated="令和6年4月1日" />
+          <PageInfo department="生涯学習課" tel="0100-88-8311（内線 311）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

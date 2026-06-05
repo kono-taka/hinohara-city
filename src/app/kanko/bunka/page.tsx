@@ -56,7 +56,7 @@ export default function BunkaPage() {
                 <tr><th>所在地</th><td>日野原市下原字本村456</td></tr>
                 <tr><th>指定</th><td>市指定有形文化財（建造物）</td></tr>
                 <tr><th>特徴</th><td>本棟造り（千葉県の伝統的農家建築）・囲炉裏・農具蔵・庭園が当時の姿をよく伝える</td></tr>
-                <tr><th>見学</th><td>要事前予約（教育委員会文化財係 ☎0439-88-1125）。無料</td></tr>
+                <tr><th>見学</th><td>要事前予約（教育委員会文化財係 ☎0100-88-1125）。無料</td></tr>
               </tbody>
             </table>
           </div>
@@ -68,7 +68,7 @@ export default function BunkaPage() {
                 <tr><th>認定</th><td>農林水産省「日本の棚田百選」（平成11年認定）</td></tr>
                 <tr><th>面積</th><td>約<strong>80ha</strong>（市北部 白峰地区）</td></tr>
                 <tr><th>特徴</th><td>標高600〜900mに広がる約1,500枚の棚田。春の田植え・夏の青田・秋の黄金色と四季折々の景観が楽しめる</td></tr>
-                <tr><th>農業体験</th><td>田植え（5月）・稲刈り（9月）体験あり。申込: 日野原市観光協会 ☎0439-58-8888</td></tr>
+                <tr><th>農業体験</th><td>田植え（5月）・稲刈り（9月）体験あり。申込: 日野原市観光協会 ☎0100-58-8888</td></tr>
                 <tr><th>オーナー制度</th><td>市外の方が棚田1区画（約1a）を1年間オーナーとして管理。年会費15,000円。収穫米（約20kg）を受け取れる</td></tr>
               </tbody>
             </table>
@@ -89,11 +89,11 @@ export default function BunkaPage() {
                 <tr><th>開館時間</th><td>9:00〜16:30（入館は16:00まで）</td></tr>
                 <tr><th>休館日</th><td><strong>月曜日</strong>（祝日の場合は翌火曜）・年末年始（12/28〜1/4）</td></tr>
                 <tr><th>展示内容</th><td>縄文時代の出土品・近世の農具・民俗用具・昭和の生活用品・白峰の棚田ジオラマ</td></tr>
-                <tr><th>電話</th><td>☎0439-88-8800</td></tr>
+                <tr><th>電話</th><td>☎0100-88-8800</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和5年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

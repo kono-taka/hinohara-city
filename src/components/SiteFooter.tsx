@@ -78,8 +78,8 @@ export default function SiteFooter() {
           <div className="footer-city-name">日野原市</div>
           <div className="footer-address">
             〒299-1401　千葉県日野原市中央一丁目1番地1号<br />
-            市役所代表電話：0439-88-1111（平日 午前8時30分〜午後5時15分）<br />
-            FAX：0439-88-1119　　電子メール：info@city.hinohara.lg.jp
+            市役所代表電話：0100-88-1111（平日 午前8時30分〜午後5時15分）<br />
+            FAX：0100-88-1119　　電子メール：info@city.hinohara.lg.jp
           </div>
           <div className="footer-links">
             <a href="/sitemap">サイトマップ</a>

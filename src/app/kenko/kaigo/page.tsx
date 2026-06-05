@@ -148,19 +148,19 @@ export default function KaigoPage() {
                 <tr>
                   <td>中央地域包括支援センター</td>
                   <td>中央1丁目5番地（市役所内）</td>
-                  <td>☎ 0439-88-1121</td>
+                  <td>☎ 0100-88-1121</td>
                   <td>中央・東部地区</td>
                 </tr>
                 <tr>
                   <td>原野地域包括支援センター</td>
                   <td>原野地区公民館内</td>
-                  <td>☎ 0439-54-3100</td>
+                  <td>☎ 0100-54-3100</td>
                   <td>原野・北部地区</td>
                 </tr>
                 <tr>
                   <td>白峰地域包括支援センター</td>
                   <td>白峰地区福祉センター内</td>
-                  <td>☎ 0439-55-2200</td>
+                  <td>☎ 0100-55-2200</td>
                   <td>白峰・南部地区</td>
                 </tr>
               </tbody>
@@ -172,7 +172,7 @@ export default function KaigoPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             高齢者支援課（市役所1階）<br />
-            ☎ 0439-88-1121　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1121　受付時間：平日 8:30〜17:15
           </div>
           <div className="section-title" style={{ marginTop: 16 }}>介護保険 関連情報</div>
           <div style={{ border: "1px solid var(--border-light)", borderTop: "none", background: "#fff" }}>
@@ -188,7 +188,7 @@ export default function KaigoPage() {
               </div>
             ))}
           </div>
-          <PageInfo department="介護保険課" tel="0439-88-1162（内線 162）" updated="令和6年4月1日" />
+          <PageInfo department="介護保険課" tel="0100-88-1162（内線 162）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

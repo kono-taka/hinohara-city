@@ -25,11 +25,11 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>健康推進課（市役所1階）</th><td>精神保健福祉士・保健師による相談（☎ 0439-88-1122）要予約・無料</td></tr>
+                <tr><th>健康推進課（市役所1階）</th><td>精神保健福祉士・保健師による相談（☎ 0100-88-1122）要予約・無料</td></tr>
                 <tr><th>こころの健康相談（月1回）</th><td>精神科医による相談。市役所相談室。要予約（定員4名）</td></tr>
-                <tr><th>よりそいホットライン</th><td>☎ 0120-279-338（24時間・無料）</td></tr>
+                <tr><th>よりそいホットライン</th><td>☎ 0120-100-000（24時間・無料）</td></tr>
                 <tr><th>いのちの電話（千葉県）</th><td>☎ 043-227-3900（毎日16時〜21時）</td></tr>
-                <tr><th>よりそいホットライン（女性専用）</th><td>☎ 0120-279-338（24時間）</td></tr>
+                <tr><th>よりそいホットライン（女性専用）</th><td>☎ 0120-100-000（24時間）</td></tr>
               </tbody>
             </table>
           </div>
@@ -48,9 +48,9 @@ export default function Page() {
             緊急の場合や自殺の危険が高い場合は、直ちに119番または警察（110番）へ連絡してください。
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　健康推進課　☎ 0439-88-1122
+            <strong>お問い合わせ</strong>　健康推進課　☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" division="保健係" tel="0439-88-1167（内線 167）" updated="令和5年4月1日" />
+          <PageInfo department="健康推進課" division="保健係" tel="0100-88-1167（内線 167）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

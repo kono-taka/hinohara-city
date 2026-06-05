@@ -47,9 +47,9 @@ export default function Page() {
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0439-88-1121
+            <strong>お問い合わせ</strong>　高齢者支援課　☎ 0100-88-1121
           </div>
-          <PageInfo department="介護保険課" tel="0439-88-1162（内線 162）" updated="令和6年4月1日" />
+          <PageInfo department="介護保険課" tel="0100-88-1162（内線 162）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

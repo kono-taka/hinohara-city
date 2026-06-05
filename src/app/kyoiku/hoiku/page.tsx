@@ -41,7 +41,7 @@ export default function HoikuPage() {
                     <td>市立ひのはら保育所</td>
                     <td>認定こども園</td>
                     <td>中央1丁目</td>
-                    <td>0439-88-5200</td>
+                    <td>0100-88-5200</td>
                     <td>120名</td>
                     <td>0〜5歳</td>
                     <td>7:00〜19:00</td>
@@ -50,7 +50,7 @@ export default function HoikuPage() {
                     <td>市立北部保育所</td>
                     <td>保育所</td>
                     <td>北部4丁目</td>
-                    <td>0439-53-2100</td>
+                    <td>0100-53-2100</td>
                     <td>60名</td>
                     <td>0〜5歳</td>
                     <td>7:30〜18:30</td>
@@ -59,7 +59,7 @@ export default function HoikuPage() {
                     <td>市立原野保育所</td>
                     <td>保育所</td>
                     <td>原野地区</td>
-                    <td>0439-54-1200</td>
+                    <td>0100-54-1200</td>
                     <td>40名</td>
                     <td>0〜5歳</td>
                     <td>7:30〜18:00</td>
@@ -68,7 +68,7 @@ export default function HoikuPage() {
                     <td>白峰保育園</td>
                     <td>私立保育所</td>
                     <td>白峰地区</td>
-                    <td>0439-55-0300</td>
+                    <td>0100-55-0300</td>
                     <td>30名</td>
                     <td>0〜5歳</td>
                     <td>7:30〜18:30</td>
@@ -77,7 +77,7 @@ export default function HoikuPage() {
                     <td>日野原幼稚園</td>
                     <td>私立幼稚園</td>
                     <td>中央5丁目</td>
-                    <td>0439-88-5500</td>
+                    <td>0100-88-5500</td>
                     <td>80名</td>
                     <td>3〜5歳</td>
                     <td>9:00〜14:00</td>
@@ -188,7 +188,7 @@ export default function HoikuPage() {
               <li><strong>入所（4月1日）</strong>　入所説明会は3月中旬に各施設で実施</li>
             </ol>
             <p style={{ fontSize: 12, color: "#666", marginTop: 8, lineHeight: 1.8 }}>
-              ※年度途中の入所は随時受け付けています。空き状況は子育て支援課（☎ 0439-88-1123）にお問い合わせください。
+              ※年度途中の入所は随時受け付けています。空き状況は子育て支援課（☎ 0100-88-1123）にお問い合わせください。
             </p>
           </div>
 
@@ -196,9 +196,9 @@ export default function HoikuPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             子育て支援課（市役所1階）<br />
-            ☎ 0439-88-1123　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1123　受付時間：平日 8:30〜17:15
           </div>
-          <PageInfo department="子育て支援課" division="保育係" tel="0439-88-1172（内線 172）" updated="令和8年4月1日" />
+          <PageInfo department="子育て支援課" division="保育係" tel="0100-88-1172（内線 172）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

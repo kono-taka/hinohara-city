@@ -48,9 +48,9 @@ export default function Page() {
             食品の寄附も随時受け付けています。職場・学校・地域での「フードドライブ」にもご協力ください。
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　福祉課　☎ 0439-88-1120
+            <strong>お問い合わせ</strong>　福祉課　☎ 0100-88-1120
           </div>
-          <PageInfo department="福祉課" tel="0439-88-1161（内線 163）" updated="令和5年4月1日" />
+          <PageInfo department="福祉課" tel="0100-88-1161（内線 163）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

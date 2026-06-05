@@ -24,7 +24,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8808　千葉県日野原市下原字農地1500番地</td></tr>
-                <tr><th>電話</th><td>0439-88-8800　／　FAX：0439-88-8801</td></tr>
+                <tr><th>電話</th><td>0100-88-8800　／　FAX：0100-88-8801</td></tr>
                 <tr><th>開園時間</th><td>午前9時〜午後5時</td></tr>
                 <tr><th>休園日</th><td>12月〜3月（冬季休園）・荒天時臨時休園</td></tr>
                 <tr><th>入園料</th><td>無料（体験プログラムは別途料金）</td></tr>
@@ -64,10 +64,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ・ご予約</strong>　農業公園「ひのはら農楽園」管理事務所　☎ 0439-88-8800<br />
+            <strong>お問い合わせ・ご予約</strong>　農業公園「ひのはら農楽園」管理事務所　☎ 0100-88-8800<br />
             びわ狩り・落花生掘り・加工体験の団体予約は電話またはウェブフォームで。
           </div>
-          <PageInfo department="農林課" tel="0439-88-1143（内線 143）" updated="令和6年4月1日" />
+          <PageInfo department="農林課" tel="0100-88-1143（内線 143）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

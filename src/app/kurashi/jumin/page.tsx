@@ -150,7 +150,7 @@ export default function JuminPage() {
                 </tr>
                 <tr>
                   <th>電話番号</th>
-                  <td>☎ 0439-88-1113</td>
+                  <td>☎ 0100-88-1113</td>
                 </tr>
                 <tr>
                   <th>開庁時間</th>
@@ -163,7 +163,7 @@ export default function JuminPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="市民課" division="窓口班" tel="0439-88-1113（内線 212）" updated="令和7年10月1日" />
+          <PageInfo department="市民課" division="窓口班" tel="0100-88-1113（内線 212）" updated="令和7年10月1日" />
         </main>
         <Sidebar />
       </div>

@@ -39,16 +39,16 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>育児相談窓口</th><td>健康推進課（市役所1階）☎ 0439-88-1122　随時受付</td></tr>
+                <tr><th>育児相談窓口</th><td>健康推進課（市役所1階）☎ 0100-88-1122　随時受付</td></tr>
                 <tr><th>乳幼児相談</th><td>毎月第2・第4木曜日 午後1時30分〜（保健師・栄養士）</td></tr>
                 <tr><th>電話相談</th><td>平日 午前9時〜午後5時</td></tr>
               </tbody>
             </table>
           </div>
           <div style={{ padding: 14, background: "var(--bg-section)", border: "1px solid var(--border-light)", fontSize: 12.5, lineHeight: 1.9, borderRadius: "0 0 var(--radius-sm) var(--radius-sm)" }}>
-            <strong>お問い合わせ</strong>　健康推進課　☎ 0439-88-1122
+            <strong>お問い合わせ</strong>　健康推進課　☎ 0100-88-1122
           </div>
-          <PageInfo department="健康推進課" division="母子保健係" tel="0439-88-1167（内線 167）" updated="令和8年4月1日" />
+          <PageInfo department="健康推進課" division="母子保健係" tel="0100-88-1167（内線 167）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

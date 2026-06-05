@@ -234,15 +234,15 @@ export default function ChotatsuPage() {
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.9, marginTop: 16 }}>
             <strong>お問い合わせ</strong><br />
-            入札・契約全般：総務課 契約検査係　☎ 0439-88-1122（内線 122）<br />
-            工事・設計監理：建設課 工事係　☎ 0439-88-1183（内線 183）<br />
+            入札・契約全般：総務課 契約検査係　☎ 0100-88-1122（内線 122）<br />
+            工事・設計監理：建設課 工事係　☎ 0100-88-1183（内線 183）<br />
             受付時間：平日 8:30〜17:15
           </div>
 
           <PageInfo
             department="総務課"
             division="契約検査係"
-            tel="0439-88-1122（内線 122）"
+            tel="0100-88-1122（内線 122）"
             updated="令和8年6月1日"
           />
         </main>

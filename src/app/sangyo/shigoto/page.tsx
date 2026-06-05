@@ -38,7 +38,7 @@ export default function ShigotoPage() {
                 <tr><th>時間</th><td>10:00〜15:00</td></tr>
                 <tr><th>場所</th><td>日野原市役所 2階 第2会議室</td></tr>
                 <tr><th>内容</th><td>求職相談・求人紹介・雇用保険・助成金相談</td></tr>
-                <tr><th>予約・問合せ</th><td>☎<strong>0439-88-1114</strong>（農林振興課商工係）事前予約制</td></tr>
+                <tr><th>予約・問合せ</th><td>☎<strong>0100-88-1114</strong>（農林振興課商工係）事前予約制</td></tr>
               </tbody>
             </table>
           </div>
@@ -66,7 +66,7 @@ export default function ShigotoPage() {
               <li>対象: 原則60歳以上の健康な市民</li>
               <li>主な仕事: 家事援助・除草・剪定・清掃・軽作業・事務</li>
               <li>会員数: 約320人（令和7年度）</li>
-              <li>電話: ☎0439-88-7788</li>
+              <li>電話: ☎0100-88-7788</li>
             </ul>
             <h3 style={{ fontSize: 14, fontWeight: "bold", margin: "10px 0 6px" }}>就労継続支援事業所（市内一覧）</h3>
             <table className="content-table">
@@ -74,9 +74,9 @@ export default function ShigotoPage() {
                 <tr><th>事業所名</th><th>区分</th><th>電話</th></tr>
               </thead>
               <tbody>
-                <tr><td>ひのはら工房</td><td>A型</td><td>☎0439-55-2211</td></tr>
-                <tr><td>あおぞら作業所</td><td>B型</td><td>☎0439-55-3344</td></tr>
-                <tr><td>白峰ファーム</td><td>B型</td><td>☎0439-56-1122</td></tr>
+                <tr><td>ひのはら工房</td><td>A型</td><td>☎0100-55-2211</td></tr>
+                <tr><td>あおぞら作業所</td><td>B型</td><td>☎0100-55-3344</td></tr>
+                <tr><td>白峰ファーム</td><td>B型</td><td>☎0100-56-1122</td></tr>
               </tbody>
             </table>
           </div>
@@ -99,13 +99,13 @@ export default function ShigotoPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>担当課</th><td>農林振興課 商工係</td></tr>
-                <tr><th>電話</th><td>☎<strong>0439-88-1136</strong></td></tr>
+                <tr><th>電話</th><td>☎<strong>0100-88-1136</strong></td></tr>
                 <tr><th>メール</th><td>shoko@city.hinohara.lg.jp</td></tr>
                 <tr><th>窓口時間</th><td>平日 8:30〜17:15（祝日・年末年始を除く）</td></tr>
               </tbody>
             </table>
           </div>
-          <PageInfo department="産業振興課" division="雇用推進係" tel="0439-88-1141（内線 141）" updated="令和5年4月1日" />
+          <PageInfo department="産業振興課" division="雇用推進係" tel="0100-88-1141（内線 141）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

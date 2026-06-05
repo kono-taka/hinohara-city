@@ -24,7 +24,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8821　千葉県日野原市白峰字高原台地2800番地</td></tr>
-                <tr><th>電話</th><td>0439-58-2100</td></tr>
+                <tr><th>電話</th><td>0100-58-2100</td></tr>
                 <tr><th>標高</th><td>約1,100m</td></tr>
                 <tr><th>開館時間</th><td>午前9時〜午後5時</td></tr>
                 <tr><th>休館日</th><td>11月下旬〜4月下旬（冬季閉館）・開館期間中の火曜日</td></tr>
@@ -59,10 +59,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　白峰高原ビジターセンター　☎ 0439-58-2100<br />
-            ※冬季（11月下旬〜4月下旬）は閉館のため、市役所 観光振興課（☎ 0439-88-1138）へお問い合わせください。
+            <strong>お問い合わせ</strong>　白峰高原ビジターセンター　☎ 0100-58-2100<br />
+            ※冬季（11月下旬〜4月下旬）は閉館のため、市役所 観光振興課（☎ 0100-88-1138）へお問い合わせください。
           </div>
-          <PageInfo department="産業振興課" division="観光係" tel="0439-88-1144（内線 144）" updated="令和5年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

@@ -24,7 +24,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>所在地</th><td>〒298-8805　千葉県日野原市南部2丁目3番地15号</td></tr>
-                <tr><th>電話</th><td>0439-88-6100　／　FAX：0439-88-6101</td></tr>
+                <tr><th>電話</th><td>0100-88-6100　／　FAX：0100-88-6101</td></tr>
                 <tr><th>開館時間</th><td>午前9時〜午後5時</td></tr>
                 <tr><th>休館日</th><td>日曜日・年末年始（12月29日〜1月3日）</td></tr>
                 <tr><th>利用対象</th><td>市内在住の60歳以上の方（無料）</td></tr>
@@ -63,10 +63,10 @@ export default function Page() {
           </div>
 
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8 }}>
-            <strong>お問い合わせ</strong>　日野原市老人福祉センター「長寿の家」　☎ 0439-88-6100<br />
-            高齢者支援課（☎ 0439-88-1121）でも施設についての相談を受け付けています。
+            <strong>お問い合わせ</strong>　日野原市老人福祉センター「長寿の家」　☎ 0100-88-6100<br />
+            高齢者支援課（☎ 0100-88-1121）でも施設についての相談を受け付けています。
           </div>
-          <PageInfo department="介護保険課" division="高齢支援係" tel="0439-88-1162（内線 162）" updated="令和5年4月1日" />
+          <PageInfo department="介護保険課" division="高齢支援係" tel="0100-88-1162（内線 162）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>

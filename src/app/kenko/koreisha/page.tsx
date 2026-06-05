@@ -46,7 +46,7 @@ export default function KoreishaPage() {
                 <tr><td>自己負担割合</td><td>1割（現役並み所得者は3割、一定以上所得者は2割）</td></tr>
                 <tr><td>保険料</td><td>所得割率・均等割額は広域連合が2年ごとに設定。保険料は市が徴収</td></tr>
                 <tr><td>保険証の更新</td><td>毎年8月1日に更新（7月末に新しい保険証を郵送）</td></tr>
-                <tr><td>申請・相談窓口</td><td>市民課（市役所1階）☎ 0439-88-1113</td></tr>
+                <tr><td>申請・相談窓口</td><td>市民課（市役所1階）☎ 0100-88-1113</td></tr>
               </tbody>
             </table>
           </div>
@@ -59,7 +59,7 @@ export default function KoreishaPage() {
               <thead><tr><th>項目</th><th>内容</th></tr></thead>
               <tbody>
                 <tr><td>所在地</td><td>南部2丁目3番15号</td></tr>
-                <tr><td>電話</td><td>☎ 0439-88-6100</td></tr>
+                <tr><td>電話</td><td>☎ 0100-88-6100</td></tr>
                 <tr><td>開館時間</td><td>9:00〜17:00（年末年始・月曜休館）</td></tr>
                 <tr><td>施設</td><td>大浴場（入浴無料）・集会室・体操室・和室・談話コーナー</td></tr>
                 <tr><td>主な事業</td><td>健康体操（毎週火・木）、囲碁・将棋教室（毎週水）、茶道・書道（月2回）</td></tr>
@@ -136,9 +136,9 @@ export default function KoreishaPage() {
           <div style={{ padding: 14, background: "#f4f6fb", border: "1px solid var(--border-light)", fontSize: 12, lineHeight: 1.8, marginTop: 16 }}>
             <strong>お問い合わせ先</strong><br />
             高齢者支援課（市役所1階）<br />
-            ☎ 0439-88-1121　受付時間：平日 8:30〜17:15
+            ☎ 0100-88-1121　受付時間：平日 8:30〜17:15
           </div>
-          <PageInfo department="介護保険課" division="高齢支援係" tel="0439-88-1162（内線 162）" updated="令和6年4月1日" />
+          <PageInfo department="介護保険課" division="高齢支援係" tel="0100-88-1162（内線 162）" updated="令和6年4月1日" />
         </main>
         <Sidebar />
       </div>

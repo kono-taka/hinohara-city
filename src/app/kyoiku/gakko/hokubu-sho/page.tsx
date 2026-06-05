@@ -26,8 +26,8 @@ export default function HokubuShoPage() {
               <tbody>
                 <tr><th style={{ width: 140 }}>学校名</th><td>日野原市立北部小学校</td></tr>
                 <tr><th>所在地</th><td>〒384-0001　千葉県日野原市北部3丁目8番地</td></tr>
-                <tr><th>電話番号</th><td>0439-88-2200</td></tr>
-                <tr><th>FAX</th><td>0439-88-2201</td></tr>
+                <tr><th>電話番号</th><td>0100-88-2200</td></tr>
+                <tr><th>FAX</th><td>0100-88-2201</td></tr>
                 <tr><th>校長名</th><td>松沢 健太郎（まつざわ けんたろう）</td></tr>
                 <tr><th>児童数</th><td>218人（令和8年5月1日現在）</td></tr>
                 <tr><th>学級数</th><td>8学級</td></tr>
@@ -91,14 +91,14 @@ export default function HokubuShoPage() {
           <div className="section-title">お問い合わせ</div>
           <div className="content-box">
             <p style={{ margin: 0 }}>
-              日野原市立北部小学校　☎ <strong>0439-88-2200</strong>（FAX: 0439-88-2201）<br />
+              日野原市立北部小学校　☎ <strong>0100-88-2200</strong>（FAX: 0100-88-2201）<br />
               受付時間：平日 8:00〜17:00
             </p>
             <p style={{ margin: "8px 0 0", fontSize: 12, color: "#666" }}>
-              ※学校へのご意見・ご要望は、日野原市教育委員会学校教育係（0439-88-1188）でも受け付けております。
+              ※学校へのご意見・ご要望は、日野原市教育委員会学校教育係（0100-88-1188）でも受け付けております。
             </p>
           </div>
-          <PageInfo department="教育総務課" division="学校教育係" tel="0439-88-8301（内線 301）" updated="令和5年4月1日" />
+          <PageInfo department="教育総務課" division="学校教育係" tel="0100-88-8301（内線 301）" updated="令和5年4月1日" />
         </main>
         <Sidebar />
       </div>
