@@ -154,16 +154,7 @@ export default function Home() {
               <a
                 key={item.label}
                 href={item.href}
-                style={{
-                  display: "flex", alignItems: "center", gap: 6,
-                  padding: "9px 10px",
-                  fontSize: 12, color: "#333", textDecoration: "none",
-                  borderRight: "1px solid var(--border-light)",
-                  borderBottom: "1px solid var(--border-light)",
-                  transition: "background 0.1s",
-                }}
-                onMouseOver={e => (e.currentTarget.style.background = "#f0f6f3")}
-                onMouseOut={e => (e.currentTarget.style.background = "")}
+                className="popular-item"
               >
                 <span style={{ fontSize: 15 }}>{item.emoji}</span>
                 <span style={{ lineHeight: 1.4 }}>{item.label}</span>
