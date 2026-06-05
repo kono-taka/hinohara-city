@@ -12,7 +12,7 @@ const schools = [
   { name: "日野原市立南部小学校", href: "/kyoiku/gakko/nanbu-sho",   address: "南部一丁目15番地",   tel: "0100-88-2300", pupils: 248, classes: 8 },
   { name: "日野原市立東部小学校", href: "/kyoiku/gakko/tobu-sho",    address: "東部二丁目4番地",    tel: "0100-88-2400", pupils: 195, classes: 6 },
   { name: "日野原市立原野小学校", href: "/kyoiku/gakko/haruno-sho",  address: "原野字宮ノ下45番地", tel: "0100-55-1100", pupils: 163, classes: 6 },
-  { name: "日野原市立白峰小学校", href: "/kyoiku/gakko/shirotaki-sho", address: "白峰字学校台200番地", tel: "0100-58-1200", pupils: 72, classes: 6 },
+  { name: "日野原市立白嶺小学校", href: "/kyoiku/gakko/shirotaki-sho", address: "白嶺字学校台200番地", tel: "0100-58-1200", pupils: 72, classes: 6 },
   { name: "日野原市立第一中学校", href: "/kyoiku/gakko/daiichi-chu", address: "中央四丁目2番地",    tel: "0100-88-3100", pupils: 412, classes: 12 },
   { name: "日野原市立第二中学校", href: "/kyoiku/gakko/daini-chu",   address: "北部二丁目20番地",   tel: "0100-88-3200", pupils: 298, classes: 9 },
   { name: "日野原市立原野中学校", href: "/kyoiku/gakko/haruno-chu",  address: "原野字中沢120番地",  tel: "0100-55-1300", pupils: 154, classes: 3 },
@@ -73,7 +73,7 @@ export default function KyoikuPage() {
                   { name: "市立ひのはら保育所", type: "認定こども園", address: "中央一丁目", tel: "0100-88-4100" },
                   { name: "市立北部保育所", type: "保育所（公立）", address: "北部四丁目", tel: "0100-88-4200" },
                   { name: "市立原野保育所", type: "保育所（公立）", address: "原野字上田", tel: "0100-55-2100" },
-                  { name: "社会福祉法人 白峰保育園", type: "保育所（私立）", address: "白峰字里", tel: "0100-58-2300" },
+                  { name: "社会福祉法人 白嶺保育園", type: "保育所（私立）", address: "白嶺字里", tel: "0100-58-2300" },
                   { name: "学校法人 日野原幼稚園", type: "幼稚園（私立）", address: "中央五丁目", tel: "0100-88-4400" },
                   { name: "NPO法人 あそびの森", type: "認可外保育施設", address: "東部一丁目", tel: "0100-53-0800" },
                 ].map((f, i) => (

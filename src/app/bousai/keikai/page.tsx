@@ -23,7 +23,7 @@ export default function KeikaiPage() {
             ⚠ 土砂災害警戒情報 発令中
           </div>
           <div style={{ fontSize: 16, fontWeight: "bold" }}>
-            対象地区: <span style={{ background: "rgba(0,0,0,0.2)", padding: "2px 8px", borderRadius: 3 }}>白峰地区</span>
+            対象地区: <span style={{ background: "rgba(0,0,0,0.2)", padding: "2px 8px", borderRadius: 3 }}>白嶺地区</span>
             警戒レベル: <span style={{ background: "#b71c1c", padding: "2px 12px", borderRadius: 3, fontSize: 18 }}>レベル3</span>
           </div>
           <div style={{ fontSize: 13, marginTop: 8, borderTop: "1px solid rgba(255,255,255,0.3)", paddingTop: 8 }}>
@@ -99,32 +99,32 @@ export default function KeikaiPage() {
           <table className="content-table">
             <tbody>
               <tr><th>情報の種類</th><td><strong>土砂災害警戒情報</strong></td></tr>
-              <tr><th>対象地区</th><td><strong>白峰地区全域</strong>（白峰字里・白峰字高原・白峰字平・白峰字南）</td></tr>
+              <tr><th>対象地区</th><td><strong>白嶺地区全域</strong>（白嶺字里・白嶺字高原・白嶺字平・白嶺字南）</td></tr>
               <tr><th>警戒レベル</th><td><strong style={{ color: "#fdd835", fontSize: 15 }}>レベル3（高齢者等避難）</strong></td></tr>
               <tr><th>発表日時</th><td>令和8年6月1日（日）<strong>8時45分</strong></td></tr>
               <tr><th>発表機関</th><td>千葉県・気象庁</td></tr>
-              <tr><th>状況</th><td>前日からの大雨により白峰地区の土壌雨量指数が基準値を超過。引き続き強雨が予想されるため、高齢者等の方はただちに避難してください。</td></tr>
+              <tr><th>状況</th><td>前日からの大雨により白嶺地区の土壌雨量指数が基準値を超過。引き続き強雨が予想されるため、高齢者等の方はただちに避難してください。</td></tr>
             </tbody>
           </table>
         </div>
 
         {/* 避難場所 */}
         <div className="content-box" style={{ borderTop: "4px solid #1976d2" }}>
-          <h2 className="section-title">開設中の避難所（白峰地区）</h2>
+          <h2 className="section-title">開設中の避難所（白嶺地区）</h2>
           <table className="content-table">
             <thead>
               <tr><th>施設名</th><th>住所</th><th>収容人数</th><th>電話</th></tr>
             </thead>
             <tbody>
               <tr>
-                <td><strong>白峰地区センター</strong></td>
-                <td>白峰字里100</td>
+                <td><strong>白嶺地区センター</strong></td>
+                <td>白嶺字里100</td>
                 <td>200人</td>
                 <td>☎0100-56-3300</td>
               </tr>
             </tbody>
           </table>
-          <p style={{ fontSize: 12, color: "#666", marginTop: 8 }}>ペット同伴の方は白峰地区センター西側の駐車場をご利用ください（屋外ペットスペースあり）。</p>
+          <p style={{ fontSize: 12, color: "#666", marginTop: 8 }}>ペット同伴の方は白嶺地区センター西側の駐車場をご利用ください（屋外ペットスペースあり）。</p>
           <p style={{ fontSize: 13, marginTop: 8 }}>
             <a href="/kurashi/bousai" style={{ color: "#1565c0" }}>▶ 市内全避難所・ハザードマップはこちら（くらし › 防災・消防）</a>
           </p>

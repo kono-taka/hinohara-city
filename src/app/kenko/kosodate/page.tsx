@@ -64,9 +64,9 @@ export default function KosodatePage() {
                     <td>7:30〜18:00</td>
                   </tr>
                   <tr>
-                    <td>白峰保育園</td>
+                    <td>白嶺保育園</td>
                     <td>私立保育所</td>
-                    <td>白峰地区</td>
+                    <td>白嶺地区</td>
                     <td>0100-55-0300</td>
                     <td>30名</td>
                     <td>0〜5歳</td>

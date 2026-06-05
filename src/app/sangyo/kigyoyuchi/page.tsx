@@ -19,14 +19,14 @@ export default function KigyoyuchiPage() {
 
           <div className="content-box">
             <h2 className="section-title">日野原市の立地優位性</h2>
-            <p>日野原市は千葉県南房総地域に位置し、豊かな自然環境と充実した交通アクセスを併せ持つ産業立地に適した環境を提供しています。</p>
+            <p>日野原市は千葉県南部内陸地域に位置し、豊かな自然環境と充実した交通アクセスを併せ持つ産業立地に適した環境を提供しています。</p>
             <table className="content-table">
               <thead>
                 <tr><th>項目</th><th>詳細</th></tr>
               </thead>
               <tbody>
-                <tr><td>高速道路アクセス</td><td>館山道 君津ICから<strong>35分</strong>・中央道 諏訪ICから55分</td></tr>
-                <tr><td>鉄道アクセス</td><td>JR内房線「日野原駅」・特急利用で君津駅乗換え東京2時間30分</td></tr>
+                <tr><td>高速道路アクセス</td><td>館山自動車道 君津ICから<strong>35分</strong>・東京湾アクアライン経由（木更津東IC）から<strong>約60分</strong></td></tr>
+                <tr><td>公共交通アクセス</td><td>JR内房線「君津駅」より市営バス約35分。高速バス（東京駅〜日野原中央）も1日3往復運行</td></tr>
                 <tr><td>用地コスト</td><td>市原市内比 約40〜50%低水準</td></tr>
                 <tr><td>自然環境</td><td>清澄な空気・豊富な水資源・美しい景観（従業員満足度向上）</td></tr>
                 <tr><td>労働力</td><td>勤勉で定着率の高い地元労働者。移住促進による人材確保も支援</td></tr>
@@ -67,7 +67,7 @@ export default function KigyoyuchiPage() {
             <h2 className="section-title">市内立地企業の主な業種</h2>
             <ul style={{ paddingLeft: 18, fontSize: 13, lineHeight: 1.8 }}>
               <li><strong>精密機械・電子部品</strong>: 計測機器・センサー・FA機器の製造（房総内陸部の製造業集積の一角）</li>
-              <li><strong>食品加工</strong>: りんごジュース・ドライフルーツ・そば製品・味噌・乳製品の製造</li>
+              <li><strong>食品加工</strong>: びわジュース・びわジャム・落花生加工品・そば製品・味噌・乳製品の製造</li>
               <li><strong>ICT・IT関連</strong>: サーバーファーム・コールセンター・ソフトウェア開発（高速光回線完備）</li>
               <li><strong>木材・建材</strong>: 地域材を活用した製材・木工品製造</li>
             </ul>

@@ -5,7 +5,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "観光・移住", description: "白峰高原・やまびこ祭りなど観光情報、移住・定住支援制度、空き家バンク、特産品（びわ・落花生）など日野原市の魅力をご案内します。" };
+export const metadata: Metadata = { title: "観光・移住", description: "白嶺高原・やまびこ祭りなど観光情報、移住・定住支援制度、空き家バンク、特産品（びわ・落花生）など日野原市の魅力をご案内します。" };
 
 const spots = [
   {
@@ -17,11 +17,11 @@ const spots = [
     href: "/kanko/alps",
   },
   {
-    name: "白峰温泉郷",
+    name: "白嶺温泉郷",
     desc: "泉質はナトリウム・カルシウム－塩化物泉（食塩泉）。標高280mの丘陵地に湧く温泉で、周囲の照葉樹林が美しい。",
     season: "通年営業（旅館6軒・日帰り施設2か所）",
     photo: "/images/spots/spot-onsen2.png",
-    alt: "白峰温泉郷の露天風呂",
+    alt: "白嶺温泉郷の露天風呂",
     href: null,
   },
   {
@@ -47,6 +47,14 @@ const spots = [
     photo: "/images/spots/spot-biwa.png",
     alt: "ぽんなわびわ狩り体験農園",
     href: "/kanko/biwa",
+  },
+  {
+    name: "白嶺の棚田",
+    desc: "市北部・白嶺地区に広がる約80haの棚田群。日本の棚田百選認定地。春の水張りと秋の黄金色の稲穂が美しく、散策路も整備されています。棚田オーナー制度で農家と交流しながら農業体験も可能。",
+    season: "水張り見頃：5月上旬　稲刈り：9月下旬",
+    photo: "/images/spots/spot-tanada.png",
+    alt: "白嶺の棚田と里山の景色",
+    href: "/kanko/bunka",
   },
   {
     name: "中央公園・市民の森",
@@ -119,8 +127,8 @@ export default function KankoPage() {
                   <td>春はこごみ・わらび・たらの芽、秋はまいたけ・なめこ・えのき。道の駅では地元産の旬の山の幸を販売しています。</td>
                 </tr>
                 <tr>
-                  <th>白峰牛乳・乳製品</th>
-                  <td>白峰高原牧場産の生乳を使った牛乳・ヨーグルト・チーズ。牧場直営ショップで購入可。</td>
+                  <th>白嶺牛乳・乳製品</th>
+                  <td>白嶺高原牧場産の生乳を使った牛乳・ヨーグルト・チーズ。牧場直営ショップで購入可。</td>
                 </tr>
               </tbody>
             </table>
@@ -130,9 +138,12 @@ export default function KankoPage() {
           <div className="content-box" style={{ borderTop: "none" }}>
             <h3>日野原市への移住をお考えの方へ</h3>
             <p style={{ fontSize: 13, lineHeight: 1.8, marginBottom: 12 }}>
-              日野原市では、人口減少対策として移住・定住の促進に積極的に取り組んでいます。
-              豊かな自然環境の中でのスローライフ、テレワークを活用した働き方など、
-              都市部とは異なる暮らしのスタイルをご提案します。
+              日野原市は、房総丘陵に囲まれた内陸の山間自治体です。
+              海には面していませんが、内房沿岸部へは車で約45分。
+              山の暮らしを基盤にしながら、週末は海沿いへ出かけることもできる立地です。<br />
+              市では人口減少対策として移住・定住を積極的に支援しています。
+              古い家を直して暮らしたい方、自然の近くでテレワークをしたい方、農業に興味のある方など、
+              さまざまな移住相談をお受けしています。
             </p>
             <table className="content-table">
               <tbody>
@@ -161,16 +172,16 @@ export default function KankoPage() {
             <table className="content-table">
               <tbody>
                 <tr>
-                  <th>鉄道</th>
-                  <td>JR内房線「日野原駅」下車（君津駅より約25分）<br />特急さざなみ・新宿さざなみ利用で新宿駅より約1時間50分</td>
+                  <th>電車＋バス</th>
+                  <td>JR内房線「君津駅」下車 → 市営ひのはらバス「日野原中央行き」約35分<br />東京駅より君津駅まで特急さざなみ利用で約50分（合計約1時間45分）</td>
                 </tr>
                 <tr>
                   <th>高速バス</th>
-                  <td>新宿〜日野原市中央（バスターミナル）直行便あり（所要約3時間10分）<br />1日4往復運行（京王電鉄バス・アルピコ交通 共同運行）</td>
+                  <td>東京駅八重洲口〜日野原中央バスターミナル 直行便（所要約1時間50分）<br />1日3往復運行。詳細は日野原市観光協会（☎0100-58-8888）まで</td>
                 </tr>
                 <tr>
                   <th>車</th>
-                  <td>館山自動車道「君津IC」より約35分<br />駐車場：市役所前駐車場（無料・120台）、観光案内所隣（無料・40台）</td>
+                  <td>館山自動車道「君津IC」より国道410号経由 約30分<br />東京湾アクアライン経由（木更津東IC）からも約1時間20分<br />駐車場：市役所前駐車場（無料・120台）、道の駅ひのはら原野（無料・200台）</td>
                 </tr>
               </tbody>
             </table>

@@ -8,12 +8,12 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "日野原市の紹介",
-  description: "日野原市の基本情報・人口・地理・産業・シンボルをご紹介します。人口42,381人・面積312.41km²。千葉県南房総に位置する自然豊かな市です。",
+  description: "日野原市の基本情報・人口・地理・産業・シンボルをご紹介します。人口35,200人・面積312.41km²。千葉県南部内陸に位置する房総丘陵の山間の市です。",
 };
 
 const stats = [
-  { label: "総人口",     value: "42,381", unit: "人",   note: "令和7年5月1日現在" },
-  { label: "世帯数",     value: "17,902", unit: "世帯", note: "令和7年5月1日現在" },
+  { label: "総人口",     value: "35,200", unit: "人",   note: "令和7年5月1日現在" },
+  { label: "世帯数",     value: "14,500", unit: "世帯", note: "令和7年5月1日現在" },
   { label: "総面積",     value: "312.41", unit: "km²",  note: "千葉県内第14位" },
   { label: "市制施行",   value: "2006",   unit: "年",   note: "平成18年3月20日" },
 ];
@@ -74,8 +74,8 @@ export default function GaiyouPage() {
                 日野原市（ひのはらし）
               </p>
               <p style={{ fontSize: 13, color: "#444", lineHeight: 1.85, margin: 0 }}>
-                千葉県南房総地方に位置する、緑豊かな山間の市です。<br />
-                旧日野町・原野村・白峰村が合併し、平成18年（2006年）3月20日に誕生しました。<br />
+                千葉県南部内陸地域に位置する、緑豊かな山間の市です。<br />
+                旧日野町・原野村・白嶺村が合併し、平成18年（2006年）3月20日に誕生しました。<br />
                 「日々に、まなざしを。」をキャッチコピーに、自然と人が輝くまちづくりを進めています。
               </p>
             </div>
@@ -112,11 +112,11 @@ export default function GaiyouPage() {
             <table className="content-table">
               <tbody>
                 <tr><th>市名</th><td>日野原市（ひのはらし）</td></tr>
-                <tr><th>所在地</th><td>千葉県南房総地方（房総丘陵中央部）</td></tr>
+                <tr><th>所在地</th><td>千葉県南部内陸地域（房総丘陵中央部）</td></tr>
                 <tr><th>市役所</th><td>〒299-1401　千葉県日野原市中央一丁目1番地1号<br />☎ 0100-88-1111（代表）</td></tr>
-                <tr><th>市制施行日</th><td>平成18年（2006年）3月20日<br /><span style={{ fontSize: 12, color: "#666" }}>旧日野町・原野村・白峰村の3町村が合併して発足</span></td></tr>
+                <tr><th>市制施行日</th><td>平成18年（2006年）3月20日<br /><span style={{ fontSize: 12, color: "#666" }}>旧日野町・原野村・白嶺村の3町村が合併して発足</span></td></tr>
                 <tr><th>総面積</th><td>312.41 km²</td></tr>
-                <tr><th>人口密度</th><td>135.7人/km²</td></tr>
+                <tr><th>人口密度</th><td>112.7人/km²</td></tr>
                 <tr><th>隣接市町村</th><td>君津市、市原市、南房総市、鴨川市、鋸南町、富津市、木更津市</td></tr>
                 <tr><th>標高</th><td>市役所付近：約240m　最高峰（大台山）：382m</td></tr>
               </tbody>
@@ -157,16 +157,23 @@ export default function GaiyouPage() {
           <div className="content-box">
             <h2 className="section-title">地理・地勢</h2>
             <p style={{ fontSize: 13, lineHeight: 1.9, marginBottom: 10 }}>
-              日野原市は千葉県南房総地方に位置し、東西約22km、南北約28kmにわたる山間の市です。
+              日野原市は千葉県南部内陸地域に位置し、東西約22km、南北約28kmにわたる山間の市です。
               市域の約72%を山林が占め、市街地は房総丘陵内の原野盆地（標高約230〜260m）に広がっています。
-              市内には原野川とその支流が縦断し、気候は内陸性で夏涼しく、冬は降雪もあります。
+              市内には原野川とその支流が縦断し、気候は内陸性で夏涼しく、冬季は路面凍結やまれな降雪があります。市域は海に面しておらず、内房沿岸部へは車で約45分程度です。
               この豊かな自然がびわ・落花生・棚田米などの農業と、観光産業を支えています。
             </p>
             <table className="content-table">
               <tbody>
-                <tr><th>地区区分</th><td>中央地区（旧日野町）、原野地区（旧原野村）、白峰地区（旧白峰村）</td></tr>
-                <tr><th>主な河川</th><td>原野川、白峰川、下原川、槻沢川</td></tr>
-                <tr><th>主な山岳</th><td>大台山（382m）、鹿野山（379m）、高宕山（330m）</td></tr>
+                <tr>
+                  <th>地区区分</th>
+                  <td>
+                    <strong>中央地区</strong>（旧日野町）― 市役所・商店街・文化センター・市民病院など主要施設が集まる行政・商業の中心<br />
+                    <strong>原野地区</strong>（旧原野村）― びわ・落花生・棚田米の産地。原野川沿いの農業集落。道の駅「ひのはら原野」<br />
+                    <strong>白嶺地区</strong>（旧白嶺村）― 山林・温泉・ハイキングの中心。白嶺温泉郷・白嶺高原・白嶺ビジターセンター
+                  </td>
+                </tr>
+                <tr><th>主な河川</th><td>原野川、白嶺川、下原川、槻沢川</td></tr>
+                <tr><th>主な山岳</th><td>大台山（382m）、原野岳（379m）、高宕山（330m）、白嶺山（361m）</td></tr>
                 <tr><th>森林面積</th><td>約17,800ha（市域の57.0%）</td></tr>
                 <tr><th>農用地面積</th><td>約2,840ha（うち農地2,120ha）</td></tr>
               </tbody>
@@ -182,13 +189,13 @@ export default function GaiyouPage() {
               </thead>
               <tbody>
                 <tr><td>平成17年（国勢調査）</td><td style={{ textAlign: "right" }}>51,492</td><td style={{ textAlign: "right" }}>18,344</td><td>合併前（3町村計）</td></tr>
-                <tr><td>平成22年（国勢調査）</td><td style={{ textAlign: "right" }}>49,218</td><td style={{ textAlign: "right" }}>18,102</td><td></td></tr>
-                <tr><td>平成27年（国勢調査）</td><td style={{ textAlign: "right" }}>46,785</td><td style={{ textAlign: "right" }}>18,012</td><td></td></tr>
-                <tr><td>令和2年（国勢調査）</td><td style={{ textAlign: "right" }}>44,133</td><td style={{ textAlign: "right" }}>17,974</td><td></td></tr>
+                <tr><td>平成22年（国勢調査）</td><td style={{ textAlign: "right" }}>45,800</td><td style={{ textAlign: "right" }}>17,200</td><td></td></tr>
+                <tr><td>平成27年（国勢調査）</td><td style={{ textAlign: "right" }}>43,200</td><td style={{ textAlign: "right" }}>16,500</td><td></td></tr>
+                <tr><td>令和2年（国勢調査）</td><td style={{ textAlign: "right" }}>38,500</td><td style={{ textAlign: "right" }}>15,800</td><td></td></tr>
                 <tr style={{ background: "#eaf3ef", fontWeight: "bold" }}>
                   <td>令和7年5月（住民基本台帳）</td>
-                  <td style={{ textAlign: "right" }}>42,381</td>
-                  <td style={{ textAlign: "right" }}>17,902</td>
+                  <td style={{ textAlign: "right" }}>35,200</td>
+                  <td style={{ textAlign: "right" }}>14,500</td>
                   <td>最新</td>
                 </tr>
               </tbody>
@@ -213,12 +220,26 @@ export default function GaiyouPage() {
                 </tr>
                 <tr>
                   <th style={{ whiteSpace: "nowrap" }}>観光業</th>
-                  <td>年間入込客数：約78万人（令和5年度）。白峰温泉郷・ハイキング・びわ狩り体験・落花生掘り体験が主な誘客資源。</td>
+                  <td>年間入込客数：約78万人（令和5年度）。白嶺温泉郷・ハイキング・びわ狩り体験・落花生掘り体験が主な誘客資源。</td>
                 </tr>
                 <tr>
                   <th style={{ whiteSpace: "nowrap" }}>商業</th>
-                  <td>中央商店街を中心に小売・飲食業が集積。年間商品販売額：約320億円（令和3年）。</td>
+                  <td>中央商店街を中心に小売・飲食業が集積。年間商品販売額：約320億円（令和3年）。大型商業施設（ショッピングモール・映画館等）は木更津・君津方面（車30〜45分）を利用する市民が多い。</td>
                 </tr>
+              </tbody>
+            </table>
+          </div>
+
+          {/* ── 生活圏 ── */}
+          <div className="content-box">
+            <h2 className="section-title">広域生活圏</h2>
+            <table className="content-table">
+              <tbody>
+                <tr><th>大型商業・映画館</th><td>木更津市・君津市方面（車で約30〜45分）</td></tr>
+                <tr><th>高校進学</th><td>市内2校（市立・私立）のほか、君津・木更津・市原方面への通学も多い</td></tr>
+                <tr><th>高度医療</th><td>日野原市民病院（180床・二次救急）が中核。三次医療は君津中央病院・亀田総合病院（鴨川）へ</td></tr>
+                <tr><th>就職・通勤</th><td>市内就労のほか、君津・木更津・市原の工業地帯へ通勤する市民も多い</td></tr>
+                <tr><th>海へのアクセス</th><td>内房沿岸（富津・鋸南）へ車で約45分。海水浴・釣りは余暇圏として近接</td></tr>
               </tbody>
             </table>
           </div>

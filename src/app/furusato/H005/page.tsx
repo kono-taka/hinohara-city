@@ -3,7 +3,7 @@ import SiteFooter from "@/components/SiteFooter";
 import Sidebar from "@/components/Sidebar";
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "白峰高原牧場 乳製品詰め合わせ｜ふるさと納税" };
+export const metadata: Metadata = { title: "白嶺高原牧場 乳製品詰め合わせ｜ふるさと納税" };
 
 export default function Page() {
   return (
@@ -14,16 +14,16 @@ export default function Page() {
           <div className="breadcrumb">
             <a href="/">トップ</a><span>›</span>
             <a href="/furusato">ふるさと納税</a><span>›</span>
-            <span>白峰高原牧場 乳製品詰め合わせ</span>
+            <span>白嶺高原牧場 乳製品詰め合わせ</span>
           </div>
           <div style={{ display: "flex", gap: 16, marginBottom: 16 }}>
             <div style={{ width: 200, height: 200, flexShrink: 0, border: "1px solid var(--border-light)", overflow: "hidden", position: "relative" }}>
               <img src="/images/furusato/furusato-h005.png" alt="商品写真" style={{ width: "100%", height: "100%", objectFit: "cover" }} />
             </div>
             <div style={{ flex: 1 }}>
-              <div style={{ fontSize: 11, color: "#888", marginBottom: 4 }}>品番：H005　提供者：有限会社 白峰高原牧場</div>
+              <div style={{ fontSize: 11, color: "#888", marginBottom: 4 }}>品番：H005　提供者：有限会社 白嶺高原牧場</div>
               <h1 style={{ fontSize: 18, fontWeight: "bold", color: "var(--city-blue)", margin: "0 0 8px", lineHeight: 1.4 }}>
-                白峰高原牧場 乳製品詰め合わせ
+                白嶺高原牧場 乳製品詰め合わせ
               </h1>
               <div style={{ background: "#e8eef8", border: "1px solid var(--border-light)", padding: "8px 12px", fontSize: 13, marginBottom: 8 }}>
                 <strong>寄附金額：15,000円以上</strong>
@@ -50,7 +50,7 @@ export default function Page() {
                 <tr><th>配送</th><td>クール便（冷蔵）</td></tr>
                 <tr><th>賞味期限</th><td>発送から7〜14日（各商品により異なります）</td></tr>
                 <tr><th>注意</th><td>冷蔵にて保存し、お早めにお召し上がりください</td></tr>
-                <tr><th>提供者</th><td>有限会社 白峰高原牧場（☎ 0100-58-3100）</td></tr>
+                <tr><th>提供者</th><td>有限会社 白嶺高原牧場（☎ 0100-58-3100）</td></tr>
               </tbody>
             </table>
           </div>

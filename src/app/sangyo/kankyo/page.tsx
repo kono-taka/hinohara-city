@@ -54,10 +54,10 @@ export default function KankyoPage() {
           <div className="content-box">
             <h2 className="section-title">自然環境保全</h2>
             <ul style={{ paddingLeft: 18, fontSize: 13, lineHeight: 1.8 }}>
-              <li><strong>白峰高原ブナ林保護</strong>: 市の天然記念物に指定。外来種の侵入監視・登山道整備・植生調査を実施</li>
+              <li><strong>白嶺高原ブナ林保護</strong>: 市の天然記念物に指定。外来種の侵入監視・登山道整備・植生調査を実施</li>
               <li><strong>特定外来生物防除</strong>: オオキンケイギク・セイタカアワダチソウ等の除去作業（市民ボランティアと協働）</li>
               <li><strong>希少野生動物の保護</strong>: ライチョウ・ヤマネ・オオタカの生息状況調査・保護活動</li>
-              <li><strong>河川環境保全</strong>: 原野川・白峰川の水質調査（年2回）・不法投棄監視</li>
+              <li><strong>河川環境保全</strong>: 原野川・白嶺川の水質調査（年2回）・不法投棄監視</li>
             </ul>
           </div>
 

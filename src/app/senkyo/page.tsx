@@ -24,7 +24,7 @@ const polling = [
   { no: 7, name: "西部地区センター", area: "西部一〜三丁目、中原地区" },
   { no: 8, name: "東部地区センター", area: "東部一〜四丁目" },
   { no: 9, name: "原野地区センター", area: "原野地区（全域）" },
-  { no: 10, name: "白峰地区センター", area: "白峰地区（全域）" },
+  { no: 10, name: "白嶺地区センター", area: "白嶺地区（全域）" },
 ];
 
 export default function SenkyoPage() {

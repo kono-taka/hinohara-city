@@ -12,7 +12,7 @@ const slides = [
   {
     src: "/images/hero/hero-2.png",
     alt: "菜の花畑と青空",
-    caption: "一面に広がる菜の花　南房総の春",
+    caption: "一面に広がる菜の花　房総丘陵の春",
   },
   {
     src: "/images/hero/hero-3.png",
@@ -21,8 +21,8 @@ const slides = [
   },
   {
     src: "/images/hero/hero-4.png",
-    alt: "白峰温泉郷の露天風呂",
-    caption: "照葉樹林に囲まれた白峰温泉郷",
+    alt: "白嶺温泉郷の露天風呂",
+    caption: "照葉樹林に囲まれた白嶺温泉郷",
   },
 ];
 

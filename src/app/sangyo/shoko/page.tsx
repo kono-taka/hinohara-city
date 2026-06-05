@@ -26,7 +26,7 @@ export default function ShokoPage() {
               </thead>
               <tbody>
                 <tr><td>精密機械・電子部品</td><td>28社</td><td>計測器・センサー・電子基板</td></tr>
-                <tr><td>食品製造</td><td>22社</td><td>そば・りんごジュース・漬物・味噌</td></tr>
+                <tr><td>食品製造</td><td>22社</td><td>びわジュース・落花生加工品・漬物・味噌・乳製品</td></tr>
                 <tr><td>木材・木製品</td><td>11社</td><td>建築材・家具・木工クラフト</td></tr>
                 <tr><td>小売・飲食</td><td>156店</td><td>スーパー・飲食店・土産物店</td></tr>
               </tbody>

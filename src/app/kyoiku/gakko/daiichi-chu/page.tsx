@@ -88,7 +88,7 @@ export default function Page() {
             <table className="content-table">
               <tbody>
                 <tr><th>通学区域</th><td>中央地区・東部地区の一部（詳細は学校教育課へお問い合わせください）</td></tr>
-                <tr><th>最寄り駅</th><td>JR内房線「日野原駅」より徒歩12分</td></tr>
+                <tr><th>最寄りバス停</th><td>市営ひのはらバス「中央小学校前」停留所より徒歩5分（最寄り鉄道駅：JR君津駅）</td></tr>
                 <tr><th>スクールバス</th><td>なし（徒歩・自転車通学）</td></tr>
                 <tr><th>駐車場</th><td>来校者用駐車場あり（8台）。行事の際は混雑します。できる限り公共交通機関をご利用ください。</td></tr>
               </tbody>

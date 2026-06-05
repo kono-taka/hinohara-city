@@ -84,8 +84,8 @@ export default function Page() {
             <h3>アクセス</h3>
             <table className="content-table">
               <tbody>
-                <tr><th>鉄道</th><td>JR内房線「日野原駅」より徒歩8分</td></tr>
-                <tr><th>バス</th><td>市営ひのはらバス「市役所前」停留所下車すぐ</td></tr>
+                <tr><th>バス</th><td>市営ひのはらバス「市役所前」停留所下車すぐ（日野原中央バスターミナルより約8分）</td></tr>
+                <tr><th>最寄り駅</th><td>JR内房線「君津駅」（君津駅南口より市営バス「日野原中央行き」乗車 約35分）</td></tr>
                 <tr><th>車</th><td>館山自動車道 君津ICより約35分。国道沿い。</td></tr>
               </tbody>
             </table>

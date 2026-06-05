@@ -158,10 +158,10 @@ export default function KaigoPage() {
                   <td>原野・北部地区</td>
                 </tr>
                 <tr>
-                  <td>白峰地域包括支援センター</td>
-                  <td>白峰地区福祉センター内</td>
+                  <td>白嶺地域包括支援センター</td>
+                  <td>白嶺地区福祉センター内</td>
                   <td>☎ 0100-55-2200</td>
-                  <td>白峰・南部地区</td>
+                  <td>白嶺・南部地区</td>
                 </tr>
               </tbody>
             </table>

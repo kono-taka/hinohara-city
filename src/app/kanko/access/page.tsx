@@ -82,9 +82,9 @@ export default function AccessPage() {
                 <tr><th>路線名</th><th>主な経由地</th><th>運行本数</th><th>料金</th></tr>
               </thead>
               <tbody>
-                <tr><td>中央線</td><td>日野原中央〜市役所〜白峰地区センター</td><td>平日8本・土休日5本</td><td>100〜300円</td></tr>
+                <tr><td>中央線</td><td>日野原中央〜市役所〜白嶺地区センター</td><td>平日8本・土休日5本</td><td>100〜300円</td></tr>
                 <tr><td>原野線</td><td>日野原中央〜道の駅ひのはら原野〜農業センター</td><td>平日6本</td><td>100〜200円</td></tr>
-                <tr><td>高原線</td><td>日野原中央〜白峰高原〜キャンプ場（7〜10月のみ）</td><td>1日2往復</td><td>300〜500円</td></tr>
+                <tr><td>高原線</td><td>日野原中央〜白嶺高原〜キャンプ場（7〜10月のみ）</td><td>1日2往復</td><td>300〜500円</td></tr>
               </tbody>
             </table>
             <h3 style={{ fontSize: 14, fontWeight: "bold", margin: "12px 0 6px" }}>デマンドタクシー（予約型乗合）</h3>
@@ -92,7 +92,7 @@ export default function AccessPage() {
             <h3 style={{ fontSize: 14, fontWeight: "bold", margin: "12px 0 6px" }}>タクシー会社</h3>
             <ul style={{ paddingLeft: 18, fontSize: 13, lineHeight: 1.8 }}>
               <li>日野原交通 ☎0100-88-3300</li>
-              <li>白峰タクシー ☎0100-56-2200</li>
+              <li>白嶺タクシー ☎0100-56-2200</li>
             </ul>
           </div>
 
@@ -108,6 +108,7 @@ export default function AccessPage() {
                 <tr><td>千葉市</td><td>約60km</td><td>約1時間5分</td></tr>
                 <tr><td>東京都心</td><td>約90km</td><td>約1時間20分</td></tr>
                 <tr><td>横浜市</td><td>約80km</td><td>約1時間10分</td></tr>
+                <tr><td>内房沿岸（富津・鋸南方面）</td><td>約35km</td><td>約45分</td></tr>
               </tbody>
             </table>
           </div>

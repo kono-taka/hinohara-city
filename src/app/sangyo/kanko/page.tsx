@@ -25,7 +25,7 @@ export default function SangyoKankoPage() {
                 <tr><th>観光消費額（経済効果）</th><td>約<strong>68億円</strong></td></tr>
                 <tr><th>宿泊者数</th><td>約22万人泊</td></tr>
                 <tr><th>外国人宿泊者数</th><td>約8,500人泊（台湾・中国・オーストラリア等）</td></tr>
-                <tr><th>主なピーク期</th><td>7〜8月（高原避暑）・10月（紅葉・りんご収穫）</td></tr>
+                <tr><th>主なピーク期</th><td>5〜6月（びわ狩り）・8〜9月（落花生掘り）・10〜11月（紅葉・山菜）</td></tr>
               </tbody>
             </table>
           </div>
@@ -41,7 +41,7 @@ export default function SangyoKankoPage() {
                 <tr><td>体験型観光の強化</td><td>農業・食・自然体験プログラムの開発・磨き上げ</td></tr>
                 <tr><td>インバウンド誘致</td><td>多言語対応・外国人向けSNS発信・旅行エージェント連携</td></tr>
                 <tr><td>デジタル活用</td><td>観光アプリ整備・QRコード案内板・オンライン予約環境</td></tr>
-                <tr><td>通年観光化</td><td>冬季・春季の新コンテンツ開発（雪上アクティビティ・山菜狩り等）</td></tr>
+                <tr><td>通年観光化</td><td>冬季・春季の新コンテンツ開発（冬の里山トレッキング・星空観察・山菜狩り等）</td></tr>
               </tbody>
             </table>
           </div>
@@ -77,7 +77,7 @@ export default function SangyoKankoPage() {
                 <tr><th>プログラム名</th><th>時期</th><th>料金（目安）</th><th>定員</th></tr>
               </thead>
               <tbody>
-                <tr><td>りんご収穫体験</td><td>9月下旬〜11月中旬</td><td>2,500円〜（収穫りんご1kg含む）</td><td>各回10人</td></tr>
+                <tr><td>落花生掘り体験</td><td>8月下旬〜9月下旬</td><td>1,800円〜（落花生持ち帰り500g含む）</td><td>各回12人</td></tr>
                 <tr><td>手打ちそば体験</td><td>通年</td><td>3,000円（食事付き）</td><td>各回8人</td></tr>
                 <tr><td>味噌作り体験</td><td>1月〜3月</td><td>4,000円（持ち帰り2kg）</td><td>各回12人</td></tr>
                 <tr><td>房総野菜の収穫体験</td><td>7月〜9月</td><td>1,500円（野菜お土産付き）</td><td>各回15人</td></tr>

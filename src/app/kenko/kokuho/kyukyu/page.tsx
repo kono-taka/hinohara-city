@@ -25,7 +25,7 @@ export default function Page() {
             <table className="content-table">
               
               <tbody>
-                <tr><th>場所</th><td>日野原中央病院内（中央2-3-1）</td></tr>
+                <tr><th>場所</th><td>日野原市民病院内（中央2-3-1）</td></tr>
                 <tr><th>電話</th><td>0100-88-2020</td></tr>
                 <tr><th>診療日時</th><td>日曜日・祝日 午前9時〜午後5時（内科・小児科）</td></tr>
               </tbody>

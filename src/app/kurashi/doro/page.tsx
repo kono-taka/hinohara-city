@@ -86,8 +86,8 @@ export default function DoroPage() {
                   <td>平日6便・土休日4便</td>
                 </tr>
                 <tr>
-                  <td>白峰高原線</td>
-                  <td>市役所前〜白峰地区センター〜白峰高原</td>
+                  <td>白嶺高原線</td>
+                  <td>市役所前〜白嶺地区センター〜白嶺高原</td>
                   <td>300〜600円</td>
                   <td>平日4便・土休日2便</td>
                 </tr>

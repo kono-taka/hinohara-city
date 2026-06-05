@@ -26,7 +26,7 @@ const courses = [
     time: "約 5時間",
     difficulty: "中級",
     color: "#e53935",
-    desc: "北登山口から山頂を経て南登山口まで縦走するメインルート。途中に棚田展望台・白峰峠など見どころ多数。",
+    desc: "北登山口から山頂を経て南登山口まで縦走するメインルート。途中に棚田展望台・白嶺峠など見どころ多数。",
   },
   {
     name: "ファミリーコース",
@@ -93,7 +93,7 @@ export default function AlpsPage() {
             <h2 className="section-title">基本情報</h2>
             <table className="content-table">
               <tbody>
-                <tr><th>所在地</th><td>日野原市北部一帯（登山口：日野原市白峰地区・原野地区）</td></tr>
+                <tr><th>所在地</th><td>日野原市北部一帯（登山口：日野原市白嶺地区・原野地区）</td></tr>
                 <tr><th>標高</th><td>最高峰 382m</td></tr>
                 <tr><th>ハイキングシーズン</th><td>通年（春・秋が最適。夏は熱中症対策必須）</td></tr>
                 <tr><th>春の見どころ</th><td>ツツジ（4月中旬〜5月上旬）、山桜（3月下旬〜4月上旬）</td></tr>
@@ -122,7 +122,7 @@ export default function AlpsPage() {
             <h2 className="section-title">アクセス</h2>
             <table className="content-table">
               <tbody>
-                <tr><th>電車・バス（北登山口）</th><td>日野原中央駅から路線バス「白峰行き」約25分 → 「アルプス登山口」下車すぐ</td></tr>
+                <tr><th>バス（北登山口）</th><td>日野原中央バスターミナルから路線バス「白嶺高原行き」約25分 → 「アルプス登山口」下車すぐ</td></tr>
                 <tr><th>お車（北登山口）</th><td>館山自動車道「君津IC」より約40分。北登山口駐車場（無料・約30台）</td></tr>
                 <tr><th>お車（南登山口）</th><td>館山自動車道「君津IC」より約35分。南登山口駐車場（無料・約30台）</td></tr>
               </tbody>

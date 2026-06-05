@@ -76,7 +76,7 @@ export default function ShigotoPage() {
               <tbody>
                 <tr><td>ひのはら工房</td><td>A型</td><td>☎0100-55-2211</td></tr>
                 <tr><td>あおぞら作業所</td><td>B型</td><td>☎0100-55-3344</td></tr>
-                <tr><td>白峰ファーム</td><td>B型</td><td>☎0100-56-1122</td></tr>
+                <tr><td>白嶺ファーム</td><td>B型</td><td>☎0100-56-1122</td></tr>
               </tbody>
             </table>
           </div>

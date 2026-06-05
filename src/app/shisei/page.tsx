@@ -20,7 +20,7 @@ export default function ShiseiPage() {
           <div className="info-card-grid">
             <div className="info-card">
               <div className="info-card-head">市制施行</div>
-              <div className="info-card-body"><strong>2006年</strong>3月20日<br />（旧 日野町・原野村・白峰村が合併）</div>
+              <div className="info-card-body"><strong>2006年</strong>3月20日<br />（旧 日野町・原野村・白嶺村が合併）</div>
             </div>
             <div className="info-card">
               <div className="info-card-head">面積</div>
@@ -28,7 +28,7 @@ export default function ShiseiPage() {
             </div>
             <div className="info-card">
               <div className="info-card-head">総人口</div>
-              <div className="info-card-body"><strong>42,381</strong> 人<br />（令和7年5月1日現在）</div>
+              <div className="info-card-body"><strong>35,200</strong> 人<br />（令和7年5月1日現在）</div>
             </div>
           </div>
 

@@ -196,7 +196,7 @@ export default function YobosesshuPage() {
             <p style={{ lineHeight: 1.8 }}>定期接種・各種健診は、以下の会場で実施しています。</p>
             <ul style={{ paddingLeft: 20, lineHeight: 2, marginTop: 8 }}>
               <li><strong>市保健センター</strong>（中央1丁目6番地、☎ 0100-88-1122）：乳幼児健診・集団接種</li>
-              <li><strong>各地区公民館</strong>（原野・白峰・北部・南部）：集団健診・巡回接種</li>
+              <li><strong>各地区公民館</strong>（原野・白嶺・北部・南部）：集団健診・巡回接種</li>
               <li><strong>かかりつけ医療機関</strong>：個別予防接種（要予約）</li>
             </ul>
             <p style={{ fontSize: 12, color: "#666", marginTop: 8, lineHeight: 1.8 }}>

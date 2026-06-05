@@ -76,7 +76,7 @@ const events = [
   { month: "6月", day: "7",  weekday: "土", title: "ひのはら市民農業まつり",              place: "農業公園（下原地区）",       href: "/kanko/event" },
   { month: "6月", day: "14", weekday: "土", title: "第19回 日野原やまびこ祭り（1日目）", place: "中央公園特設会場",           href: "/kanko/yamabiko" },
   { month: "6月", day: "15", weekday: "日", title: "第19回 日野原やまびこ祭り（2日目）", place: "中央公園特設会場",           href: "/kanko/yamabiko" },
-  { month: "6月", day: "21", weekday: "土", title: "白峰自然観察ウォーク2026",           place: "白峰ビジターセンター集合",   href: "/kanko/event" },
+  { month: "6月", day: "21", weekday: "土", title: "白嶺自然観察ウォーク2026",           place: "白嶺ビジターセンター集合",   href: "/kanko/event" },
   { month: "6月", day: "28", weekday: "土", title: "子ども図書館まつり（読み聞かせ・工作）", place: "市立中央図書館",         href: "/kanko/event" },
 ];
 

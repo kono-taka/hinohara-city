@@ -38,7 +38,7 @@ export default function GakkoPage() {
                 <tr><td>ひのはら市立中央小学校</td><td>小学校</td><td>中央2丁目</td><td>0100-88-2100</td><td>412名</td></tr>
                 <tr><td>ひのはら市立北部小学校</td><td>小学校</td><td>北部3丁目</td><td>0100-53-1100</td><td>286名</td></tr>
                 <tr><td>ひのはら市立原野小学校</td><td>小学校</td><td>原野地区</td><td>0100-54-1100</td><td>163名</td></tr>
-                <tr><td>ひのはら市立白峰小学校</td><td>小学校</td><td>白峰地区</td><td>0100-55-1100</td><td>72名</td></tr>
+                <tr><td>ひのはら市立白嶺小学校</td><td>小学校</td><td>白嶺地区</td><td>0100-55-1100</td><td>72名</td></tr>
                 <tr><td>ひのはら市立第一中学校</td><td>中学校</td><td>中央4丁目</td><td>0100-88-3100</td><td>412名</td></tr>
                 <tr><td>ひのはら市立第二中学校</td><td>中学校</td><td>北部2丁目</td><td>0100-53-2100</td><td>298名</td></tr>
               </tbody>
@@ -153,7 +153,7 @@ export default function GakkoPage() {
               { href: "/kyoiku/gakko/nanbu-sho",   label: "日野原市立南部小学校" },
               { href: "/kyoiku/gakko/tobu-sho",    label: "日野原市立東部小学校" },
               { href: "/kyoiku/gakko/haruno-sho",  label: "日野原市立原野小学校" },
-              { href: "/kyoiku/gakko/shirotaki-sho", label: "日野原市立白峰小学校" },
+              { href: "/kyoiku/gakko/shirotaki-sho", label: "日野原市立白嶺小学校" },
               { href: "/kyoiku/gakko/daiichi-chu", label: "日野原市立第一中学校" },
               { href: "/kyoiku/gakko/daini-chu",   label: "日野原市立第二中学校" },
               { href: "/kyoiku/gakko/haruno-chu",  label: "日野原市立原野中学校" },

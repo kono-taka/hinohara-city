@@ -158,9 +158,9 @@ export default function ShogaigakushuPage() {
                   <td>江戸時代中期建築の庄屋屋敷。主屋・土蔵・表門が現存。毎年4月・10月に特別公開。</td>
                 </tr>
                 <tr>
-                  <td>白峰の棚田</td>
+                  <td>白嶺の棚田</td>
                   <td>千葉県農業遺産</td>
-                  <td>白峰地区</td>
+                  <td>白嶺地区</td>
                   <td>江戸時代から続く急斜面の棚田群（約200枚）。毎年9月に「棚田の夕べ」（ライトアップイベント）を開催。</td>
                 </tr>
                 <tr>
@@ -185,7 +185,7 @@ export default function ShogaigakushuPage() {
                 <tr><td>東部公民館</td><td>東部5丁目</td><td>0100-53-1500</td></tr>
                 <tr><td>南部公民館</td><td>南部3丁目</td><td>0100-88-7100</td></tr>
                 <tr><td>原野公民館</td><td>原野地区</td><td>0100-54-2100</td></tr>
-                <tr><td>白峰公民館</td><td>白峰地区</td><td>0100-55-1300</td></tr>
+                <tr><td>白嶺公民館</td><td>白嶺地区</td><td>0100-55-1300</td></tr>
                 <tr><td>川端公民館</td><td>川端地区</td><td>0100-56-0200</td></tr>
               </tbody>
             </table>

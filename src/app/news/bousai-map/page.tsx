@@ -33,8 +33,8 @@ export default function Page() {
             </p>
             <h3 style={{ fontSize: 13, marginTop: 16, marginBottom: 4 }}>主な変更点</h3>
             <ul style={{ paddingLeft: 20, margin: "4px 0" }}>
-              <li>浸水想定区域の見直し（原野川・白峰川沿い区間を追加指定）</li>
-              <li>土砂災害警戒区域の追加（白峰地区北部 3か所）</li>
+              <li>浸水想定区域の見直し（原野川・白嶺川沿い区間を追加指定）</li>
+              <li>土砂災害警戒区域の追加（白嶺地区北部 3か所）</li>
               <li>避難場所・避難所情報の更新（南部小学校 体育館を追加）</li>
               <li>QRコードによる防災情報へのアクセス機能を追加</li>
             </ul>

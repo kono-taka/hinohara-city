@@ -65,9 +65,9 @@ export default function HoikuPage() {
                     <td>7:30〜18:00</td>
                   </tr>
                   <tr>
-                    <td>白峰保育園</td>
+                    <td>白嶺保育園</td>
                     <td>私立保育所</td>
-                    <td>白峰地区</td>
+                    <td>白嶺地区</td>
                     <td>0100-55-0300</td>
                     <td>30名</td>
                     <td>0〜5歳</td>
@@ -103,7 +103,7 @@ export default function HoikuPage() {
             </table>
             <p style={{ marginTop: 10, lineHeight: 1.8 }}>
               <strong>市立保育所の特色ある活動：</strong><br />
-              自然体験活動（農業体験・山歩き・雪遊び）、英語あそび（週1回・外部講師）、
+              自然体験活動（農業体験・山歩き・冬の自然遊び）、英語あそび（週1回・外部講師）、
               地域の高齢者との交流（老人福祉センター訪問）、異年齢交流保育を積極的に実施しています。
             </p>
           </div>

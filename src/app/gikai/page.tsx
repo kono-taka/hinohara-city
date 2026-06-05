@@ -16,7 +16,7 @@ const members = [
   { name: "高橋 千尋",   kana: "たかはし ちひろ",   party: "公明党市議団",     ward: "北部区", post: "",      photo: "/images/gikai/image6.png" },
   { name: "伊藤 龍也",   kana: "いとう たつや",     party: "日本共産党",       ward: "中央区", post: "",      photo: "/images/gikai/image7.png" },
   { name: "木村 さつき", kana: "きむら さつき",     party: "日野原市民クラブ", ward: "東部区", post: "",      photo: "/images/gikai/image8.png" },
-  { name: "山田 博之",   kana: "やまだ ひろゆき",   party: "自民ひのはら",     ward: "白峰区", post: "",      photo: "/images/gikai/image9.png" },
+  { name: "山田 博之",   kana: "やまだ ひろゆき",   party: "自民ひのはら",     ward: "白嶺区", post: "",      photo: "/images/gikai/image9.png" },
   { name: "加藤 雄一",   kana: "かとう ゆういち",   party: "無所属",           ward: "中央区", post: "",      photo: "/images/gikai/image10.png" },
   { name: "清水 奈々子", kana: "しみず ななこ",     party: "日野原市民クラブ", ward: "北部区", post: "",      photo: "/images/gikai/image11.png" },
   { name: "鈴木 哲夫",   kana: "すずき てつお",     party: "自民ひのはら",     ward: "南部区", post: "",      photo: "/images/gikai/image12.png" },

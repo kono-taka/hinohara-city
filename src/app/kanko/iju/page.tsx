@@ -37,6 +37,17 @@ export default function IjuPage() {
           </div>
           <h1 className="page-title">移住・定住支援</h1>
 
+          <div className="content-box" style={{ borderLeft: "4px solid #1a6e5a", background: "#f5faf7" }}>
+            <h2 className="section-title">日野原市の暮らしの特徴</h2>
+            <p style={{ fontSize: 13, lineHeight: 1.9, margin: 0 }}>
+              日野原市は千葉県南部の山間地域（房総丘陵中央部）に位置する、海を持たない内陸自治体です。
+              市域は山林と農地に囲まれ、里山・棚田・温泉を暮らしの基盤とした静かな環境が広がっています。<br />
+              一方で、内房沿岸（富津・鋸南方面）へは車で約45分。大型商業施設は木更津・君津方面（車で30〜45分）を利用する方が多く、
+              高校進学・医療・就職では沿岸都市圏も生活圏として近接しています。
+              山の暮らしを基盤にしながら、海も余暇圏として手の届く距離にあるのが日野原市の特徴です。
+            </p>
+          </div>
+
           <div className="content-box" style={{ borderLeft: "4px solid #1976d2", background: "#e3f2fd" }}>
             <h2 className="section-title">令和7年度 移住実績（過去最多）</h2>
             <p>令和7年度の移住者数は<strong>87世帯・142人</strong>と、統計開始以来の過去最多を更新しました。テレワーク普及や自然志向の高まりを背景に、日野原市への移住関心が急増しています。</p>

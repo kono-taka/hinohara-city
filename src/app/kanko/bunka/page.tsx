@@ -26,7 +26,7 @@ export default function BunkaPage() {
                 <tr><th>所在地</th><td>日野原市下原字宮ノ前地内</td></tr>
                 <tr><th>面積</th><td><strong>4.2ha</strong></td></tr>
                 <tr><th>指定年</th><td>昭和52年（1977年）</td></tr>
-                <tr><th>概要</th><td>南房総地方最大規模の縄文集落跡。竪穴住居跡・土器・石器が多数出土。現在は史跡公園として整備され、復元住居（2棟）を見学できます。</td></tr>
+                <tr><th>概要</th><td>房総丘陵最大規模の縄文集落跡。竪穴住居跡・土器・石器が多数出土。現在は史跡公園として整備され、復元住居（2棟）を見学できます。</td></tr>
                 <tr><th>入場</th><td>無料（史跡公園部分）。隣接の歴史民俗資料館は入館300円</td></tr>
               </tbody>
             </table>
@@ -39,11 +39,11 @@ export default function BunkaPage() {
                 <tr><th>種別</th><th>件数</th><th>主なもの</th></tr>
               </thead>
               <tbody>
-                <tr><td>有形文化財（建造物）</td><td>4件</td><td>旧日野村庄屋屋敷・白峰薬師堂・原野川の石橋・中央集会所（大正建築）</td></tr>
+                <tr><td>有形文化財（建造物）</td><td>4件</td><td>旧日野村庄屋屋敷・白嶺薬師堂・原野川の石橋・中央集会所（大正建築）</td></tr>
                 <tr><td>有形文化財（美術工芸品）</td><td>5件</td><td>下原遺跡出土の火焔型土器・在銘の刀剣2口・絵馬コレクション</td></tr>
                 <tr><td>有形民俗文化財</td><td>3件</td><td>農耕用具一式・養蚕用具・山仕事道具</td></tr>
-                <tr><td>無形民俗文化財</td><td>4件</td><td>白峰の盆踊り・原野の大人形（節句行事）・日野原手まり唄・囃子</td></tr>
-                <tr><td>天然記念物</td><td>2件</td><td>白峰高原のブナ林（市域北部・約50ha）・宮ノ前のアカマツ（樹齢推定350年）</td></tr>
+                <tr><td>無形民俗文化財</td><td>4件</td><td>白嶺の盆踊り・原野の大人形（節句行事）・日野原手まり唄・囃子</td></tr>
+                <tr><td>天然記念物</td><td>2件</td><td>白嶺高原のブナ林（市域北部・約50ha）・宮ノ前のアカマツ（樹齢推定350年）</td></tr>
               </tbody>
             </table>
           </div>
@@ -62,11 +62,11 @@ export default function BunkaPage() {
           </div>
 
           <div className="content-box">
-            <h2 className="section-title">白峰の棚田</h2>
+            <h2 className="section-title">白嶺の棚田</h2>
             <table className="content-table">
               <tbody>
                 <tr><th>認定</th><td>農林水産省「日本の棚田百選」（平成11年認定）</td></tr>
-                <tr><th>面積</th><td>約<strong>80ha</strong>（市北部 白峰地区）</td></tr>
+                <tr><th>面積</th><td>約<strong>80ha</strong>（市北部 白嶺地区）</td></tr>
                 <tr><th>特徴</th><td>標高600〜900mに広がる約1,500枚の棚田。春の田植え・夏の青田・秋の黄金色と四季折々の景観が楽しめる</td></tr>
                 <tr><th>農業体験</th><td>田植え（5月）・稲刈り（9月）体験あり。申込: 日野原市観光協会 ☎0100-58-8888</td></tr>
                 <tr><th>オーナー制度</th><td>市外の方が棚田1区画（約1a）を1年間オーナーとして管理。年会費15,000円。収穫米（約20kg）を受け取れる</td></tr>
@@ -88,7 +88,7 @@ export default function BunkaPage() {
                 <tr><th>入館料</th><td>大人 <strong>300円</strong>　中学生以下 無料　団体（20人以上）250円</td></tr>
                 <tr><th>開館時間</th><td>9:00〜16:30（入館は16:00まで）</td></tr>
                 <tr><th>休館日</th><td><strong>月曜日</strong>（祝日の場合は翌火曜）・年末年始（12/28〜1/4）</td></tr>
-                <tr><th>展示内容</th><td>縄文時代の出土品・近世の農具・民俗用具・昭和の生活用品・白峰の棚田ジオラマ</td></tr>
+                <tr><th>展示内容</th><td>縄文時代の出土品・近世の農具・民俗用具・昭和の生活用品・白嶺の棚田ジオラマ</td></tr>
                 <tr><th>電話</th><td>☎0100-88-8800</td></tr>
               </tbody>
             </table>

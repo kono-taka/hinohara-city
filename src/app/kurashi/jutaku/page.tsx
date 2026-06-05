@@ -58,7 +58,7 @@ export default function JutakuPage() {
                   <td>2.5〜3.2万円</td>
                 </tr>
                 <tr>
-                  <td>白峰住宅</td>
+                  <td>白嶺住宅</td>
                   <td>18戸</td>
                   <td>3K</td>
                   <td>2.5〜3.0万円</td>

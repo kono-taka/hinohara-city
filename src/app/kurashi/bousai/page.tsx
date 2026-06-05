@@ -20,6 +20,55 @@ export default function BousaiPage() {
 
           <h1 className="page-title">防災・安全のご案内</h1>
 
+          <div className="content-box" style={{ borderLeft: "4px solid #c0392b", background: "#fdf5f5" }}>
+            <h2 className="section-title">日野原市の主な災害リスク</h2>
+            <p style={{ fontSize: 13, lineHeight: 1.85, marginBottom: 10 }}>
+              日野原市は海に面していないため、<strong>津波・高潮は市域の主要リスクではありません</strong>。
+              一方、房総丘陵に囲まれた内陸山間自治体として、以下のリスクに特に注意が必要です。
+            </p>
+            <table className="content-table">
+              <thead>
+                <tr><th>リスク種別</th><th>主な対象地域・状況</th><th>市民への影響</th></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>土砂災害</strong>（最重要）</td>
+                  <td>白嶺地区・原野地区の急傾斜地・山際の集落</td>
+                  <td>土石流・崖崩れによる家屋被害・道路寸断</td>
+                </tr>
+                <tr>
+                  <td><strong>河川氾濫</strong></td>
+                  <td>原野川・白嶺川・下原川の低地部</td>
+                  <td>住宅浸水・農地冠水・橋梁通行止め</td>
+                </tr>
+                <tr>
+                  <td><strong>山間部の孤立</strong></td>
+                  <td>道路が1〜2本しかない集落（特に白嶺地区北部）</td>
+                  <td>倒木・土砂崩れによる道路寸断、集落孤立</td>
+                </tr>
+                <tr>
+                  <td><strong>冬季の路面凍結</strong></td>
+                  <td>市全域（特に標高200m以上の地区）</td>
+                  <td>交通事故・緊急車両の到着遅延</td>
+                </tr>
+                <tr>
+                  <td><strong>高齢者の避難困難</strong></td>
+                  <td>山間集落・一人暮らし高齢者宅</td>
+                  <td>自力避難困難・情報伝達の遅れ</td>
+                </tr>
+                <tr>
+                  <td>地震</td>
+                  <td>市全域</td>
+                  <td>建物倒壊・斜面崩壊・ライフライン断絶</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style={{ fontSize: 12, color: "#888", marginTop: 8 }}>
+              ※ハザードマップで自宅周辺のリスク区域を必ずご確認ください。
+              土砂災害警戒区域・浸水想定区域は「日野原市ハザードマップ（令和8年改訂版）」に掲載しています。
+            </p>
+          </div>
+
           <div className="content-box">
             <h2 className="section-title">警戒レベルと行動基準</h2>
             <p>令和元年から「警戒レベル」が導入されました。レベルに応じた行動をとってください。</p>
@@ -116,8 +165,8 @@ export default function BousaiPage() {
                   <td>洪水・土砂</td>
                 </tr>
                 <tr>
-                  <td>白峰地区センター</td>
-                  <td>白峰字里100</td>
+                  <td>白嶺地区センター</td>
+                  <td>白嶺字里100</td>
                   <td>200人</td>
                   <td>地震</td>
                 </tr>

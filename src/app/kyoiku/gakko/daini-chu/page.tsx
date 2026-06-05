@@ -64,7 +64,7 @@ export default function Page() {
               <thead><tr><th>月</th><th>行事</th></tr></thead>
               <tbody>
                 <tr><td>4月</td><td>入学式・新入生歓迎会・部活動紹介</td></tr>
-                <tr><td>5月</td><td>体育祭・1年野外学習（白峰高原）</td></tr>
+                <tr><td>5月</td><td>体育祭・1年野外学習（白嶺高原）</td></tr>
                 <tr><td>6月</td><td>2年修学旅行（関西方面）・生徒総会</td></tr>
                 <tr><td>9月</td><td>合唱コンクール・文化祭「ひのはら祭」</td></tr>
                 <tr><td>10月</td><td>郡市新人大会・職場体験（2年）</td></tr>
