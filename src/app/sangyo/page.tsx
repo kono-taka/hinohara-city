@@ -40,10 +40,11 @@ export default function SangyoPage() {
               items: [
                 { label: "農業振興・担い手支援", href: "/sangyo/nogyo", desc: "新規就農者支援制度・農業次世代人材投資資金（旧青年就農給付金）のご案内。" },
                 { label: "びわ・落花生・里芋の生産振興", href: "/sangyo/nogyo", desc: "市の特産品であるびわ・落花生・里芋の生産技術支援と販路開拓。後継者育成にも注力。" },
+                { label: "農業委員会（農地の売買・賃借・転用）", href: "/sangyo/nogyoiinkai", desc: "農地法に基づく農地の権利移動許可・農地転用・農業者認定。移住就農相談も対応。" },
                 { label: "農業用水路・農道の維持管理", href: "/sangyo/nogyo", desc: "土地改良区・農業水利施設の維持管理に関するご案内。" },
                 { label: "鳥獣被害対策（シカ・イノシシ・サル）", href: "/sangyo/nogyo", desc: "防護柵の設置補助・捕獲隊への支援・被害報告窓口。" },
                 { label: "林業振興・森林環境譲与税事業", href: "/sangyo/nogyo", desc: "間伐・作業道整備の補助。森林の多面的機能の維持・増進。" },
-                { label: "農産物直売所・道の駅「ひのはら原野」", href: "/sangyo/nogyo", desc: "市内農家が持ち込む新鮮な農産物・加工品を販売。毎週土曜は朝市開催。" },
+                { label: "農産物直売所・道の駅「ひのはら原野」", href: "/shisetsu/michi-no-eki", desc: "市内農家が持ち込む新鮮な農産物・加工品を販売。毎週土曜は朝市開催。" },
               ],
             },
             {

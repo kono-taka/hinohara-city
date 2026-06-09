@@ -59,6 +59,16 @@ const facilities = [
     alt: "歴史民俗資料館の展示室",
   },
   {
+    name: "道の駅ひのはら（原野地区）",
+    href: "/shisetsu/michi-no-eki",
+    address: "原野字宮前246番地（国道410号沿い）",
+    tel: "0100-55-8000",
+    hours: "直売所・売店 9:00〜17:00（年中無休）、食堂 11:00〜15:00（月曜定休）、土曜朝市 8:00〜10:00",
+    desc: "地元農家120戸が出荷する新鮮農産物・特産品の直売所。地元食材の食堂・観光情報コーナー・ひのぽんショップを併設。駐車場200台（無料）。",
+    photo: "/images/facilities/facility-michinoeki.png",
+    alt: "道の駅ひのはら原野の外観",
+  },
+  {
     name: "農業公園（ひのはら農楽園）",
     href: "/shisetsu/nogyo-koen",
     address: "下原字農地1500番地",

@@ -26,7 +26,7 @@ const categories = [
     ],
   },
   {
-    title: "市税・国民健康保険",
+    title: "市税・国民健康保険・年金",
     Icon: IconZei,
     items: [
       { label: "市民税・県民税（住民税）", href: "/kurashi/zei" },
@@ -35,6 +35,7 @@ const categories = [
       { label: "国民健康保険の加入・脱退", href: "/kenko/kokuho/tetsuzuki" },
       { label: "国民健康保険税の計算方法", href: "/kenko/kokuho/zei" },
       { label: "後期高齢者医療制度", href: "/kenko/kokuho/kouki" },
+      { label: "国民年金の加入・保険料・免除申請", href: "/kurashi/nenkin" },
     ],
   },
   {
@@ -60,13 +61,17 @@ const categories = [
     ],
   },
   {
-    title: "道路・河川・公共交通",
+    title: "道路・公共交通・水道",
     Icon: IconDoro,
     items: [
+      { label: "市営バス路線・時刻表・デマンドタクシー", href: "/kurashi/kotsu" },
+      { label: "高速バス・JR君津駅アクセス", href: "/kurashi/kotsu" },
+      { label: "高齢者バス優待・移動支援", href: "/kurashi/kotsu" },
+      { label: "水道の開栓・閉栓・名義変更", href: "/kurashi/suido" },
+      { label: "水道料金・下水道・浄化槽", href: "/kurashi/suido" },
+      { label: "冬季の水道管凍結対策", href: "/kurashi/suido" },
       { label: "道路の損傷・異常の通報", href: "/kurashi/doro" },
       { label: "市道の占用・掘削許可申請", href: "/kurashi/doro" },
-      { label: "市営バス（ひのはらバス）時刻表", href: "/kurashi/doro" },
-      { label: "デマンドタクシーの利用登録", href: "/kurashi/doro" },
       { label: "河川の占用・土砂採取許可", href: "/kurashi/doro" },
     ],
   },

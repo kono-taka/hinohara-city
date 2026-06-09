@@ -99,8 +99,8 @@ export default function Home() {
 
       {/* 緊急情報バー */}
       <div className="notice-bar">
-        <span className="notice-label">緊急情報</span>
-        <a href="/bousai/keikai">【注意】梅雨前線の接近に伴い、土砂災害警戒情報に注意してください（6月1日 午前9時現在）</a>
+        <span className="notice-label">注意</span>
+        <a href="/bousai/keikai">【梅雨期間中】大雨による土砂災害・河川氾濫への警戒を続けてください。最新情報は防災行政無線・ひのはら防災メールでご確認ください。</a>
       </div>
 
       <div className="main-container">

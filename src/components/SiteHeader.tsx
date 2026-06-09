@@ -25,11 +25,6 @@ const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] =
     href: "/news/r8-nessho-yobo",
   },
   {
-    id: "maintenance-r8-06-07",
-    level: "info",
-    text: "6月7日（日）午前0時〜5時 システムメンテナンスのため電子申請サービスをご利用いただけません。",
-  },
-  {
     id: "kenko-kenshin-r8",
     level: "important",
     text: "令和8年度 特定健康診査（メタボ健診）の受診券を7月下旬に発送します。",

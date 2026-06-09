@@ -14,9 +14,9 @@ export default function DoroPage() {
       <SiteHeader current="/kurashi" />
       <div className="main-container">
         <main className="main-content">
-          <nav className="breadcrumb">
-            <a href="/">トップ</a> › <a href="/kurashi">くらし・手続き</a> › 道路・河川・公共交通
-          </nav>
+          <div className="breadcrumb">
+            <a href="/">トップ</a><span>›</span><a href="/kurashi">くらし・手続き</a><span>›</span><span>道路・河川・公共交通</span>
+          </div>
 
           <h1 className="page-title">道路・河川・公共交通</h1>
 
@@ -144,7 +144,7 @@ export default function DoroPage() {
               </tbody>
             </table>
           </div>
-          <PageInfo department="建設課" division="道路係" tel="0100-88-1181（内線 181）" updated="令和6年4月1日" />
+          <PageInfo department="建設課" division="道路係" tel="0100-88-1181（内線 181）" updated="令和8年4月1日" />
         </main>
         <Sidebar />
       </div>

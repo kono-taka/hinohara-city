@@ -14,9 +14,9 @@ export default function GomiPage() {
       <SiteHeader current="/kurashi" />
       <div className="main-container">
         <main className="main-content">
-          <nav className="breadcrumb">
-            <a href="/">トップ</a> › <a href="/kurashi">くらし・手続き</a> › ごみ・リサイクルのご案内
-          </nav>
+          <div className="breadcrumb">
+            <a href="/">トップ</a><span>›</span><a href="/kurashi">くらし・手続き</a><span>›</span><span>ごみ・リサイクルのご案内</span>
+          </div>
 
           <h1 className="page-title">ごみ・リサイクルのご案内</h1>
 
@@ -127,11 +127,76 @@ export default function GomiPage() {
           </div>
 
           <div className="content-box">
+            <h2 className="section-title">地区別ごみ収集曜日（令和8年度）</h2>
+            <p style={{ fontSize: 13, marginBottom: 10 }}>地区によって収集曜日が異なります。お住まいの地区の曜日をご確認のうえ、朝<strong>8時30分まで</strong>に指定の収集場所へ出してください。</p>
+            <table className="content-table">
+              <thead>
+                <tr>
+                  <th style={{ width: 140 }}>地区</th>
+                  <th>燃えるごみ</th>
+                  <th>燃えないごみ</th>
+                  <th>プラスチック</th>
+                  <th>資源（古紙）</th>
+                  <th>資源（容器）</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><strong>中央・北部地区</strong></td>
+                  <td>火曜・金曜</td>
+                  <td>第1・3木曜</td>
+                  <td>第2・4木曜</td>
+                  <td>第1木曜</td>
+                  <td>第3木曜</td>
+                </tr>
+                <tr>
+                  <td><strong>南部・東部地区</strong></td>
+                  <td>月曜・木曜</td>
+                  <td>第2・4火曜</td>
+                  <td>第1・3火曜</td>
+                  <td>第1火曜</td>
+                  <td>第2火曜</td>
+                </tr>
+                <tr>
+                  <td><strong>原野地区</strong></td>
+                  <td>火曜・金曜</td>
+                  <td>第1・3水曜</td>
+                  <td>第2・4水曜</td>
+                  <td>第2水曜</td>
+                  <td>第4水曜</td>
+                </tr>
+                <tr>
+                  <td><strong>白嶺地区</strong></td>
+                  <td>水曜・土曜</td>
+                  <td>第2水曜</td>
+                  <td>第4水曜</td>
+                  <td>第2土曜</td>
+                  <td>第4土曜</td>
+                </tr>
+              </tbody>
+            </table>
+            <p style={{ fontSize: 12, color: "#666", marginTop: 8 }}>※祝日の収集は翌平日（月〜金）に振替。年末年始（12月31日〜1月3日）は収集なし。詳細は各地区のごみカレンダーでご確認ください。</p>
+            <div style={{ marginTop: 12, display: "flex", gap: 8, flexWrap: "wrap" }}>
+              {[
+                { label: "中央・北部地区", file: "r8-calendar-chuo" },
+                { label: "南部・東部地区", file: "r8-calendar-nanbu" },
+                { label: "原野地区",       file: "r8-calendar-haruno" },
+                { label: "白嶺地区",       file: "r8-calendar-shirotaki" },
+              ].map((d) => (
+                <a key={d.file} href={`/files/gomi/${d.file}.pdf`}
+                  style={{ display: "inline-flex", alignItems: "center", gap: 5, padding: "5px 12px", background: "#c0392b", color: "#fff", fontSize: 12, fontWeight: "bold", borderRadius: 2, textDecoration: "none" }}>
+                  📄 {d.label}
+                </a>
+              ))}
+            </div>
+          </div>
+
+          <div className="content-box">
             <h2 className="section-title">収集日程の確認方法</h2>
-            <p>地区によって収集曜日が異なります。「ひのはらごみカレンダー」で収集日をご確認ください。</p>
+            <p>「ひのはらごみカレンダー」で収集日をご確認ください。</p>
             <ul>
               <li>市役所・各自治会でごみカレンダーを配布しています（毎年3月末）</li>
-              <li>市ウェブサイトからPDF版をダウンロードできます</li>
+              <li>市ウェブサイトからPDF版をダウンロードできます（上記ボタンより）</li>
               <li>ごみカレンダーアプリ「さんあ〜る」でも収集日の確認・通知設定が可能です</li>
             </ul>
           </div>

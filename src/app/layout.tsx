@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Analytics } from "@vercel/analytics/next";
+import BackToTop from "@/components/BackToTop";
 import "./globals.css";
 
 const BASE_URL = "https://hinohara.city";
@@ -113,6 +114,7 @@ export default function RootLayout({
       </head>
       <body>
         {children}
+        <BackToTop />
         <Analytics />
       </body>
     </html>

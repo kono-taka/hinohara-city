@@ -22,7 +22,7 @@ const spots = [
     season: "通年営業（旅館6軒・日帰り施設2か所）",
     photo: "/images/spots/spot-onsen2.png",
     alt: "白嶺温泉郷の露天風呂",
-    href: null,
+    href: "/kanko/onsen",
   },
   {
     name: "原野川渓谷",
@@ -30,7 +30,7 @@ const spots = [
     season: "紅葉見頃：10月中旬〜11月上旬",
     photo: "/images/spots/spot-valley.png",
     alt: "原野川渓谷の紅葉",
-    href: null,
+    href: "/kanko/hiking",
   },
   {
     name: "下原遺跡（縄文時代）",
@@ -109,6 +109,8 @@ export default function KankoPage() {
           {/* ── クイックリンク ── */}
           <div style={{ display: "flex", gap: 8, flexWrap: "wrap", margin: "8px 0 16px" }}>
             {[
+              { label: "温泉・宿泊", href: "/kanko/onsen" },
+              { label: "ハイキング", href: "/kanko/hiking" },
               { label: "イベント情報", href: "/kanko/event" },
               { label: "特産品・グルメ", href: "/kanko/tokusanhin" },
               { label: "やまびこ祭り", href: "/kanko/yamabiko" },
@@ -236,7 +238,7 @@ export default function KankoPage() {
             </div>
           </div>
 
-          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和6年4月1日" />
+          <PageInfo department="産業振興課" division="観光係" tel="0100-88-1144（内線 144）" updated="令和8年6月1日" />
         </main>
         <Sidebar />
       </div>

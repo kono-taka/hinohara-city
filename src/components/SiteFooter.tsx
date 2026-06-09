@@ -1,6 +1,23 @@
 export default function SiteFooter() {
   return (
     <footer className="site-footer">
+      {/* SNSリンク */}
+      <div style={{ background: "#111a17", borderBottom: "1px solid #2a3d38", padding: "10px 20px" }}>
+        <div style={{ maxWidth: 1160, margin: "0 auto", display: "flex", alignItems: "center", gap: 16, flexWrap: "wrap" }}>
+          <span style={{ fontSize: 11, color: "#6a8a7e", flexShrink: 0 }}>日野原市 公式SNS</span>
+          {[
+            { label: "𝕏（旧Twitter）", href: "https://x.com/hinohara_city" },
+            { label: "Instagram",       href: "https://www.instagram.com/hinohara_city_official/" },
+            { label: "LINE",            href: "https://line.me/R/ti/p/@hinohara_city" },
+            { label: "YouTube",         href: "https://www.youtube.com/@city_hinohara" },
+          ].map((s) => (
+            <a key={s.label} href={s.href} target="_blank" rel="noopener noreferrer"
+              style={{ fontSize: 12, color: "#8aaa9e", border: "1px solid #2a3d38", padding: "3px 10px", borderRadius: 2, textDecoration: "none" }}>
+              {s.label}
+            </a>
+          ))}
+        </div>
+      </div>
       <div className="footer-nav">
         <div className="footer-nav-inner">
           <div className="footer-nav-col">
@@ -21,6 +38,9 @@ export default function SiteFooter() {
               <li><a href="/kurashi/jumin">住民登録・戸籍</a></li>
               <li><a href="/kurashi/zei">市税</a></li>
               <li><a href="/kurashi/gomi">ごみ・リサイクル</a></li>
+              <li><a href="/kurashi/suido">水道・下水道</a></li>
+              <li><a href="/kurashi/kotsu">公共交通・バス</a></li>
+              <li><a href="/kurashi/nenkin">国民年金</a></li>
               <li><a href="/kurashi/doro">道路・河川</a></li>
               <li><a href="/kurashi/jutaku">住宅</a></li>
               <li><a href="/kurashi/bousai">防災・安全</a></li>
@@ -53,6 +73,7 @@ export default function SiteFooter() {
             <h4>産業・環境</h4>
             <ul>
               <li><a href="/sangyo/nogyo">農林業</a></li>
+              <li><a href="/sangyo/nogyoiinkai">農業委員会</a></li>
               <li><a href="/sangyo/shoko">商工業</a></li>
               <li><a href="/sangyo/kanko">観光振興</a></li>
               <li><a href="/sangyo/kankyo">環境・自然</a></li>
@@ -64,7 +85,10 @@ export default function SiteFooter() {
             <h4>施設・観光</h4>
             <ul>
               <li><a href="/shisetsu">公共施設一覧</a></li>
+              <li><a href="/shisetsu/michi-no-eki">道の駅ひのはら</a></li>
               <li><a href="/kanko">観光スポット</a></li>
+              <li><a href="/kanko/onsen">白嶺温泉郷</a></li>
+              <li><a href="/kanko/hiking">ハイキング</a></li>
               <li><a href="/kanko/iju">移住・定住</a></li>
               <li><a href="/kanko/event">イベント情報</a></li>
               <li><a href="/kanko/tokusanhin">特産品</a></li>
