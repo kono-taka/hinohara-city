@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "お知らせ・新着情報", description: "日野原市からの最新のお知らせ、行政情報、イベント情報、緊急・重要情報を掲載しています。" };
 
 const allNews = [
+  { date: "2026.06.09", tag: "important", label: "重要", text: "夏の水難事故防止について（令和8年度）", dept: "消防本部 予防課", href: "/news/r8-suinan-yobo" },
   { date: "2026.06.05", tag: "important", label: "重要", text: "熱中症予防について（令和8年度）", dept: "健康推進課", href: "/news/r8-nessho-yobo" },
   { date: "2026.06.03", tag: "info", label: "お知らせ", text: "令和8年度 市内びわ直売所が開設されました", dept: "農林振興課", href: "/news/r8-biwa-chokubai" },
   { date: "2026.05.30", tag: "important", label: "重要", text: "令和8年度 市民税・固定資産税 納税通知書を発送しました", dept: "税務課", href: "/news/r8-nozei" },

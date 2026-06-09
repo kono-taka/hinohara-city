@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.06.09", tag: "important", label: "重要",       text: "夏の水難事故防止について（令和8年度）",                                           href: "/news/r8-suinan-yobo" },
   { date: "2026.06.05", tag: "important", label: "重要",       text: "熱中症予防について（令和8年度）",                                                 href: "/news/r8-nessho-yobo" },
   { date: "2026.06.03", tag: "info",      label: "お知らせ",   text: "令和8年度 市内びわ直売所が開設されました",                                       href: "/news/r8-biwa-chokubai" },
   { date: "2026.06.01", tag: "info",      label: "お知らせ",   text: "日野原市公式ホームページをリニューアルしました（令和8年6月1日）",                  href: "/news/renewal2026" },
