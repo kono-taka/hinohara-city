@@ -27,6 +27,8 @@ const SITEMAP: Section[] = [
           { href: "/shisei/keikaku",  label: "第3次総合計画" },
           { href: "/shisei/rekishi",  label: "日野原市の歩み" },
           { href: "/shisei/mascot",   label: "マスコットキャラクター（ひのぽん）" },
+          { href: "/shisei/toshi",    label: "都市計画・まちづくり" },
+          { href: "/saiyo",           label: "採用情報・職員募集" },
         ],
       },
       {
@@ -68,7 +70,10 @@ const SITEMAP: Section[] = [
         pages: [
           { href: "/kurashi/zei",    label: "市税・各種税金" },
           { href: "/kurashi/gomi",   label: "ごみ・リサイクル" },
-          { href: "/kurashi/doro",   label: "道路・河川・公共交通" },
+          { href: "/kurashi/doro",   label: "道路・河川" },
+          { href: "/kurashi/suido",  label: "水道・下水道" },
+          { href: "/kurashi/kotsu",  label: "公共交通・バス路線" },
+          { href: "/kurashi/nenkin", label: "国民年金" },
           { href: "/kurashi/jutaku", label: "住宅・建築" },
           { href: "/kurashi/bousai", label: "防災・安全" },
           { href: "/bousai",         label: "├ 防災情報" },
@@ -84,7 +89,8 @@ const SITEMAP: Section[] = [
       {
         title: "子育て・保育", href: "/kenko/kosodate",
         pages: [
-          { href: "/kenko/kosodate",           label: "子育て・保育トップ" },
+          { href: "/kosodate",                 label: "子育て支援（総合案内）" },
+          { href: "/kenko/kosodate",           label: "├ 子育て・保育トップ" },
           { href: "/kenko/kosodate/nyusho",    label: "├ 保育所・認定こども園の入所申込" },
           { href: "/kenko/kosodate/jidoteate", label: "├ 児童手当" },
           { href: "/kenko/kosodate/kenshin",   label: "├ 乳幼児健診・育児相談" },
@@ -185,12 +191,14 @@ const SITEMAP: Section[] = [
       {
         title: "産業・雇用", href: "/sangyo",
         pages: [
-          { href: "/sangyo/nogyo",     label: "農林業振興" },
-          { href: "/sangyo/shoko",     label: "商工業" },
-          { href: "/sangyo/kanko",     label: "観光振興" },
-          { href: "/sangyo/shigoto",   label: "しごと・雇用" },
-          { href: "/sangyo/kigyoyuchi",label: "企業誘致" },
-          { href: "/sangyo/kankyo",    label: "環境・ゼロカーボン" },
+          { href: "/sangyo/nogyo",          label: "農林業振興" },
+          { href: "/sangyo/nogyoiinkai",    label: "├ 農業委員会（農地・転用）" },
+          { href: "/sangyo/shoko",          label: "商工業" },
+          { href: "/jigyosha",              label: "├ 事業者向け情報まとめ" },
+          { href: "/sangyo/kanko",          label: "観光振興" },
+          { href: "/sangyo/shigoto",        label: "しごと・雇用" },
+          { href: "/sangyo/kigyoyuchi",     label: "企業誘致" },
+          { href: "/sangyo/kankyo",         label: "環境・ゼロカーボン" },
         ],
       },
     ],
@@ -207,6 +215,7 @@ const SITEMAP: Section[] = [
           { href: "/shisetsu/toshokan",          label: "├ 市立中央図書館" },
           { href: "/shisetsu/taiikukan",         label: "├ 総合体育館" },
           { href: "/shisetsu/rekishi-shiryokan", label: "├ 歴史民俗資料館" },
+          { href: "/shisetsu/michi-no-eki",      label: "├ 道の駅ひのはら（原野地区）" },
           { href: "/shisetsu/nogyo-koen",        label: "├ 農業公園（ひのはら農楽園）" },
           { href: "/shisetsu/visitor-center",    label: "├ 白嶺高原ビジターセンター" },
           { href: "/shisetsu/rojin-fukushi",     label: "└ 老人福祉センター（長寿の家）" },
@@ -220,7 +229,12 @@ const SITEMAP: Section[] = [
       {
         title: "観光・特産", href: "/kanko",
         pages: [
-          { href: "/kanko",           label: "観光・移住トップ" },
+          { href: "/kanko",            label: "観光・移住トップ" },
+          { href: "/kanko/onsen",     label: "白嶺温泉郷" },
+          { href: "/kanko/hiking",    label: "ハイキング・トレッキング" },
+          { href: "/kanko/alps",      label: "日野原アルプス" },
+          { href: "/kanko/biwa",      label: "びわ狩り・びわの魅力" },
+          { href: "/kanko/yamabiko",  label: "やまびこ祭り" },
           { href: "/kanko/bunka",     label: "文化財・歴史" },
           { href: "/kanko/event",     label: "イベント情報" },
           { href: "/kanko/tokusanhin",label: "特産品・グルメ" },
@@ -262,6 +276,9 @@ const SITEMAP: Section[] = [
           { href: "/news/mynumber-r8",        label: "マイナンバー利用拡大に伴う手続き変更" },
           { href: "/news/kosodate-ichiji",    label: "令和8年度 一時預かり保育について" },
           { href: "/news/r8-018",             label: "南部小学校 給食棟改修工事 入札" },
+          { href: "/news/r8-biwa-chokubai",  label: "令和8年産 びわ直売・観光農園開園" },
+          { href: "/news/r8-nessho-yobo",    label: "熱中症予防と対策のお知らせ" },
+          { href: "/news/r8-suinan-yobo",    label: "夏の水難事故防止啓発" },
         ],
       },
     ],
@@ -360,7 +377,7 @@ export default function SitemapPage() {
           </div>
         ))}
 
-        <PageInfo department="情報管理課" tel="0100-88-1132（内線 132）" updated="令和8年6月1日" />
+        <PageInfo department="情報管理課" tel="0100-88-1132（内線 132）" updated="令和8年6月10日" />
       </div>
       <SiteFooter />
     </>

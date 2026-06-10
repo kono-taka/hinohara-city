@@ -28,7 +28,7 @@ const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] =
     id: "kenko-kenshin-r8",
     level: "important",
     text: "令和8年度 特定健康診査（メタボ健診）の受診券を7月下旬に発送します。",
-    href: "/kenko/kenshin",
+    href: "/kenko/kosodate/kenshin",
   },
 ];
 
