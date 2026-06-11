@@ -18,14 +18,6 @@ const stats = [
   { label: "市制施行",   value: "2006",   unit: "年",   note: "平成18年3月20日" },
 ];
 
-const symbols = [
-  { label: "市章",   value: "市民公募により制定（平成18年3月）",   icon: "🏛" },
-  { label: "市の木", value: "タブノキ",   icon: "🌳" },
-  { label: "市の花", value: "ヤマユリ",   icon: "🌸" },
-  { label: "市の鳥", value: "ルリビタキ", icon: "🐦" },
-  { label: "市の歌", value: "「山よ　原よ　ひのはら」", icon: "🎵" },
-  { label: "マスコット", value: "ひのぽん", icon: "🦔" },
-];
 
 const relatedLinks = [
   { label: "日野原市の歴史",          href: "/shisei/rekishi",  desc: "縄文時代から市制施行まで" },
@@ -124,33 +116,196 @@ export default function GaiyouPage() {
           </div>
 
           {/* ── 市のシンボル ── */}
-          <div className="content-box">
-            <h2 className="section-title">市のシンボル</h2>
-            <div style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(auto-fit, minmax(160px, 1fr))",
-              gap: 10,
-            }}>
-              {symbols.map((s) => (
-                <div key={s.label} style={{
-                  display: "flex", alignItems: "center", gap: 10,
-                  padding: "10px 12px",
-                  border: "1px solid #d8ede5",
-                  borderRadius: 4,
-                  background: "#f8fbf9",
-                }}>
-                  <span style={{ fontSize: 22 }}>{s.icon}</span>
-                  <div>
-                    <div style={{ fontSize: 11, color: "#888" }}>{s.label}</div>
-                    <div style={{ fontSize: 13, fontWeight: "bold", color: "#1a6e5a" }}>{s.value}</div>
-                  </div>
-                </div>
+          <div style={{ marginBottom: 20 }}>
+            <div className="section-title">市のシンボル</div>
+
+            {/* 目次ナビ */}
+            <nav aria-label="市のシンボル 目次" style={{ display: "flex", flexWrap: "wrap", gap: 8, padding: "10px 14px", background: "#f5faf7", border: "1px solid var(--border-light)", borderTop: "none" }}>
+              {[
+                { label: "市章",       anchor: "shisho" },
+                { label: "市の木",     anchor: "ki" },
+                { label: "市の花",     anchor: "hana" },
+                { label: "市の鳥",     anchor: "tori" },
+                { label: "市の歌",     anchor: "uta" },
+                { label: "マスコット", anchor: "hinopong" },
+              ].map((n) => (
+                <a key={n.anchor} href={`#${n.anchor}`} style={{ fontSize: 12, color: "#1a6e5a", padding: "3px 10px", border: "1px solid #1a6e5a", borderRadius: 2, textDecoration: "none" }}>
+                  {n.label}
+                </a>
               ))}
-            </div>
-            <p style={{ fontSize: 12, color: "#666", marginTop: 10 }}>
-              市章：「日野原」の頭文字「ひ」を図案化。三本の線は旧3町村の統合と房総丘陵の稜線を、
-              円は市民の一体感と地域の調和を表します。（市民公募・平成18年3月制定）
-            </p>
+            </nav>
+
+            {/* 市章 */}
+            <section id="shisho" className="content-box" style={{ borderTop: "none" }}>
+              <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ background: "#1a6e5a", color: "#fff", padding: "2px 8px", borderRadius: 2, fontSize: 12, fontWeight: "normal" }}>市章</span>
+                日野原市章
+              </h3>
+              <div style={{ textAlign: "center", margin: "16px 0" }}>
+                <div style={{ display: "inline-block", background: "#f4f8f6", border: "2px solid #c8ddd5", borderRadius: 8, padding: 28 }}>
+                  <Image
+                    src="/images/emblem/emblem.png"
+                    alt="日野原市章"
+                    width={200}
+                    height={200}
+                  />
+                </div>
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: 20, marginTop: 16 }}>
+                <div>
+                  <h4 style={{ fontSize: 13, fontWeight: "bold", borderBottom: "1px solid #c8ddd5", paddingBottom: 4, marginBottom: 8 }}>制定経緯</h4>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, margin: 0 }}>
+                    市章は平成18年（2006年）3月20日の市制施行に合わせ、市民公募によって選定されました。全国から多数の応募があり、日野原市らしさと視認性を重視した審査のもと、現在の市章が決定しました。
+                  </p>
+                </div>
+                <div>
+                  <h4 style={{ fontSize: 13, fontWeight: "bold", borderBottom: "1px solid #c8ddd5", paddingBottom: 4, marginBottom: 8 }}>意味・解説</h4>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, margin: 0 }}>
+                    「日野原」の頭文字「ひ」を図案化したデザインです。三本の稜線は旧3町村（日野町・原野村・白嶺村）の統合と房総丘陵の山並みを象徴し、円形の輪郭は市民の一体感と調和を、全体の深緑色は豊かな自然を表しています。
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            {/* 市の木 */}
+            <section id="ki" className="content-box" style={{ borderTop: "none" }}>
+              <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ background: "#1a6e5a", color: "#fff", padding: "2px 8px", borderRadius: 2, fontSize: 12, fontWeight: "normal" }}>市の木</span>
+                タブノキ<span style={{ fontWeight: "normal", fontSize: 13, color: "#666" }}>（椨の木）</span>
+              </h3>
+              <div style={{ display: "flex", gap: 20, flexWrap: "wrap", alignItems: "flex-start" }}>
+                <div style={{ flexShrink: 0, width: 200, height: 180, background: "#f4f8f6", border: "1px solid #c8ddd5", borderRadius: 4, overflow: "hidden", position: "relative" }}>
+                  <Image src="/images/symbols/symbol-tree.png" alt="市の木 タブノキ" fill style={{ objectFit: "cover" }} sizes="200px" />
+                </div>
+                <div style={{ flex: 1, minWidth: 200 }}>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, marginBottom: 12 }}>
+                    房総丘陵の照葉樹林を代表する常緑高木で、市域の山林を象徴する樹木です。市域面積の約57%を覆う豊かな森の主役であり、その力強い生命力と永続性が日野原市のまちづくりの精神を表しています。樹齢100年を超える巨木が市内各所の神社・仏閣に見られます。
+                  </p>
+                  <table className="content-table">
+                    <tbody>
+                      <tr><th>制定</th><td>平成18年（2006年）3月20日（旧日野町の木を継承）</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* 市の花 */}
+            <section id="hana" className="content-box" style={{ borderTop: "none" }}>
+              <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ background: "#1a6e5a", color: "#fff", padding: "2px 8px", borderRadius: 2, fontSize: 12, fontWeight: "normal" }}>市の花</span>
+                ヤマユリ<span style={{ fontWeight: "normal", fontSize: 13, color: "#666" }}>（山百合）</span>
+              </h3>
+              <div style={{ display: "flex", gap: 20, flexWrap: "wrap", alignItems: "flex-start" }}>
+                <div style={{ flexShrink: 0, width: 200, height: 180, background: "#f4f8f6", border: "1px solid #c8ddd5", borderRadius: 4, overflow: "hidden", position: "relative" }}>
+                  <Image src="/images/symbols/symbol-flower.png" alt="市の花 ヤマユリ" fill style={{ objectFit: "cover" }} sizes="200px" />
+                </div>
+                <div style={{ flex: 1, minWidth: 200 }}>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, marginBottom: 12 }}>
+                    日野原市の山林・里山に自生するユリ科の多年草。毎年7〜8月に純白で大きな花を咲かせ、清らかな芳香を放ちます。白嶺地区の群生地では夏に美しい花が咲き誇り、ハイキングコース沿いでも観察できます。球根（百合根）は古くから地域の食文化にも親しまれてきました。
+                  </p>
+                  <table className="content-table">
+                    <tbody>
+                      <tr><th>制定</th><td>平成18年（2006年）3月20日</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* 市の鳥 */}
+            <section id="tori" className="content-box" style={{ borderTop: "none" }}>
+              <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ background: "#1a6e5a", color: "#fff", padding: "2px 8px", borderRadius: 2, fontSize: 12, fontWeight: "normal" }}>市の鳥</span>
+                ルリビタキ<span style={{ fontWeight: "normal", fontSize: 13, color: "#666" }}>（瑠璃鶲）</span>
+              </h3>
+              <div style={{ display: "flex", gap: 20, flexWrap: "wrap", alignItems: "flex-start" }}>
+                <div style={{ flexShrink: 0, width: 200, height: 180, background: "#f4f8f6", border: "1px solid #c8ddd5", borderRadius: 4, overflow: "hidden", position: "relative" }}>
+                  <Image src="/images/symbols/symbol-bird.png" alt="市の鳥 ルリビタキ" fill style={{ objectFit: "cover" }} sizes="200px" />
+                </div>
+                <div style={{ flex: 1, minWidth: 200 }}>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, marginBottom: 12 }}>
+                    全長約14cmの小型野鳥で、オスは鮮やかな瑠璃色の羽が特徴的です。日野原市の山林・丘陵地に生息し、秋冬には里山の林縁部にも姿を見せます。澄んだ鳴き声と美しい青色は市内の豊かな自然環境の象徴として、市制施行時に選定されました。
+                  </p>
+                  <table className="content-table">
+                    <tbody>
+                      <tr><th>制定</th><td>平成18年（2006年）3月20日</td></tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </section>
+
+            {/* 市の歌 */}
+            <section id="uta" className="content-box" style={{ borderTop: "none" }}>
+              <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ background: "#1a6e5a", color: "#fff", padding: "2px 8px", borderRadius: 2, fontSize: 12, fontWeight: "normal" }}>市の歌</span>
+                山よ　原よ　ひのはら
+              </h3>
+              <table className="content-table" style={{ marginBottom: 16 }}>
+                <tbody>
+                  <tr><th>作詞</th><td>佐野明子（市民公募選定）</td></tr>
+                  <tr><th>作曲</th><td>片桐健二</td></tr>
+                  <tr><th>制定</th><td>平成18年（2006年）9月1日</td></tr>
+                </tbody>
+              </table>
+              <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(170px, 1fr))", gap: 12, marginBottom: 20 }}>
+                {[
+                  { num: "第一番", lines: ["あおあおとした　山のいのち", "風のひびきに　心がふるえ", "ここに生まれて　ここに生きる", "山よ　原よ　ひのはら"] },
+                  { num: "第二番", lines: ["わたつ野をゆく　水のせせらぎ", "朝のひかりに　明日を夢みる", "ここに誓って　ここに立つ", "山よ　原よ　ひのはら"] },
+                  { num: "第三番", lines: ["ふるさとの空　今日もたかく", "ともに手をとり　未来へ向かう", "ここに集いて　ここに咲く", "山よ　原よ　ひのはら"] },
+                ].map((verse) => (
+                  <div key={verse.num} style={{ background: "#f5faf7", border: "1px solid #c8ddd5", borderRadius: 4, padding: "14px 16px" }}>
+                    <div style={{ fontSize: 11, fontWeight: "bold", color: "#1a6e5a", marginBottom: 8, letterSpacing: "0.05em" }}>{verse.num}</div>
+                    {verse.lines.map((line, i) => (
+                      <p key={i} style={{ fontSize: 14, lineHeight: 2.2, margin: 0, fontFamily: "serif" }}>{line}</p>
+                    ))}
+                  </div>
+                ))}
+              </div>
+              <h4 style={{ fontSize: 13, fontWeight: "bold", marginBottom: 8 }}>楽譜</h4>
+              <div style={{ position: "relative", height: 260, background: "#f9fbf9", border: "1px solid #c8ddd5", borderRadius: 4, overflow: "hidden", marginBottom: 16 }}>
+                <Image src="/images/symbols/symbol-score.png" alt="市の歌 楽譜" fill style={{ objectFit: "contain" }} sizes="(max-width: 640px) 100vw, 640px" />
+              </div>
+              <h4 style={{ fontSize: 13, fontWeight: "bold", marginBottom: 8 }}>試聴</h4>
+              <div style={{ background: "#f5faf7", border: "1px solid #c8ddd5", borderRadius: 4, padding: "12px 16px" }}>
+                {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
+                <audio controls style={{ width: "100%", maxWidth: 500, display: "block" }}>
+                  <source src="/files/symbols/city-song.mp3" type="audio/mpeg" />
+                  お使いのブラウザは音声の再生に対応していません。
+                </audio>
+                <p style={{ fontSize: 11, color: "#888", margin: "6px 0 0" }}>
+                  ※著作権法に基づき、音源の無断複製・転用を禁じます。
+                </p>
+              </div>
+            </section>
+
+            {/* マスコット ひのぽん */}
+            <section id="hinopong" className="content-box" style={{ borderTop: "none" }}>
+              <h3 className="section-title" style={{ display: "flex", alignItems: "center", gap: 8 }}>
+                <span style={{ background: "#1a6e5a", color: "#fff", padding: "2px 8px", borderRadius: 2, fontSize: 12, fontWeight: "normal" }}>マスコット</span>
+                ひのぽん
+              </h3>
+              <div style={{ display: "flex", gap: 24, flexWrap: "wrap", alignItems: "flex-start" }}>
+                <div style={{ flexShrink: 0, width: 200, height: 240, background: "#f4f8f6", border: "1px solid #c8ddd5", borderRadius: 4, overflow: "hidden", position: "relative" }}>
+                  <Image src="/images/symbols/symbol-mascot.png" alt="マスコットキャラクター ひのぽん" fill style={{ objectFit: "contain" }} sizes="200px" />
+                </div>
+                <div style={{ flex: 1, minWidth: 200 }}>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, marginBottom: 10 }}>
+                    ハリネズミをモチーフにした日野原市の公式マスコットキャラクターです。背中のとげとげは房総丘陵の連なる山々を、丸くてほっこりした体は市民の温かさをあらわしています。名前の「ひのぽん」は「日野原」と、その丸いかわいらしい体型から生まれた愛称です。深緑のベストは市のシンボルカラーを身にまとっています。
+                  </p>
+                  <p style={{ fontSize: 13, lineHeight: 1.9, marginBottom: 16 }}>
+                    平成20年（2008年）3月に市民公募で選定。市内外のイベントや市の広報活動で活躍するほか、ひのぽんグッズは道の駅ひのはら原野の「ひのぽんショップ」および市役所1階で販売中です。
+                  </p>
+                  <a
+                    href="/shisei/mascot"
+                    style={{ display: "inline-block", padding: "8px 20px", background: "#1a6e5a", color: "#fff", borderRadius: 3, fontSize: 13, textDecoration: "none", fontWeight: "bold" }}
+                  >
+                    ひのぽん詳細ページへ →
+                  </a>
+                </div>
+              </div>
+            </section>
           </div>
 
           {/* ── 地理・地勢 ── */}
@@ -282,7 +437,7 @@ export default function GaiyouPage() {
             </div>
           </div>
 
-          <PageInfo department="企画政策課" tel="0100-88-1114（内線 101）" updated="令和7年4月1日" />
+          <PageInfo department="企画政策課" tel="0100-88-1114（内線 101）" updated="令和8年6月11日" />
         </main>
         <Sidebar />
       </div>
