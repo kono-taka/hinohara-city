@@ -141,7 +141,7 @@ export default function IjuPage() {
                   移住支援金・空き家バンク・お試し住宅・相談窓口など、日野原市への移住に必要な情報をまとめた公式ガイドです。（PDF・10ページ）
                 </div>
                 <a
-                  href="/files/emigration/日野原市移住ガイドブック.pdf"
+                  href="/files/emigration/iju-guidebook.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
