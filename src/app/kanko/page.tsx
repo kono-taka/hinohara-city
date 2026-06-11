@@ -222,7 +222,7 @@ export default function KankoPage() {
                   観光スポット・温泉・農園・ハイキングコース・道の駅・公共交通など、市内の観光情報を一覧できる公式マップです。（PDF）
                 </div>
                 <a
-                  href="/files/emigration/日野原市観光マップ.pdf"
+                  href="/files/emigration/kanko-map.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
