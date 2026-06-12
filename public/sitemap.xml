@@ -542,9 +542,15 @@
 </url>
 <url>
 <loc>https://hinohara.city/news</loc>
-<lastmod>2026-06-09T09:00:00.000Z</lastmod>
+<lastmod>2026-06-12T09:00:00.000Z</lastmod>
 <changefreq>weekly</changefreq>
 <priority>0.8</priority>
+</url>
+<url>
+<loc>https://hinohara.city/news/r8-yamabiko-koutsuu</loc>
+<lastmod>2026-06-12T09:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.5</priority>
 </url>
 <url>
 <loc>https://hinohara.city/news/r8-suinan-yobo</loc>
