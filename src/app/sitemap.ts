@@ -176,6 +176,8 @@ const pages: PageDef[] = [
   { path: "/news/r8-biwa-chokubai",        freq: "monthly", priority: 0.5 },
   { path: "/news/r8-nozei",                freq: "monthly", priority: 0.5 },
   { path: "/news/renewal2026",             freq: "monthly", priority: 0.4 },
+  { path: "/news/r8-yamabiko-koutsuu",     freq: "monthly", priority: 0.5, lastmod: "2026-06-12" },
+  { path: "/news/r8-dansu-hakuho",         freq: "monthly", priority: 0.5, lastmod: "2026-06-16" },
 
   // ── サイト情報 ──
   { path: "/inquiry",                       freq: "monthly", priority: 0.7 },
