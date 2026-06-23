@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.06.23", tag: "info",      label: "お知らせ",   text: "令和8年度 各種がん検診の受診申込受付について（6月23日〜7月31日）",                 href: "/news/r8-gankenshin" },
   { date: "2026.06.19", tag: "info",      label: "お知らせ",   text: "令和8年第2回 市議会定例会（6月定例会）の開催について",                             href: "/news/r8-gikai-2kai-teireikai" },
   { date: "2026.06.16", tag: "important", label: "重要",       text: "白峰地区 配水管布設替え工事に伴う断水のお知らせ（6月23日・24日）",               href: "/news/r8-dansu-hakuho" },
   { date: "2026.06.12", tag: "info",      label: "お知らせ",   text: "第19回 日野原やまびこ祭り 開催に伴う交通規制・臨時駐車場のご案内",               href: "/news/r8-yamabiko-koutsuu" },
@@ -77,10 +78,10 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "6月", day: "21", weekday: "土", title: "白嶺自然観察ウォーク2026",               place: "白嶺ビジターセンター集合",     href: "/kanko/event" },
   { month: "6月", day: "28", weekday: "土", title: "子ども図書館まつり（読み聞かせ・工作）", place: "市立中央図書館",               href: "/kanko/event" },
   { month: "7月", day: "5",  weekday: "日", title: "市民ふれあいスポーツデー2026",           place: "市民総合体育館・中央グラウンド", href: "/kanko/event" },
   { month: "7月", day: "19", weekday: "日", title: "夏の親子自然体験教室（白峰高原）",       place: "白峰高原 第1キャンプ場",       href: "/kanko/event" },
+  { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
 ];
 
 const pickups = [
