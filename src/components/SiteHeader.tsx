@@ -19,16 +19,16 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "heatstroke-r8-06-05",
+    id: "heatstroke-r8-07-10",
     level: "important",
-    text: "熱中症に注意してください。こまめな水分補給・冷房使用を心がけましょう。",
+    text: "【熱中症警戒】連日の猛暑が続いています。屋外での活動は極力控え、こまめな水分・塩分補給と冷房使用を心がけましょう。",
     href: "/news/r8-nessho-yobo",
   },
   {
-    id: "kenko-kenshin-r8",
-    level: "important",
-    text: "令和8年度 特定健康診査（メタボ健診）の受診券を7月下旬に発送します。",
-    href: "/kenko/kosodate/kenshin",
+    id: "shiminzei-1ki-r8",
+    level: "info",
+    text: "市民税・県民税（普通徴収）第1期の納期限は7月31日（金）です。お早めにお納めください。",
+    href: "/news/r8-shiminzei-1ki",
   },
 ];
 
