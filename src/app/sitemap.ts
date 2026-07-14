@@ -161,7 +161,8 @@ const pages: PageDef[] = [
   { path: "/furusato/H008",                 freq: "monthly", priority: 0.6 },
 
   // ── お知らせ ──
-  { path: "/news",                          freq: "daily",   priority: 0.9, lastmod: "2026-07-10" },
+  { path: "/news",                          freq: "daily",   priority: 0.9, lastmod: "2026-07-14" },
+  { path: "/news/r8-doro-hokubu-0722",     freq: "monthly", priority: 0.5, lastmod: "2026-07-14" },
   { path: "/news/r8-shiminzei-1ki",        freq: "monthly", priority: 0.5, lastmod: "2026-07-10" },
   { path: "/news/r8-suinan-yobo",          freq: "monthly", priority: 0.5, lastmod: "2026-06-09" },
   { path: "/news/r8-nessho-yobo",          freq: "monthly", priority: 0.5, lastmod: "2026-06-05" },

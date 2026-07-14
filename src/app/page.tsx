@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.07.14", tag: "info",      label: "お知らせ",   text: "市道 北部幹線（新田地内）舗装打換工事のお知らせ（7月22日〜8月1日）",                 href: "/news/r8-doro-hokubu-0722" },
   { date: "2026.07.10", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第1期 納期限のご案内（7月31日）",               href: "/news/r8-shiminzei-1ki" },
   { date: "2026.06.23", tag: "info",      label: "お知らせ",   text: "令和8年度 各種がん検診の受診申込受付について（6月23日〜7月31日）",                 href: "/news/r8-gankenshin" },
   { date: "2026.06.19", tag: "info",      label: "お知らせ",   text: "令和8年第2回 市議会定例会（6月定例会）の開催について",                             href: "/news/r8-gikai-2kai-teireikai" },
