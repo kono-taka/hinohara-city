@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "お知らせ・新着情報", description: "日野原市からの最新のお知らせ、行政情報、イベント情報、緊急・重要情報を掲載しています。" };
 
 const allNews = [
+  { date: "2026.07.21", tag: "info", label: "お知らせ", text: "令和8年度 特定健康診査・特定保健指導のご案内（受診票の有効期間は10月31日まで）", dept: "健康推進課", href: "/news/r8-tokutei-kenshin" },
   { date: "2026.07.17", tag: "info", label: "お知らせ", text: "令和8年度 帯状疱疹予防接種費用助成のご案内（65歳以上の方へ）", dept: "健康推進課", href: "/news/r8-taijo-yobo" },
   { date: "2026.07.17", tag: "info", label: "お知らせ", text: "令和8年度 市内びわ直売所の閉所について", dept: "農林振興課", href: "/news/r8-biwa-shuryo" },
   { date: "2026.07.14", tag: "info", label: "お知らせ", text: "市道 北部幹線（新田地内）舗装打換工事のお知らせ（7月22日〜8月1日）", dept: "建設課", href: "/news/r8-doro-hokubu-0722" },
