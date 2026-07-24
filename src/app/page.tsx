@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.07.24", tag: "event",     label: "イベント",   text: "市民夏まつり2026 開催に伴う交通規制・臨時駐車場のご案内（8月3日）",                    href: "/news/r8-natsumatsuri-0803" },
   { date: "2026.07.21", tag: "info",      label: "お知らせ",   text: "令和8年度 特定健康診査・特定保健指導のご案内（受診票の有効期間は10月31日まで）",         href: "/news/r8-tokutei-kenshin" },
   { date: "2026.07.17", tag: "info",      label: "お知らせ",   text: "令和8年度 帯状疱疹予防接種費用助成のご案内（65歳以上の方へ）",                       href: "/news/r8-taijo-yobo" },
   { date: "2026.07.17", tag: "info",      label: "お知らせ",   text: "令和8年度 市内びわ直売所の閉所について",                                             href: "/news/r8-biwa-shuryo" },
@@ -83,10 +84,10 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "7月", day: "19", weekday: "日", title: "夏の親子自然体験教室（白峰高原）",       place: "白峰高原 第1キャンプ場",       href: "/kanko/event" },
   { month: "7月", day: "26", weekday: "日", title: "白峰高原 夏のトレッキング大会2026",      place: "白峰高原ビジターセンター集合",   href: "/kanko/event" },
-  { month: "8月", day: "3",  weekday: "月", title: "市民夏まつり2026（盆踊り・花火）",       place: "中央グラウンド",               href: "/kanko/event" },
+  { month: "8月", day: "3",  weekday: "月", title: "市民夏まつり2026（盆踊り・花火）",       place: "中央グラウンド",               href: "/news/r8-natsumatsuri-0803" },
   { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
+  { month: "9月", day: "6",  weekday: "日", title: "第1回 市民健康ウォーキング大会2026",     place: "中央公園 正面玄関前 集合",     href: "/kanko/event" },
 ];
 
 const pickups = [
