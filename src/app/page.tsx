@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.07.31", tag: "important", label: "重要",       text: "原野地区 配水管布設替え工事に伴う断水のお知らせ（8月5日）",                            href: "/news/r8-suido-haranochi-0805" },
   { date: "2026.07.28", tag: "info",      label: "お知らせ",   text: "山の日・お盆期間中のごみ収集について（8月11日振替・環境センター休業のお知らせ）",          href: "/news/r8-gomi-obon" },
   { date: "2026.07.24", tag: "event",     label: "イベント",   text: "市民夏まつり2026 開催に伴う交通規制・臨時駐車場のご案内（8月3日）",                    href: "/news/r8-natsumatsuri-0803" },
   { date: "2026.07.21", tag: "info",      label: "お知らせ",   text: "令和8年度 特定健康診査・特定保健指導のご案内（受診票の有効期間は10月31日まで）",         href: "/news/r8-tokutei-kenshin" },

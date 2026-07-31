@@ -19,16 +19,16 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "heatstroke-r8-07-10",
+    id: "heatstroke-r8-07-31",
     level: "important",
-    text: "【熱中症警戒】連日の猛暑が続いています。屋外での活動は極力控え、こまめな水分・塩分補給と冷房使用を心がけましょう。",
+    text: "【熱中症警戒】厳しい暑さが続いています。特に高齢の方・お子様は屋外活動を控え、こまめな水分・塩分補給と冷房使用を心がけましょう。",
     href: "/news/r8-nessho-yobo",
   },
   {
-    id: "shiminzei-1ki-r8",
-    level: "info",
-    text: "市民税・県民税（普通徴収）第1期の納期限は7月31日（金）です。お早めにお納めください。",
-    href: "/news/r8-shiminzei-1ki",
+    id: "suido-haranochi-0805",
+    level: "important",
+    text: "【断水のお知らせ】8月5日（水）9時〜17時、原野地区 中原野2丁目で断水予定（配水管工事）。事前に飲料水の確保をお願いします。",
+    href: "/news/r8-suido-haranochi-0805",
   },
 ];
 
