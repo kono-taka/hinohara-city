@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.08.04", tag: "info",      label: "お知らせ",   text: "お盆期間中の市役所窓口・業務取扱について（令和8年度）",                                href: "/news/r8-obon-shiyakusho" },
   { date: "2026.07.31", tag: "important", label: "重要",       text: "原野地区 配水管布設替え工事に伴う断水のお知らせ（8月5日）",                            href: "/news/r8-suido-haranochi-0805" },
   { date: "2026.07.28", tag: "info",      label: "お知らせ",   text: "山の日・お盆期間中のごみ収集について（8月11日振替・環境センター休業のお知らせ）",          href: "/news/r8-gomi-obon" },
   { date: "2026.07.24", tag: "event",     label: "イベント",   text: "市民夏まつり2026 開催に伴う交通規制・臨時駐車場のご案内（8月3日）",                    href: "/news/r8-natsumatsuri-0803" },
@@ -86,7 +87,6 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "8月", day: "3",  weekday: "月", title: "市民夏まつり2026（盆踊り・花火）",       place: "中央グラウンド",               href: "/news/r8-natsumatsuri-0803" },
   { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
   { month: "9月", day: "6",  weekday: "日", title: "第1回 市民健康ウォーキング大会2026",     place: "中央公園 正面玄関前 集合",     href: "/kanko/event" },
 ];
