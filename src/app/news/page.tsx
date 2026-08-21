@@ -7,6 +7,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "お知らせ・新着情報", description: "日野原市からの最新のお知らせ、行政情報、イベント情報、緊急・重要情報を掲載しています。" };
 
 const allNews = [
+  { date: "2026.08.21", tag: "info", label: "お知らせ", text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）", dept: "総務課", href: "/news/r8-kotsuu-anzen-aki" },
+  { date: "2026.08.21", tag: "info", label: "お知らせ", text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）", dept: "税務課", href: "/news/r8-shiminzei-2ki" },
   { date: "2026.08.04", tag: "info", label: "お知らせ", text: "お盆期間中の市役所窓口・業務取扱について（令和8年度）", dept: "市民課・総務課", href: "/news/r8-obon-shiyakusho" },
   { date: "2026.07.31", tag: "important", label: "重要", text: "原野地区 配水管布設替え工事に伴う断水のお知らせ（8月5日）", dept: "上下水道課", href: "/news/r8-suido-haranochi-0805" },
   { date: "2026.07.28", tag: "info", label: "お知らせ", text: "山の日・お盆期間中のごみ収集について（8月11日振替・環境センター休業のお知らせ）", dept: "環境対策課", href: "/news/r8-gomi-obon" },

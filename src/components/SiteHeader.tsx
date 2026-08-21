@@ -19,16 +19,10 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "heatstroke-r8-07-31",
+    id: "heatstroke-r8-08-21",
     level: "important",
-    text: "【熱中症警戒】厳しい暑さが続いています。特に高齢の方・お子様は屋外活動を控え、こまめな水分・塩分補給と冷房使用を心がけましょう。",
+    text: "【熱中症警戒】引き続き厳しい暑さが予想されます。水分・塩分をこまめに補給し、冷房を積極的にご利用ください。特に高齢の方・お子様・屋外作業の方はご注意ください。",
     href: "/news/r8-nessho-yobo",
-  },
-  {
-    id: "suido-haranochi-0805",
-    level: "important",
-    text: "【断水のお知らせ】8月5日（水）9時〜17時、原野地区 中原野2丁目で断水予定（配水管工事）。事前に飲料水の確保をお願いします。",
-    href: "/news/r8-suido-haranochi-0805",
   },
 ];
 
