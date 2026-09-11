@@ -19,10 +19,10 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "heatstroke-r8-08-21",
-    level: "important",
-    text: "【熱中症警戒】引き続き厳しい暑さが予想されます。水分・塩分をこまめに補給し、冷房を積極的にご利用ください。特に高齢の方・お子様・屋外作業の方はご注意ください。",
-    href: "/news/r8-nessho-yobo",
+    id: "influenza-r8-09-11",
+    level: "info",
+    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
+    href: "/news/r8-influenza-yobo",
   },
 ];
 
