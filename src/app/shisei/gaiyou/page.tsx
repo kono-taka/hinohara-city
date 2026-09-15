@@ -55,7 +55,7 @@ export default function GaiyouPage() {
             borderLeft: "4px solid #1a6e5a",
           }}>
             <Image
-              src="/images/emblem/emblem.png"
+              src="/images/gaiyou/shishou.png"
               alt="日野原市章"
               width={110}
               height={110}
@@ -144,7 +144,7 @@ export default function GaiyouPage() {
               <div style={{ textAlign: "center", margin: "16px 0" }}>
                 <div style={{ display: "inline-block", background: "#f4f8f6", border: "2px solid #c8ddd5", borderRadius: 8, padding: 28 }}>
                   <Image
-                    src="/images/emblem/emblem.png"
+                    src="/images/gaiyou/shishou.png"
                     alt="日野原市章"
                     width={200}
                     height={200}
