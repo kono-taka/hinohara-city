@@ -16,6 +16,8 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.09.25", tag: "info",      label: "お知らせ",   text: "令和8年第3回 市議会定例会（9月定例会）の開催について（9月29日〜10月9日）",               href: "/news/r8-gikai-3kai-teireikai" },
+  { date: "2026.09.25", tag: "info",      label: "お知らせ",   text: "令和8年度 市内落花生直売所が開設されました（9月25日より販売開始）",                     href: "/news/r8-rakkasei-chokubai" },
   { date: "2026.09.11", tag: "info",      label: "お知らせ",   text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）",                   href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）",                         href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）",                    href: "/news/r8-shiminzei-2ki" },
@@ -90,8 +92,9 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
-  { month: "9月", day: "6",  weekday: "日", title: "第1回 市民健康ウォーキング大会2026",     place: "中央公園 正面玄関前 集合",     href: "/kanko/event" },
+  { month: "9月", day: "29", weekday: "月", title: "令和8年第3回 市議会定例会 開会",         place: "市役所 4階 議場",               href: "/news/r8-gikai-3kai-teireikai" },
+  { month: "10月", day: "1", weekday: "木", title: "インフルエンザ予防接種 助成開始",        place: "市内各協力医療機関",             href: "/news/r8-influenza-yobo" },
+  { month: "10月", day: "25", weekday: "日", title: "インフルエンザ集団接種（第1回）",       place: "市民文化センター 2階ホール",     href: "/news/r8-influenza-yobo" },
 ];
 
 const pickups = [
@@ -113,7 +116,7 @@ export default function Home() {
       {/* 緊急情報バー */}
       <div className="notice-bar">
         <span className="notice-label">注意</span>
-        <a href="/bousai/keikai">【梅雨期間中】大雨による土砂災害・河川氾濫への警戒を続けてください。最新情報は防災行政無線・ひのはら防災メールでご確認ください。</a>
+        <a href="/news/r8-kotsuu-anzen-aki">【秋の交通安全運動実施中】9月21日（日）〜9月30日（火）。夕暮れ時・夜間の交通事故にご注意ください。</a>
       </div>
 
       <div className="main-container">
