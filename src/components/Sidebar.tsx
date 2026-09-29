@@ -74,9 +74,9 @@ export default function Sidebar() {
             <strong>献血にご協力ください</strong>
             <small>あなたの血液が命を救います</small>
           </a>
-          <a href="#" className="campaign-banner campaign-banner-traffic">
-            <strong>交通安全運動 実施中</strong>
-            <small>令和8年 夏の全国交通安全運動</small>
+          <a href="/news/r8-kotsuu-anzen-aki" className="campaign-banner campaign-banner-traffic">
+            <strong>秋の交通安全運動 実施中</strong>
+            <small>令和8年9月21日〜30日</small>
           </a>
           <a href="/sangyo/kankyo" className="campaign-banner campaign-banner-carbon">
             <strong>ゼロカーボンシティ宣言</strong>
