@@ -16,6 +16,8 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.10.09", tag: "info",      label: "お知らせ",   text: "令和8年度 集団インフルエンザ予防接種（市民文化センター）のご案内（10月25日・11月8日）",   href: "/news/r8-influenza-shudan" },
+  { date: "2026.10.09", tag: "info",      label: "お知らせ",   text: "令和8年産 落花生 農産物直売所のご案内（北部農産物直売センター、10月9日開設）",          href: "/news/r8-rakkasei-chokubai" },
   { date: "2026.09.11", tag: "info",      label: "お知らせ",   text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）",                   href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）",                         href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）",                    href: "/news/r8-shiminzei-2ki" },
@@ -90,8 +92,8 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
-  { month: "9月", day: "6",  weekday: "日", title: "第1回 市民健康ウォーキング大会2026",     place: "中央公園 正面玄関前 集合",     href: "/kanko/event" },
+  { month: "10月", day: "25", weekday: "土", title: "集団インフルエンザ予防接種（第1回）",    place: "市民文化センター 大会議室（2階）", href: "/news/r8-influenza-shudan" },
+  { month: "11月", day: "8",  weekday: "土", title: "集団インフルエンザ予防接種（第2回）",    place: "市民文化センター 大会議室（2階）", href: "/news/r8-influenza-shudan" },
 ];
 
 const pickups = [
