@@ -19,9 +19,15 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "influenza-r8-09-11",
+    id: "kotei-3ki-r8-10-13",
+    level: "important",
+    text: "【固定資産税 第3期】令和8年度 固定資産税・都市計画税 第3期の納期限は11月2日（月）です。お早めにご納付ください。",
+    href: "/news/r8-kotei-3ki",
+  },
+  {
+    id: "influenza-r8-10-13",
     level: "info",
-    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
+    text: "【インフルエンザ予防接種】令和8年度の費用助成接種を実施中です（〜令和9年1月31日）。早めの接種をお勧めします。",
     href: "/news/r8-influenza-yobo",
   },
 ];

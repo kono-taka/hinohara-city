@@ -16,6 +16,8 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.10.13", tag: "important", label: "重要",       text: "令和8年度 固定資産税・都市計画税（第3期）納期限のご案内（11月2日まで）",               href: "/news/r8-kotei-3ki" },
+  { date: "2026.10.13", tag: "info",      label: "お知らせ",   text: "令和8年産 落花生（らっかせい）直売所が開設されました",                               href: "/news/r8-rakkasei-chokubai" },
   { date: "2026.09.11", tag: "info",      label: "お知らせ",   text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）",                   href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）",                         href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）",                    href: "/news/r8-shiminzei-2ki" },
@@ -90,8 +92,9 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
-  { month: "9月", day: "6",  weekday: "日", title: "第1回 市民健康ウォーキング大会2026",     place: "中央公園 正面玄関前 集合",     href: "/kanko/event" },
+  { month: "10月", day: "25", weekday: "日", title: "インフルエンザ集団接種（第1回）",         place: "市民文化センター 大ホール前",   href: "/news/r8-influenza-yobo" },
+  { month: "11月", day: "3",  weekday: "月", title: "白峰高原 秋の自然観察ウォーク",          place: "白峰高原ビジターセンター 集合", href: "/kanko/event" },
+  { month: "11月", day: "8",  weekday: "土", title: "インフルエンザ集団接種（第2回）",         place: "市民文化センター 大ホール前",   href: "/news/r8-influenza-yobo" },
 ];
 
 const pickups = [
