@@ -16,6 +16,7 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.10.20", tag: "info",      label: "お知らせ",   text: "令和8年度 市内落花生直売所が開設されました（10月18日〜11月上旬）",                       href: "/news/r8-rakkasei-chokubai" },
   { date: "2026.09.11", tag: "info",      label: "お知らせ",   text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）",                   href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）",                         href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）",                    href: "/news/r8-shiminzei-2ki" },
@@ -90,8 +91,9 @@ const onlineServices = [
 ];
 
 const events = [
-  { month: "8月", day: "23", weekday: "土", title: "令和8年度 各種がん検診（第1回）",        place: "市民総合体育館 第2研修室",     href: "/news/r8-gankenshin" },
-  { month: "9月", day: "6",  weekday: "日", title: "第1回 市民健康ウォーキング大会2026",     place: "中央公園 正面玄関前 集合",     href: "/kanko/event" },
+  { month: "10月", day: "25", weekday: "土", title: "インフルエンザ予防接種 集団接種（第1回）", place: "市民文化センター 第1会議室 9:00〜12:00",  href: "/news/r8-influenza-yobo" },
+  { month: "11月", day: "8",  weekday: "土", title: "インフルエンザ予防接種 集団接種（第2回）", place: "市民文化センター 第1会議室 9:00〜12:00",  href: "/news/r8-influenza-yobo" },
+  { month: "11月", day: "3",  weekday: "月", title: "ひのはら秋の農業まつり2026",               place: "中央農業センター 特設会場",               href: "/kanko/event" },
 ];
 
 const pickups = [
@@ -112,8 +114,8 @@ export default function Home() {
 
       {/* 緊急情報バー */}
       <div className="notice-bar">
-        <span className="notice-label">注意</span>
-        <a href="/bousai/keikai">【梅雨期間中】大雨による土砂災害・河川氾濫への警戒を続けてください。最新情報は防災行政無線・ひのはら防災メールでご確認ください。</a>
+        <span className="notice-label">お知らせ</span>
+        <a href="/news/r8-influenza-yobo">【インフルエンザ予防接種】令和8年度の費用助成接種を実施中です（〜令和9年1月31日）。対象の方はお早めにご予約ください。</a>
       </div>
 
       <div className="main-container">

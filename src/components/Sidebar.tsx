@@ -12,13 +12,13 @@ export default function Sidebar() {
         <div className="population-box">
           <table>
             <tbody>
-              <tr><td>総人口</td><td>35,192人</td></tr>
-              <tr><td>男性</td><td>17,209人</td></tr>
-              <tr><td>女性</td><td>17,983人</td></tr>
-              <tr><td>世帯数</td><td>14,497世帯</td></tr>
+              <tr><td>総人口</td><td>35,190人</td></tr>
+              <tr><td>男性</td><td>17,208人</td></tr>
+              <tr><td>女性</td><td>17,982人</td></tr>
+              <tr><td>世帯数</td><td>14,496世帯</td></tr>
             </tbody>
           </table>
-          <p className="population-note">令和8年9月1日現在（住民基本台帳）</p>
+          <p className="population-note">令和8年10月1日現在（住民基本台帳）</p>
         </div>
       </div>
 
