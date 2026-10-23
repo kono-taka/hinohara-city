@@ -19,10 +19,10 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "influenza-r8-09-11",
+    id: "influenza-shudansesshu-r8-10",
     level: "info",
-    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
-    href: "/news/r8-influenza-yobo",
+    text: "【インフルエンザ集団接種】10月25日（土）・11月8日（土）、市民文化センターで実施します。予約不要・先着150名。",
+    href: "/news/r8-influenza-shudansesshu",
   },
 ];
 
