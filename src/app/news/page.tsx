@@ -7,6 +7,8 @@ import type { Metadata } from "next";
 export const metadata: Metadata = { title: "お知らせ・新着情報", description: "日野原市からの最新のお知らせ、行政情報、イベント情報、緊急・重要情報を掲載しています。" };
 
 const allNews = [
+  { date: "2026.10.27", tag: "info", label: "お知らせ", text: "令和8年度 市民税・県民税（普通徴収）第3期 納期限のご案内（11月30日）", dept: "税務課", href: "/news/r8-shiminzei-3ki" },
+  { date: "2026.10.27", tag: "info", label: "お知らせ", text: "令和8年度 秋の農産物直売所（落花生・里芋）のご案内", dept: "農林振興課", href: "/news/r8-aki-chokubai" },
   { date: "2026.09.11", tag: "info", label: "お知らせ", text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）", dept: "健康推進課", href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info", label: "お知らせ", text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）", dept: "総務課", href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info", label: "お知らせ", text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）", dept: "税務課", href: "/news/r8-shiminzei-2ki" },

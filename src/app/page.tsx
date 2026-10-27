@@ -16,6 +16,8 @@ import {
 /* ─── データ定義 ─────────────────────────────── */
 
 const newsItems = [
+  { date: "2026.10.27", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第3期 納期限のご案内（11月30日）",                   href: "/news/r8-shiminzei-3ki" },
+  { date: "2026.10.27", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の農産物直売所（落花生・里芋）のご案内",                                      href: "/news/r8-aki-chokubai" },
   { date: "2026.09.11", tag: "info",      label: "お知らせ",   text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）",                   href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）",                         href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）",                    href: "/news/r8-shiminzei-2ki" },

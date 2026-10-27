@@ -19,9 +19,15 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "influenza-r8-09-11",
+    id: "tokutei-kenshin-r8-10-27",
+    level: "important",
+    text: "【特定健診・特定保健指導】令和8年度の受診票の有効期間は10月31日（土）までです。まだお済みでない方はお早めにご受診ください。",
+    href: "/news/r8-tokutei-kenshin",
+  },
+  {
+    id: "influenza-r8-10-27",
     level: "info",
-    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
+    text: "【インフルエンザ予防接種】令和8年度の費用助成接種を実施中です（〜令和9年1月31日）。早めの接種をお勧めします。",
     href: "/news/r8-influenza-yobo",
   },
 ];
