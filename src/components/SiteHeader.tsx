@@ -19,9 +19,9 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "influenza-r8-09-11",
+    id: "influenza-r8-10-30",
     level: "info",
-    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
+    text: "【インフルエンザ予防接種】令和8年度の費用助成接種を実施中です（〜令和9年1月31日）。対象の方はお早めに市内協力医療機関へご予約ください。",
     href: "/news/r8-influenza-yobo",
   },
 ];
