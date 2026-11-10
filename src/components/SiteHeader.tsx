@@ -19,10 +19,10 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "influenza-r8-09-11",
+    id: "gikai-3kai-r8-11-10",
     level: "info",
-    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
-    href: "/news/r8-influenza-yobo",
+    text: "【市議会12月定例会】令和8年第3回市議会定例会を12月2日（火）から開催します。傍聴をご希望の方は当日議場受付へお越しください。",
+    href: "/news/r8-gikai-3kai-teireikai",
   },
 ];
 
