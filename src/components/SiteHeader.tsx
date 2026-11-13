@@ -19,10 +19,10 @@ type AlertLevel = "emergency" | "important" | "info";
 
 const ALERTS: { id: string; level: AlertLevel; text: string; href?: string }[] = [
   {
-    id: "influenza-r8-09-11",
+    id: "shiminzei-3ki-r8-11-13",
     level: "info",
-    text: "【インフルエンザ予防接種】令和8年度の費用助成接種は10月1日（木）から開始です。対象の方はお早めにご予約ください。",
-    href: "/news/r8-influenza-yobo",
+    text: "【市民税・県民税 第3期】令和8年度 普通徴収の第3期 納期限は11月28日（金）です。お忘れなくお手続きください。",
+    href: "/news/r8-shiminzei-3ki",
   },
 ];
 
