@@ -30,6 +30,7 @@ export default function SiteFooter() {
               <li><a href="/shisei/keikaku">総合計画</a></li>
               <li><a href="/shisei/zaisei">財政情報</a></li>
               <li><a href="/shisei/joho">情報公開</a></li>
+              <li><a href="/blog">Web担当者の奮闘ブログ</a></li>
             </ul>
           </div>
           <div className="footer-nav-col">

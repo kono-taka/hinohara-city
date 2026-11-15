@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { posts } from "./blog/posts";
 
 const BASE = "https://hinohara.city";
 
@@ -210,12 +211,17 @@ const pages: PageDef[] = [
   { path: "/links",                         freq: "monthly", priority: 0.4 },
 ];
 
+const blogPages: PageDef[] = [
+  { path: "/blog", freq: "weekly", priority: 0.6, lastmod: posts[0].date },
+  ...posts.map((p): PageDef => ({ path: `/blog/${p.slug}`, freq: "monthly", priority: 0.5, lastmod: p.date })),
+];
+
 const DEFAULT_LASTMOD = new Date("2026-06-10T00:00:00.000Z");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // /faq が重複しているので dedupe
   const seen = new Set<string>();
-  return pages
+  return [...pages, ...blogPages]
     .filter(({ path }) => {
       if (seen.has(path)) return false;
       seen.add(path);

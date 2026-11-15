@@ -9,7 +9,7 @@ import {
 } from "@/components/ServiceIcons";
 import {
   PickupIconIju, PickupIconZaisei, PickupIconFurusato,
-  PickupIconCarbon, PickupIconMynumber, PickupIconToshi,
+  PickupIconCarbon, PickupIconMynumber, PickupIconToshi, PickupIconBlog,
   IconMapPin,
 } from "@/components/InlineIcons";
 
@@ -108,6 +108,7 @@ const pickups = [
   { Icon: PickupIconCarbon,   title: "ゼロカーボン推進", desc: "2050年脱炭素社会の実現に向けた市の取り組みをご覧ください。", href: "/sangyo/kankyo" },
   { Icon: PickupIconMynumber, title: "マイナンバーカード", desc: "マイナンバーカードの申請・更新・各種利用についてご案内。", href: "/kurashi" },
   { Icon: PickupIconToshi,    title: "都市計画・土地利用", desc: "日野原市都市計画マスタープランの概要と手続きについて。", href: "/shisei/toshi" },
+  { Icon: PickupIconBlog,     title: "Web担当者の奮闘ブログ", desc: "公式ホームページを毎週良くしていく担当者の記録です。", href: "/blog" },
 ];
 
 /* ─── コンポーネント ─────────────────────────── */

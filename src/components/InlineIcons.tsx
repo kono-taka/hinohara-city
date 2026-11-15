@@ -83,6 +83,19 @@ export function PickupIconToshi() {
   );
 }
 
+export function PickupIconBlog() {
+  // ブログ・ノート＋鉛筆
+  return (
+    <svg {...big}>
+      <rect x="4" y="4" width="20" height="24" rx="2" stroke={s} strokeWidth="2" strokeLinejoin="round" />
+      <line x1="9" y1="11" x2="19" y2="11" stroke={s} strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="9" y1="16" x2="19" y2="16" stroke={s} strokeWidth="1.5" strokeLinecap="round" />
+      <line x1="9" y1="21" x2="14" y2="21" stroke={s} strokeWidth="1.5" strokeLinecap="round" />
+      <path d="M20 26l1-4 7-7 3 3-7 7-4 1z" fill="#fff" stroke={s} strokeWidth="1.5" strokeLinejoin="round" />
+    </svg>
+  );
+}
+
 // ===== セクションヘッダー用（小：18px） =====
 function SmIcon({ children }: { children: React.ReactNode }) {
   return (

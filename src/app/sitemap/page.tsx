@@ -50,6 +50,7 @@ const SITEMAP: Section[] = [
           { href: "/shisei/koho",      label: "広報ひのはら" },
           { href: "/shisei/shingikai", label: "審議会・委員会" },
           { href: "/news",             label: "お知らせ・新着情報" },
+          { href: "/blog",             label: "Web担当者の奮闘ブログ" },
         ],
       },
     ],
