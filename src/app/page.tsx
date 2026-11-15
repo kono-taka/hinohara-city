@@ -18,6 +18,11 @@ import {
 const newsItems = [
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年第4回 市議会定例会（12月定例会）の開催について（12月3日開会）",                 href: "/news/r8-gikai-4kai-teireikai" },
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第3期 納期限のご案内（11月28日）",                 href: "/news/r8-shiminzei-3ki" },
+  { date: "2026.11.06", tag: "info",      label: "お知らせ",   text: "令和8年度 市内里芋直売所が開設されました",   href: "/news/r8-satoimo-chokubai" },
+  { date: "2026.10.30", tag: "info",      label: "お知らせ",   text: "令和8年第3回 市議会定例会（9月定例会）会議録の公開について",   href: "/news/r8-gikai-3kai-kaigiroku" },
+  { date: "2026.10.23", tag: "info",      label: "お知らせ",   text: "令和8年度 落花生・里芋 秋の農産物直売所のご案内",   href: "/news/r8-rakkasei-chokubai" },
+  { date: "2026.10.13", tag: "info",      label: "お知らせ",   text: "令和8年度 固定資産税・都市計画税（第3期）納期限のご案内",   href: "/news/r8-kotei-3ki" },
+  { date: "2026.10.09", tag: "info",      label: "お知らせ",   text: "令和8年度 集団インフルエンザ予防接種（市民文化センター）のご案内",   href: "/news/r8-influenza-shudan" },
   { date: "2026.09.11", tag: "info",      label: "お知らせ",   text: "令和8年度 インフルエンザ予防接種費用助成のご案内（10月1日接種開始）",                   href: "/news/r8-influenza-yobo" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 秋の全国交通安全運動 実施のお知らせ（9月21日〜30日）",                         href: "/news/r8-kotsuu-anzen-aki" },
   { date: "2026.08.21", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第2期 納期限のご案内（9月30日）",                    href: "/news/r8-shiminzei-2ki" },

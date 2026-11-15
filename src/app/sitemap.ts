@@ -161,7 +161,14 @@ const pages: PageDef[] = [
   { path: "/furusato/H008",                 freq: "monthly", priority: 0.6 },
 
   // ── お知らせ ──
-  { path: "/news",                          freq: "daily",   priority: 0.9, lastmod: "2026-09-11" },
+  { path: "/news",                          freq: "daily",   priority: 0.9, lastmod: "2026-11-13" },
+  { path: "/news/r8-gikai-4kai-teireikai", freq: "monthly", priority: 0.5, lastmod: "2026-11-13" },
+  { path: "/news/r8-shiminzei-3ki", freq: "monthly", priority: 0.5, lastmod: "2026-11-13" },
+  { path: "/news/r8-satoimo-chokubai", freq: "monthly", priority: 0.5, lastmod: "2026-11-06" },
+  { path: "/news/r8-gikai-3kai-kaigiroku", freq: "monthly", priority: 0.5, lastmod: "2026-10-30" },
+  { path: "/news/r8-rakkasei-chokubai", freq: "monthly", priority: 0.5, lastmod: "2026-10-23" },
+  { path: "/news/r8-kotei-3ki", freq: "monthly", priority: 0.5, lastmod: "2026-10-13" },
+  { path: "/news/r8-influenza-shudan", freq: "monthly", priority: 0.5, lastmod: "2026-10-09" },
   { path: "/news/r8-influenza-yobo",       freq: "monthly", priority: 0.5, lastmod: "2026-09-11" },
   { path: "/news/r8-kotsuu-anzen-aki",     freq: "monthly", priority: 0.5, lastmod: "2026-08-21" },
   { path: "/news/r8-shiminzei-2ki",        freq: "monthly", priority: 0.5, lastmod: "2026-08-21" },
