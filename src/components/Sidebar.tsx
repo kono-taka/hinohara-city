@@ -1,4 +1,8 @@
 import SectionSidebarNav from "./SectionSidebarNav";
+import WebTantoAvatar from "./WebTantoAvatar";
+import { posts, formatDate } from "@/app/blog/posts";
+
+const latest = posts[0];
 
 export default function Sidebar() {
   return (
@@ -60,6 +64,18 @@ export default function Sidebar() {
           <li><a href="/kurashi/jumin">亡くなられたとき</a></li>
           <li><a href="/kurashi/jumin">退職するとき</a></li>
         </ul>
+      </div>
+
+      {/* Web担当者の奮闘ブログ */}
+      <div className="sidebar-box">
+        <div className="sidebar-title">Web担当者の奮闘ブログ</div>
+        <a href="/blog" style={{ display: "flex", gap: 10, alignItems: "center", padding: "10px 12px", textDecoration: "none", color: "inherit" }}>
+          <WebTantoAvatar size={52} />
+          <span style={{ fontSize: 12, lineHeight: 1.6, minWidth: 0 }}>
+            <small style={{ display: "block", color: "#666" }}>最新記事　{formatDate(latest.date)}</small>
+            <strong style={{ color: "var(--link-color)" }}>{latest.title}</strong>
+          </span>
+        </a>
       </div>
 
       {/* 行政キャンペーン */}

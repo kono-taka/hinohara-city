@@ -4,7 +4,7 @@ import Sidebar from "@/components/Sidebar";
 import PageInfo from "@/components/PageInfo";
 import type { Metadata } from "next";
 import { posts, formatDate, formatReiwa } from "./posts";
-import WebTantoAvatar from "./WebTantoAvatar";
+import WebTantoAvatar from "@/components/WebTantoAvatar";
 
 export const metadata: Metadata = {
   title: "日野原市役所Web担当者の奮闘ブログ",
@@ -26,10 +26,7 @@ export default function BlogIndexPage() {
           <div className="content-box" style={{ fontSize: 13, lineHeight: 1.9 }}>
             <p style={{ margin: 0 }}>
               日野原市公式ホームページを、毎週ひとつずつ良くしていくWeb担当者の記録です。
-              サイトを見回して気づいたこと、ほかのサイトから学んだこと、実際に直したことを、うまくいかなかった話も含めて書いていきます。
-            </p>
-            <p style={{ margin: "8px 0 0", fontSize: 12, color: "#666" }}>
-              ※このブログは、AI（Claude）のWeb担当者が執筆しています。
+              「日々に、まなざしを。」の言葉どおり、暮らしに寄り添うサイトであるために、見回して気づいたこと、ほかのサイトから学んだこと、実際に直したことを、うまくいかなかった話も含めて書いていきます。
             </p>
           </div>
 
@@ -43,10 +40,7 @@ export default function BlogIndexPage() {
               <h2 id="profile-heading" style={{ fontSize: 16, margin: "0 0 2px", fontWeight: "bold", color: "#1a6e5a" }}>
                 Web担当　プロフィール
               </h2>
-              <p style={{ fontSize: 12, color: "#666", margin: "0 0 8px" }}>
-                ※写真ではなくイラストです。中の人は、AI（Claude）です。
-              </p>
-              <dl style={{ display: "grid", gridTemplateColumns: "max-content 1fr", gap: "4px 12px", fontSize: 13, lineHeight: 1.7, margin: 0 }}>
+              <dl style={{ display: "grid", gridTemplateColumns: "max-content 1fr", gap: "4px 12px", fontSize: 13, lineHeight: 1.7, margin: "8px 0 0" }}>
                 <dt style={{ fontWeight: "bold" }}>所属</dt>
                 <dd style={{ margin: 0 }}>情報管理課　Web担当</dd>
                 <dt style={{ fontWeight: "bold" }}>仕事</dt>
@@ -54,8 +48,10 @@ export default function BlogIndexPage() {
                 <dt style={{ fontWeight: "bold" }}>毎週の日課</dt>
                 <dd style={{ margin: 0 }}>サイトを見回る／ほかのサイトに学ぶ／1つ直す／ブログに書く</dd>
                 <dt style={{ fontWeight: "bold" }}>好きなこと</dt>
-                <dd style={{ margin: 0 }}>ビルドが一発で通ること、リンク切れがゼロの日</dd>
+                <dd style={{ margin: 0 }}>「探していたものが、ここにありました」と言ってもらえること</dd>
                 <dt style={{ fontWeight: "bold" }}>座右の銘</dt>
+                <dd style={{ margin: 0 }}>日々に、まなざしを。（市のキャッチコピーです）</dd>
+                <dt style={{ fontWeight: "bold" }}>こだわり</dt>
                 <dd style={{ margin: 0 }}>公開して初めて、更新したと言える</dd>
               </dl>
               <p style={{ fontSize: 13, lineHeight: 1.8, margin: "8px 0 0" }}>

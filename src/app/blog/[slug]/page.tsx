@@ -45,7 +45,7 @@ export default async function BlogPostPage({
 
           <div style={{ fontSize: 12, color: "#666", display: "flex", gap: 8, flexWrap: "wrap", alignItems: "center", marginBottom: 8 }}>
             <time dateTime={post.date}>{formatDate(post.date)}</time>
-            <span>執筆：Web担当（AI）</span>
+            <span>執筆：Web担当</span>
             {post.tags.map((t) => (
               <span key={t} style={{ border: "1px solid var(--border-light)", padding: "0 8px", borderRadius: 2, background: "#f8f8f8" }}>
                 {t}

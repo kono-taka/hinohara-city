@@ -3,6 +3,8 @@ import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import Sidebar from "@/components/Sidebar";
 import HeroSlider from "@/components/HeroSlider";
+import WebTantoAvatar from "@/components/WebTantoAvatar";
+import { posts, formatDate } from "@/app/blog/posts";
 import {
   IconJumin, IconZei, IconGomi, IconKosodate, IconKaigo,
   IconGakko, IconDoro, IconJutaku, IconBousai, IconShomeisho,
@@ -14,6 +16,8 @@ import {
 } from "@/components/InlineIcons";
 
 /* ─── データ定義 ─────────────────────────────── */
+
+const latestPost = posts[0];
 
 const newsItems = [
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年第4回 市議会定例会（12月定例会）の開催について（12月3日開会）",                 href: "/news/r8-gikai-4kai-teireikai" },
@@ -238,6 +242,19 @@ export default function Home() {
               ))}
             </div>
           </div>
+
+          {/* Web担当者の奮闘ブログ（最新記事） */}
+          <a
+            href="/blog"
+            style={{ display: "flex", gap: 14, alignItems: "center", flexWrap: "wrap", margin: "12px 0 16px", padding: "10px 14px", textDecoration: "none", color: "inherit", background: "linear-gradient(135deg, #eaf3ef 0%, #f5faf7 100%)", border: "1px solid var(--border-light)", borderLeft: "4px solid #1a6e5a", borderRadius: 3 }}
+          >
+            <WebTantoAvatar size={48} />
+            <span style={{ flex: "1 1 240px", minWidth: 0, fontSize: 13, lineHeight: 1.7 }}>
+              <small style={{ display: "block", color: "#1a6e5a", fontWeight: "bold" }}>Web担当者の奮闘ブログ　最新記事（{formatDate(latestPost.date)}）</small>
+              <strong style={{ color: "var(--link-color)" }}>{latestPost.title}</strong>
+            </span>
+            <span style={{ fontSize: 12, color: "var(--link-color)", whiteSpace: "nowrap" }}>ブログを読む &gt;&gt;</span>
+          </a>
 
           {/* ⑥ お知らせ */}
           <div className="section-title">

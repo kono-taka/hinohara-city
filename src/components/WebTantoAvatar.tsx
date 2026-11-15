@@ -1,4 +1,7 @@
+import { useId } from "react";
+
 export default function WebTantoAvatar({ size = 140 }: { size?: number }) {
+  const clipId = `wt-clip-${useId().replace(/:/g, "")}`;
   return (
     <svg
       width={size}
@@ -9,12 +12,12 @@ export default function WebTantoAvatar({ size = 140 }: { size?: number }) {
       style={{ flexShrink: 0, maxWidth: "100%" }}
     >
       <defs>
-        <clipPath id="wt-clip">
+        <clipPath id={clipId}>
           <circle cx="80" cy="80" r="78" />
         </clipPath>
       </defs>
       <circle cx="80" cy="80" r="78" fill="#eaf3ef" stroke="#c8ddd5" strokeWidth="2" />
-      <g clipPath="url(#wt-clip)">
+      <g clipPath={`url(#${clipId})`}>
         {/* 上半身 */}
         <path d="M18 162 C18 128 46 114 80 114 C114 114 142 128 142 162 Z" fill="#1a6e5a" />
         <path d="M66 115 L80 137 L94 115 Z" fill="#ffffff" />
