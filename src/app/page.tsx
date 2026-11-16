@@ -19,6 +19,9 @@ import {
 
 const latestPost = posts[0];
 
+// トップページに並べるお知らせの件数（それ以前は /news の一覧へ）
+const TOP_NEWS_COUNT = 10;
+
 const newsItems = [
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年第4回 市議会定例会（12月定例会）の開催について（12月3日開会）",                 href: "/news/r8-gikai-4kai-teireikai" },
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第3期 納期限のご案内（11月28日）",                 href: "/news/r8-shiminzei-3ki" },
@@ -262,7 +265,7 @@ export default function Home() {
             <a href="/news">一覧を見る &gt;&gt;</a>
           </div>
           <div className="news-list">
-            {newsItems.map((item, i) => (
+            {newsItems.slice(0, TOP_NEWS_COUNT).map((item, i) => (
               <div key={i} className="news-item">
                 <span className="news-date">{item.date}</span>
                 <span className={`news-tag ${item.tag}`}>{item.label}</span>
@@ -270,6 +273,11 @@ export default function Home() {
               </div>
             ))}
           </div>
+          <p style={{ margin: "8px 0 0", fontSize: 13, textAlign: "right" }}>
+            <a href="/news" style={{ color: "var(--link-color)" }}>
+              これより前のお知らせを見る（全{newsItems.length}件）&gt;&gt;
+            </a>
+          </p>
 
           {/* ⑦ イベント ＆ 市長メッセージ */}
           <div className="two-col">
