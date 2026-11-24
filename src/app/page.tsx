@@ -20,6 +20,7 @@ import {
 const latestPost = posts[0];
 
 const newsItems = [
+  { date: "2026.11.24", tag: "info",      label: "お知らせ",   text: "年末年始のごみ収集・環境センター休業のお知らせ（令和8年〜9年）",                         href: "/news/r8-gomi-nenmatsu" },
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年第4回 市議会定例会（12月定例会）の開催について（12月3日開会）",                 href: "/news/r8-gikai-4kai-teireikai" },
   { date: "2026.11.13", tag: "info",      label: "お知らせ",   text: "令和8年度 市民税・県民税（普通徴収）第3期 納期限のご案内（11月28日）",                 href: "/news/r8-shiminzei-3ki" },
   { date: "2026.11.06", tag: "info",      label: "お知らせ",   text: "令和8年度 市内里芋直売所が開設されました",   href: "/news/r8-satoimo-chokubai" },
